@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-06-06 09:36",
+  "aktualizacja": "2026-06-06 15:54",
   "rynek": {
     "inflacja": "0.0",
     "obligacje": {
@@ -136,13 +136,13 @@
     "konta_osobiste": [
       {
         "bank": "Alior Bank",
-        "produkt": "Alior Bank &#8211; Alior Konto za Zero (zyskaj nawet 1500 zł)",
+        "produkt": "Alior Konto",
         "glowna_wartosc": "1500 zł",
         "haczyki": [
-          "Apple Pay, Google Pay, BLIK i HCE"
+          "Kod ZYSKAJ2026, transakcje, obrączka płatnicza, wpływy 2000 zł."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.comperialead.pl/a/pp_adserwer.php?cl_zrodlo=api&w=1&id_partner=367089&lokacja=MzY3MDg5XzMzOTA4OQ==&etykieta=apicl&id_bank=62&kwota_kredytu_=2000&produkt_=13&id_produkt_=1956&link_id_=23578",
+        "link": "https://www.bankier.pl/e/lead/1337?source=api-konta-osobiste",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 1500.0,
@@ -150,48 +150,98 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1500 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 1500 zł",
+            "conditions_summary": "Kod ZYSKAJ2026, transakcje, obrączka płatnicza, wpływy 2000 zł.",
+            "confidence": 0.95,
+            "reason": "Premia z kodem promocyjnym.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
-              "reward_amount": 1500.0,
+              "reward_amount": 200.0,
               "reward_type": "cash",
               "is_cash_reward": true,
-              "display_value": "1500 zł",
+              "display_value": "200 zł",
               "conditions_summary": "",
               "confidence": 0.8300000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 1500 zł",
+              "reason": "Najwyższy dodatnio oceniony kandydat: 200 zł",
               "candidates": [
+                {
+                  "value": 200.0,
+                  "label": "200 zł",
+                  "score": 4
+                },
                 {
                   "value": 1500.0,
                   "label": "1500 zł",
-                  "score": 4
+                  "score": 0
+                },
+                {
+                  "value": 500.0,
+                  "label": "500 zł",
+                  "score": 0
+                },
+                {
+                  "value": 1500.0,
+                  "label": "1500 zł",
+                  "score": -1
+                },
+                {
+                  "value": 800.0,
+                  "label": "800 zł",
+                  "score": -1
+                },
+                {
+                  "value": 100.0,
+                  "label": "100 zł",
+                  "score": -1
                 }
               ]
             }
           },
           "pre_extraction": {
-            "reward_amount": 1500.0,
+            "reward_amount": 200.0,
             "reward_type": "cash",
             "is_cash_reward": true,
-            "display_value": "1500 zł",
+            "display_value": "200 zł",
             "conditions_summary": "",
             "confidence": 0.8300000000000001,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 1500 zł",
+            "reason": "Najwyższy dodatnio oceniony kandydat: 200 zł",
             "candidates": [
+              {
+                "value": 200.0,
+                "label": "200 zł",
+                "score": 4
+              },
               {
                 "value": 1500.0,
                 "label": "1500 zł",
-                "score": 4
+                "score": 0
+              },
+              {
+                "value": 500.0,
+                "label": "500 zł",
+                "score": 0
+              },
+              {
+                "value": 1500.0,
+                "label": "1500 zł",
+                "score": -1
+              },
+              {
+                "value": 800.0,
+                "label": "800 zł",
+                "score": -1
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": -1
               }
             ]
           },
-          "bonus": "Apple Pay, Google Pay, BLIK i HCE",
-          "bonus_opis": "Apple Pay, Google Pay, BLIK i HCE",
-          "promo_terms": "Apple Pay, Google Pay, BLIK i HCE",
-          "representative_example": "Apple Pay, Google Pay, BLIK i HCE"
+          "bonus": "1500 zł",
+          "bonus_opis": "Aby otrzymać 1500 zł premii w promocji Alior Banku, należy wpisać kod ZYSKAJ2026 podczas wypełniania wniosku i spełnić warunki.</br> \r\nPremia:</br> \r\n- 200 zł - na start - wystarczy, że wykonasz 5 transakcji kartą lub BLIKIEM, zalogujesz się do programu Mastercard Bezcenne Chwile oraz do aplikacji Alior Mobile. </br>\r\n- 500 zł – obrączka płatnicza:\r\nAby odebrać obrączkę wystarczy, że w ciągu 10 dni od otwarcia konta i zamówienia karty: wykonasz 5 transakcji kartą lub BLIKIEM na dowolną kwotę, zapiszesz się do programu Mastercard Bezcenne Chwile, zalogujesz się do aplikacji Alior Mobile.</br>\r\n- do 800 zł – zwrot 10% za zakupy w sklepach stacjonarnych (do 100 zł miesięcznie przez 8 miesięcy), pod warunkiem minimalnego wpływu 2.000 zł na Alior Konto Plus i zalogowania się do Alior Mobile w danym miesiącu.",
+          "promo_terms": "",
+          "representative_example": ""
         }
       },
       {
@@ -199,7 +249,7 @@
         "produkt": "Nest Konto",
         "glowna_wartosc": "1250 zł",
         "haczyki": [
-          "Zwrot za płatności bezgotówkowe oraz wymiana walut w kantorze."
+          "1200 zł - przez 2 lata zwrot za płatności bezgotówkowe 50 zł - za wymianę 100 EUR w Nest Kantorze"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1562?source=api-konta-osobiste",
@@ -210,9 +260,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1250 zł",
-            "conditions_summary": "Zwrot za płatności bezgotówkowe oraz wymiana walut w kantorze.",
-            "confidence": 0.9,
-            "reason": "Premia oparta głównie na zwrotach transakcyjnych.",
+            "conditions_summary": "",
+            "confidence": 0.99,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Czysta liczba w polu bonus.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -259,7 +309,7 @@
         "produkt": "eKonto do usług",
         "glowna_wartosc": "1200 zł",
         "haczyki": [
-          "Wpływy wynagrodzenia, aktywność, otwarcie konta przez selfie, bonus za dziecko."
+          "Aktywność, otwarcie na selfie, wpływy wynagrodzenia, dziecko, bony Media Expert."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/923?source=api-konta-osobiste",
@@ -270,9 +320,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1200 zł",
-            "conditions_summary": "Wpływy wynagrodzenia, aktywność, otwarcie konta przez selfie, bonus za dziecko.",
+            "conditions_summary": "Aktywność, otwarcie na selfie, wpływy wynagrodzenia, dziecko, bony Media Expert.",
             "confidence": 0.95,
-            "reason": "Złożona struktura premii obejmująca różne warunki aktywności.",
+            "reason": "Łączna pula premii za różne aktywności.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -379,7 +429,7 @@
         "produkt": "Konto Smart",
         "glowna_wartosc": "1000 zł",
         "haczyki": [
-          "Wpływy min. 1500 zł, 5 płatności kartą/BLIK miesięcznie, dodatkowy cel oszczędnościowy."
+          "Wpływ min. 1500 zł, 5 płatności kartą/BLIK miesięcznie, aktywny cel oszczędnościowy."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/392?source=api-konta-osobiste",
@@ -390,9 +440,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1000 zł",
-            "conditions_summary": "Wpływy min. 1500 zł, 5 płatności kartą/BLIK miesięcznie, dodatkowy cel oszczędnościowy.",
+            "conditions_summary": "Wpływ min. 1500 zł, 5 płatności kartą/BLIK miesięcznie, aktywny cel oszczędnościowy.",
             "confidence": 0.98,
-            "reason": "Oferta obejmuje premię za otwarcie konta oraz aktywność.",
+            "reason": "Oferta promocyjna do 31 lipca 2026 r.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -499,7 +549,7 @@
         "produkt": "Millennium 360°",
         "glowna_wartosc": "900 zł",
         "haczyki": [
-          "Wpływy min. 1500/3000 zł, płatności mobilne, rejestracja BLIK."
+          "Wpływy min. 1500/3000 zł, płatności mobilne, konto dla dziecka."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/403?source=api-konta-osobiste",
@@ -510,9 +560,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "900 zł",
-            "conditions_summary": "Wpływy min. 1500/3000 zł, płatności mobilne, rejestracja BLIK.",
+            "conditions_summary": "Wpływy min. 1500/3000 zł, płatności mobilne, konto dla dziecka.",
             "confidence": 0.95,
-            "reason": "Premia podzielona na etapy za aktywność i polecenia.",
+            "reason": "Premia za otwarcie i regularne wpływy.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -625,11 +675,121 @@
         }
       },
       {
+        "bank": "PKO Bank Polski",
+        "produkt": "Konto za Zero",
+        "glowna_wartosc": "900 zł",
+        "haczyki": [
+          "Kod PREMIA, zwrot 5%, aktywność dziecka."
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://www.bankier.pl/e/lead/538?source=api-konta-osobiste",
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 900.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "900 zł",
+            "conditions_summary": "Kod PREMIA, zwrot 5%, aktywność dziecka.",
+            "confidence": 0.95,
+            "reason": "Łączna korzyść za otwarcie i aktywność.",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": 30.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "30 zł",
+              "conditions_summary": "",
+              "confidence": 0.8300000000000001,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 30 zł",
+              "candidates": [
+                {
+                  "value": 30.0,
+                  "label": "30 zł",
+                  "score": 4
+                },
+                {
+                  "value": 900.0,
+                  "label": "900 zł",
+                  "score": 0
+                },
+                {
+                  "value": 300.0,
+                  "label": "300 zł",
+                  "score": 0
+                },
+                {
+                  "value": 100.0,
+                  "label": "100 zł",
+                  "score": 0
+                },
+                {
+                  "value": 500.0,
+                  "label": "500 zł",
+                  "score": -1
+                },
+                {
+                  "value": 50.0,
+                  "label": "50 zł",
+                  "score": -1
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": 30.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "30 zł",
+            "conditions_summary": "",
+            "confidence": 0.8300000000000001,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 30 zł",
+            "candidates": [
+              {
+                "value": 30.0,
+                "label": "30 zł",
+                "score": 4
+              },
+              {
+                "value": 900.0,
+                "label": "900 zł",
+                "score": 0
+              },
+              {
+                "value": 300.0,
+                "label": "300 zł",
+                "score": 0
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": 0
+              },
+              {
+                "value": 500.0,
+                "label": "500 zł",
+                "score": -1
+              },
+              {
+                "value": 50.0,
+                "label": "50 zł",
+                "score": -1
+              }
+            ]
+          },
+          "bonus": "900 zł",
+          "bonus_opis": "- 100 zł – za otwarcie konta online z kartą (przez IKO lub iPKO) z kodem promocyjnym PREMIA oraz wyrażenie zgód marketingowych.</br>\r\n- do 500 zł – zwrot 5% wartości transakcji bezgotówkowych kartą (max. 50 zł miesięcznie) przez 10 kolejnych miesięcy, pod warunkiem min. jednego logowania do aplikacji IKO lub serwisu iPKO w każdym miesiącu.<br>\r\n- 300 zł – za regularną aktywność dziecka – należy otworzyć konto z kodem PREMIA, wyrazić zgody marketingowe, a następnie w każdym z 10 kolejnych miesięcy dziecko musi zalogować się min. 1 raz do aplikacji (PKO Junior lub IKO) i wykonać min. 5 transakcji bezgotówkowych kartą (otrzymasz 10 nagród po 30 zł).",
+          "promo_terms": "",
+          "representative_example": ""
+        }
+      },
+      {
         "bank": "Crédit Agricole",
         "produkt": "Konto dla Ciebie",
         "glowna_wartosc": "720 zł",
         "haczyki": [
-          "Otwórz konto i zyskaj nawet 720 zł zwrotu za zakupy. Premia miesięczna to 4% wartości transakcji za dany miesiąc kalenda..."
+          "4% zwrotu za zakupy, max 60 zł miesięcznie przez 12 miesięcy."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1362?source=api-konta-osobiste",
@@ -640,9 +800,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "720 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 720 zł",
+            "conditions_summary": "4% zwrotu za zakupy, max 60 zł miesięcznie przez 12 miesięcy.",
+            "confidence": 0.98,
+            "reason": "Zwrot za aktywność zakupową.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -709,7 +869,7 @@
         "produkt": "Konto Otwarte na Ciebie",
         "glowna_wartosc": "700 zł",
         "haczyki": [
-          "Zyskaj do 600 zł: - aktywuj kartę do konta oraz wyraź zgody na komunikację marketingową (telefoniczną i elektroniczną)...."
+          "Wpływ min. 1000 zł i 7 transakcji miesięcznie."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1952?source=api-konta-osobiste",
@@ -720,9 +880,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "700 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 700 zł",
+            "conditions_summary": "Wpływ min. 1000 zł i 7 transakcji miesięcznie.",
+            "confidence": 0.98,
+            "reason": "Premia za aktywność przez 12 miesięcy.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -815,61 +975,91 @@
         }
       },
       {
-        "bank": "PKO Bank Polski",
-        "produkt": "KONTO ZA ZERO (zyskaj nawet 600 zł)",
-        "glowna_wartosc": "600 zł",
+        "bank": "Bank Pekao",
+        "produkt": "Konto Przekorzystne (do 26 lat)",
+        "glowna_wartosc": "500 zł",
         "haczyki": [
-          "Sprawdź warunki premii na stronie."
+          "100 zł za otwarcie, 400 zł za wpływ 500 zł i transakcje przez 4 miesiące."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.comperialead.pl/a/pp_adserwer.php?cl_zrodlo=api&w=1&id_partner=367089&lokacja=MzY3MDg5XzMzOTA4OQ==&etykieta=apicl&id_bank=9&kwota_kredytu_=2000&produkt_=13&id_produkt_=2016&link_id_=23774",
+        "link": "https://www.bankier.pl/e/lead/1857?source=api-konta-osobiste",
         "debug_bonus": {
           "ai_meta": {
-            "reward_amount": 600.0,
+            "reward_amount": 500.0,
             "reward_currency": "PLN",
             "reward_type": "cash",
             "is_cash_reward": true,
-            "display_value": "600 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 600 zł",
+            "display_value": "500 zł",
+            "conditions_summary": "100 zł za otwarcie, 400 zł za wpływ 500 zł i transakcje przez 4 miesiące.",
+            "confidence": 0.98,
+            "reason": "Oferta dla osób do 26 lat.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
-              "reward_amount": 600.0,
-              "reward_type": "cash",
-              "is_cash_reward": true,
-              "display_value": "600 zł",
+              "reward_amount": null,
+              "reward_type": "unknown",
+              "is_cash_reward": false,
+              "display_value": "500 zł | - 100 zł - za otwarcie konta. Otw...",
               "conditions_summary": "",
-              "confidence": 0.8300000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
+              "confidence": 0.25,
+              "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
               "candidates": [
                 {
-                  "value": 600.0,
-                  "label": "600 zł",
-                  "score": 4
+                  "value": 500.0,
+                  "label": "500 zł",
+                  "score": 0
+                },
+                {
+                  "value": 500.0,
+                  "label": "500 zł",
+                  "score": 0
+                },
+                {
+                  "value": 400.0,
+                  "label": "400 zł",
+                  "score": 0
+                },
+                {
+                  "value": 100.0,
+                  "label": "100 zł",
+                  "score": 0
                 }
               ]
             }
           },
           "pre_extraction": {
-            "reward_amount": 600.0,
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "600 zł",
+            "reward_amount": null,
+            "reward_type": "unknown",
+            "is_cash_reward": false,
+            "display_value": "500 zł | - 100 zł - za otwarcie konta. Otw...",
             "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
+            "confidence": 0.25,
+            "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
             "candidates": [
               {
-                "value": 600.0,
-                "label": "600 zł",
-                "score": 4
+                "value": 500.0,
+                "label": "500 zł",
+                "score": 0
+              },
+              {
+                "value": 500.0,
+                "label": "500 zł",
+                "score": 0
+              },
+              {
+                "value": 400.0,
+                "label": "400 zł",
+                "score": 0
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": 0
               }
             ]
           },
-          "bonus": "",
-          "bonus_opis": "",
+          "bonus": "500 zł",
+          "bonus_opis": "- 100 zł - za otwarcie konta. Otwórz konto z kartą, apką PeoPay lub Pekao24, wyraź zgody marketingowe i wykonaj 1x transakcję kartą do konta lub kartą do konta dodaną do portfela cyfrowego w ciągu 14 dni od otwarcia konta.</br>\r\n- 400 zł za spełnienie warunków aktywności. Zapewnij wpływ na konto min. 500 zł i zrób min. 5 transakcji bezgotówkowych w każdym z 4 miesięcy po otwarciu konta.</br>\r\n- Terminy wypłat zależą od miesiąca przystąpienia do promocji. Szczegóły w regulaminie promocji.",
           "promo_terms": "",
           "representative_example": ""
         }

@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-06-11 11:58",
+  "aktualizacja": "2026-06-11 17:53",
   "rynek": {
     "inflacja": "0.0",
     "obligacje": {
@@ -28,7 +28,7 @@
           "Promocja: Konto Oszczędnościowe z Kontem Przekorzystnym. Warunki:"
         ],
         "rekomendacja": "Porównaj limit kwoty i czas trwania promocji.",
-        "link": "https://prostodo.pl/c?zid=18884239766&tid=6159&ha=4146651715&r=3786"
+        "link": "https://prostodo.pl/c?zid=16999995025&tid=6159&ha=3152293822&r=7873"
       },
       {
         "bank": "Bank Millennium",
@@ -68,7 +68,7 @@
           "Promocja: Rachunek oszczędnościowy. Warunki:"
         ],
         "rekomendacja": "Porównaj limit kwoty i czas trwania promocji.",
-        "link": "https://prostodo.pl/c?zid=99959088988&tid=3823&ha=1557928959&r=1448"
+        "link": "https://prostodo.pl/c?zid=97596394854&tid=3823&ha=2473568282&r=7519"
       }
     ],
     "lokaty": [
@@ -155,11 +155,111 @@
     ],
     "konta_osobiste": [
       {
+        "bank": "Bank Pekao",
+        "produkt": "Konto Przekorzystne",
+        "glowna_wartosc": "2400 zł",
+        "haczyki": [
+          "Promocyjne zwroty do 25% za zakupy u partnerów, nieoprocentowany debet"
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://www.bankier.pl/e/lead/2848?source=api-konta-osobiste",
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 2400.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "2400 zł",
+            "conditions_summary": "Promocyjne zwroty do 25% za zakupy u partnerów, nieoprocentowany debet",
+            "confidence": 0.9,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 2400 zł",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": 2400.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "2400 zł",
+              "conditions_summary": "",
+              "confidence": 0.8300000000000001,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 2400 zł",
+              "candidates": [
+                {
+                  "value": 2400.0,
+                  "label": "2400 zł",
+                  "score": 4
+                },
+                {
+                  "value": 2400.0,
+                  "label": "2400 zł",
+                  "score": 4
+                },
+                {
+                  "value": 2700.0,
+                  "label": "2700 zł",
+                  "score": 0
+                },
+                {
+                  "value": 200.0,
+                  "label": "200 zł",
+                  "score": 0
+                },
+                {
+                  "value": 100.0,
+                  "label": "100 zł",
+                  "score": 0
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": 2400.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "2400 zł",
+            "conditions_summary": "",
+            "confidence": 0.8300000000000001,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 2400 zł",
+            "candidates": [
+              {
+                "value": 2400.0,
+                "label": "2400 zł",
+                "score": 4
+              },
+              {
+                "value": 2400.0,
+                "label": "2400 zł",
+                "score": 4
+              },
+              {
+                "value": 2700.0,
+                "label": "2700 zł",
+                "score": 0
+              },
+              {
+                "value": 200.0,
+                "label": "200 zł",
+                "score": 0
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": 0
+              }
+            ]
+          },
+          "bonus": "2700 zł",
+          "bonus_opis": "- 100 zł - za otwarcie konta. Otwórz konto z kartą, apką PeoPay lub Pekao24, wyraź zgody marketingowe </br>\r\n- 200 zł za spełnienie warunków aktywności. Zrób min. 5 transakcji bezgotówkowych kartą do Konta Przekorzystnego w każdym z 2 miesięcy kalendarzowych po miesiącu otwarcia konta..</br>\r\n- do 2400 zł zwrotu za przystąpienie do Promocji Podróżnej. Płać swoją złotą kartą do konta lub BLIKIEM i zyskaj nawet 2400 zł na wydatki podróżne. Szczegóły dostępne w regulaminie Promocji Podróżnej.",
+          "promo_terms": "",
+          "representative_example": ""
+        }
+      },
+      {
         "bank": "Alior Bank",
         "produkt": "Alior Konto",
         "glowna_wartosc": "1500 zł",
         "haczyki": [
-          "Kod ZYSKAJ2026, transakcje kartą/BLIK, program Bezcenne Chwile, wpływ 2000 zł."
+          "Kod bonusowy, transakcje kartą, logowanie do aplikacji oraz wpływy na konto."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1337?source=api-konta-osobiste",
@@ -170,9 +270,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1500 zł",
-            "conditions_summary": "Kod ZYSKAJ2026, transakcje kartą/BLIK, program Bezcenne Chwile, wpływ 2000 zł.",
+            "conditions_summary": "Kod bonusowy, transakcje kartą, logowanie do aplikacji oraz wpływy na konto.",
             "confidence": 0.95,
-            "reason": "Premia za start, obrączka płatnicza i zwrot za zakupy.",
+            "reason": "Oferta promocyjna Alior Bank.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -269,7 +369,7 @@
         "produkt": "Nest Konto",
         "glowna_wartosc": "1250 zł",
         "haczyki": [
-          "1200 zł - przez 2 lata zwrot za płatności bezgotówkowe 50 zł - za wymianę 100 EUR w Nest Kantorze"
+          "Aktywność na koncie, zwrot za płatności oraz wymiana walut."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1562?source=api-konta-osobiste",
@@ -280,9 +380,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1250 zł",
-            "conditions_summary": "",
-            "confidence": 0.99,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Czysta liczba w polu bonus.",
+            "conditions_summary": "Aktywność na koncie, zwrot za płatności oraz wymiana walut.",
+            "confidence": 0.95,
+            "reason": "Oferta promocyjna Nest Bank.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -329,7 +429,7 @@
         "produkt": "eKonto do usług",
         "glowna_wartosc": "1200 zł",
         "haczyki": [
-          "Otwarcie na selfie, wpływy, transakcje, otwarcie konta dla dziecka, zapis do promocji."
+          "Aktywne korzystanie z konta, wpływ wynagrodzenia, otwarcie konta przez selfie/e-dowód."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/923?source=api-konta-osobiste",
@@ -340,9 +440,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1200 zł",
-            "conditions_summary": "Otwarcie na selfie, wpływy, transakcje, otwarcie konta dla dziecka, zapis do promocji.",
+            "conditions_summary": "Aktywne korzystanie z konta, wpływ wynagrodzenia, otwarcie konta przez selfie/e-dowód.",
             "confidence": 0.95,
-            "reason": "Suma bonusów za różne aktywności i otwarcie konta.",
+            "reason": "Oferta promocyjna mBank.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -445,11 +545,131 @@
         }
       },
       {
+        "bank": "Erste Bank Polska",
+        "produkt": "Konto Smart",
+        "glowna_wartosc": "1000 zł",
+        "haczyki": [
+          "Wpływ min. 1500 zł, 5 płatności kartą/BLIK miesięcznie oraz założenie celu oszczędnościowego."
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://www.bankier.pl/e/lead/392?source=api-konta-osobiste",
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 1000.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "1000 zł",
+            "conditions_summary": "Wpływ min. 1500 zł, 5 płatności kartą/BLIK miesięcznie oraz założenie celu oszczędnościowego.",
+            "confidence": 0.95,
+            "reason": "Oferta promocyjna Erste Bank Polska.",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": null,
+              "reward_type": "unknown",
+              "is_cash_reward": false,
+              "display_value": "1000 zł | - Do 31 lipca 2026 r. złóż wnios...",
+              "conditions_summary": "",
+              "confidence": 0.25,
+              "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
+              "candidates": [
+                {
+                  "value": 200.0,
+                  "label": "200 zł",
+                  "score": 0
+                },
+                {
+                  "value": 100.0,
+                  "label": "100 zł",
+                  "score": 0
+                },
+                {
+                  "value": 100.0,
+                  "label": "100 zł",
+                  "score": 0
+                },
+                {
+                  "value": 1500.0,
+                  "label": "1500 zł",
+                  "score": -5
+                },
+                {
+                  "value": 1000.0,
+                  "label": "1000 zł",
+                  "score": -5
+                },
+                {
+                  "value": 600.0,
+                  "label": "600 zł",
+                  "score": -5
+                },
+                {
+                  "value": 200.0,
+                  "label": "200 zł",
+                  "score": -5
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": null,
+            "reward_type": "unknown",
+            "is_cash_reward": false,
+            "display_value": "1000 zł | - Do 31 lipca 2026 r. złóż wnios...",
+            "conditions_summary": "",
+            "confidence": 0.25,
+            "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
+            "candidates": [
+              {
+                "value": 200.0,
+                "label": "200 zł",
+                "score": 0
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": 0
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": 0
+              },
+              {
+                "value": 1500.0,
+                "label": "1500 zł",
+                "score": -5
+              },
+              {
+                "value": 1000.0,
+                "label": "1000 zł",
+                "score": -5
+              },
+              {
+                "value": 600.0,
+                "label": "600 zł",
+                "score": -5
+              },
+              {
+                "value": 200.0,
+                "label": "200 zł",
+                "score": -5
+              }
+            ]
+          },
+          "bonus": "1000 zł",
+          "bonus_opis": "- Do 31 lipca 2026 r. złóż wniosek i zawrzyj umowę o konto z kartą debetową oraz usługami Erste online i podczas składania wniosku wyraź zgodę na przystąpienie do promocji, zaakceptuj regulamin oraz pozostałe wymagane zgody. </br>\r\n- do 600 zł (po 200 zł miesięcznie) – za wpływ min. 1500 zł, 5 płatności kartą/BLIK oraz dodaj min. jeden cel oszczędnościowy w ramach usługi Moje Cele.</br>\r\n- 100 zł – jeśli w każdym z trzech miesięcy spełnisz wszystkie warunki promocji. </br>\r\n- 200 zł – za założenie konta dla dziecka w wieku 7-17 lat i spełnienie warunków aktywności przez nieletniego. </br>\r\n- do 100 zł - skuteczne polecanie konta rodzinie i znajomym. \r\n",
+          "promo_terms": "",
+          "representative_example": ""
+        }
+      },
+      {
         "bank": "Bank Millennium",
         "produkt": "Millennium 360°",
         "glowna_wartosc": "900 zł",
         "haczyki": [
-          "Wpływy min. 1500/3000 zł, płatności mobilne, rejestracja numeru BLIK, otwarcie konta Junior."
+          "Wpływy na konto, płatności mobilne oraz rejestracja numeru BLIK."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/403?source=api-konta-osobiste",
@@ -460,9 +680,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "900 zł",
-            "conditions_summary": "Wpływy min. 1500/3000 zł, płatności mobilne, rejestracja numeru BLIK, otwarcie konta Junior.",
+            "conditions_summary": "Wpływy na konto, płatności mobilne oraz rejestracja numeru BLIK.",
             "confidence": 0.95,
-            "reason": "Bonus za start, systematyczne wpływy i otwarcie konta dla dziecka.",
+            "reason": "Oferta promocyjna Banku Millennium.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -579,7 +799,7 @@
         "produkt": "Konto dla Ciebie",
         "glowna_wartosc": "720 zł",
         "haczyki": [
-          "Zwrot 4% wartości transakcji, maks. 60 zł miesięcznie przez 12 miesięcy."
+          "Otwórz konto i zyskaj nawet 720 zł zwrotu za zakupy. Premia miesięczna to 4% wartości transakcji za dany miesiąc kalenda..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1362?source=api-konta-osobiste",
@@ -590,9 +810,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "720 zł",
-            "conditions_summary": "Zwrot 4% wartości transakcji, maks. 60 zł miesięcznie przez 12 miesięcy.",
-            "confidence": 0.95,
-            "reason": "Program zwrotów za codzienne zakupy.",
+            "conditions_summary": "",
+            "confidence": 0.8300000000000001,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 720 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -659,7 +879,7 @@
         "produkt": "Konto Otwarte na Ciebie",
         "glowna_wartosc": "700 zł",
         "haczyki": [
-          "Wpływ 1000 zł, 7 transakcji kartą miesięcznie przez 12 miesięcy, utrzymanie salda na koncie oszczędnościowym."
+          "Zyskaj do 600 zł: - aktywuj kartę do konta oraz wyraź zgody na komunikację marketingową (telefoniczną i elektroniczną)...."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1952?source=api-konta-osobiste",
@@ -670,9 +890,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "700 zł",
-            "conditions_summary": "Wpływ 1000 zł, 7 transakcji kartą miesięcznie przez 12 miesięcy, utrzymanie salda na koncie oszczędnościowym.",
-            "confidence": 0.95,
-            "reason": "600 zł premii za aktywność i 100 zł za oszczędzanie.",
+            "conditions_summary": "",
+            "confidence": 0.8300000000000001,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 700 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -772,7 +992,7 @@
           "Za otwarcie konta, Klient może otrzymać: - 4 % na lokacie do 20 000 zł, - Konto SuperOszczędnościowe 3,25% do 20 000 zł,..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://prostodo.pl/c?zid=68691677115&tid=5951&ha=1000976353&r=8356",
+        "link": "https://prostodo.pl/c?zid=59290018817&tid=5951&ha=2184610873&r=6663",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 700.0,
@@ -895,86 +1115,6 @@
         }
       },
       {
-        "bank": "VeloBank",
-        "produkt": "VeloKonto",
-        "glowna_wartosc": "600 zł",
-        "haczyki": [
-          "Aktywność przez 12 miesięcy, maks. 50 zł miesięcznie za zakupy i usługi."
-        ],
-        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/830?source=api-konta-osobiste",
-        "debug_bonus": {
-          "ai_meta": {
-            "reward_amount": 600.0,
-            "reward_currency": "PLN",
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "600 zł",
-            "conditions_summary": "Aktywność przez 12 miesięcy, maks. 50 zł miesięcznie za zakupy i usługi.",
-            "confidence": 0.95,
-            "reason": "Program cashbacku VeloKorzyści.",
-            "haczyki": [],
-            "rekomendacja": "",
-            "pre_extraction": {
-              "reward_amount": 50.0,
-              "reward_type": "cash",
-              "is_cash_reward": true,
-              "display_value": "50 zł",
-              "conditions_summary": "",
-              "confidence": 0.8300000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 50 zł",
-              "candidates": [
-                {
-                  "value": 50.0,
-                  "label": "50 zł",
-                  "score": 4
-                },
-                {
-                  "value": 600.0,
-                  "label": "600 zł",
-                  "score": 0
-                },
-                {
-                  "value": 600.0,
-                  "label": "600 zł",
-                  "score": 0
-                }
-              ]
-            }
-          },
-          "pre_extraction": {
-            "reward_amount": 50.0,
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "50 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 50 zł",
-            "candidates": [
-              {
-                "value": 50.0,
-                "label": "50 zł",
-                "score": 4
-              },
-              {
-                "value": 600.0,
-                "label": "600 zł",
-                "score": 0
-              },
-              {
-                "value": 600.0,
-                "label": "600 zł",
-                "score": 0
-              }
-            ]
-          },
-          "bonus": "600 zł",
-          "bonus_opis": "- Do 600 zł za aktywność, przez 12 miesięcy (maksymalnie 50 zł w każdym miesiącu).<br>\r\n- Cashback naliczany jest od drugiego poziomu programu za aktywne korzystanie z Moich rachunków oraz za zakup biletów, parkingów, E-Winiet i autostrad. Możesz go wypłacić na swoje konto osobiste lub oszczędnościowe w VeloBanku. Kwoty niewykorzystanego cashbacku wygasają po upływie 12 miesięcy od zakończenia miesiąca, w którym dokonano jego naliczenia.\r\n",
-          "promo_terms": "",
-          "representative_example": ""
-        }
-      },
-      {
         "bank": "PKO Bank Polski",
         "produkt": "KONTO ZA ZERO (zyskaj nawet 600 zł)",
         "glowna_wartosc": "600 zł",
@@ -1035,211 +1175,81 @@
         }
       },
       {
-        "bank": "Bank Pekao",
-        "produkt": "Konto Przekorzystne (do 26 lat)",
-        "glowna_wartosc": "500 zł",
+        "bank": "VeloBank",
+        "produkt": "VeloKonto",
+        "glowna_wartosc": "50 zł",
         "haczyki": [
-          "Otwarcie konta, transakcja kartą w 14 dni, wpływ 500 zł i 5 transakcji przez 4 miesiące."
+          "- Do 600 zł za aktywność, przez 12 miesięcy (maksymalnie 50 zł w każdym miesiącu). - Cashback naliczany jest od drugiego..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/1857?source=api-konta-osobiste",
+        "link": "https://www.bankier.pl/e/lead/830?source=api-konta-osobiste",
         "debug_bonus": {
           "ai_meta": {
-            "reward_amount": 500.0,
+            "reward_amount": 50.0,
             "reward_currency": "PLN",
             "reward_type": "cash",
             "is_cash_reward": true,
-            "display_value": "500 zł",
-            "conditions_summary": "Otwarcie konta, transakcja kartą w 14 dni, wpływ 500 zł i 5 transakcji przez 4 miesiące.",
-            "confidence": 0.95,
-            "reason": "100 zł za otwarcie i 400 zł za aktywność.",
-            "haczyki": [],
-            "rekomendacja": "",
-            "pre_extraction": {
-              "reward_amount": null,
-              "reward_type": "unknown",
-              "is_cash_reward": false,
-              "display_value": "500 zł | - 100 zł - za otwarcie konta. Otw...",
-              "conditions_summary": "",
-              "confidence": 0.25,
-              "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
-              "candidates": [
-                {
-                  "value": 500.0,
-                  "label": "500 zł",
-                  "score": 0
-                },
-                {
-                  "value": 500.0,
-                  "label": "500 zł",
-                  "score": 0
-                },
-                {
-                  "value": 400.0,
-                  "label": "400 zł",
-                  "score": 0
-                },
-                {
-                  "value": 100.0,
-                  "label": "100 zł",
-                  "score": 0
-                }
-              ]
-            }
-          },
-          "pre_extraction": {
-            "reward_amount": null,
-            "reward_type": "unknown",
-            "is_cash_reward": false,
-            "display_value": "500 zł | - 100 zł - za otwarcie konta. Otw...",
+            "display_value": "50 zł",
             "conditions_summary": "",
-            "confidence": 0.25,
-            "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
-            "candidates": [
-              {
-                "value": 500.0,
-                "label": "500 zł",
-                "score": 0
-              },
-              {
-                "value": 500.0,
-                "label": "500 zł",
-                "score": 0
-              },
-              {
-                "value": 400.0,
-                "label": "400 zł",
-                "score": 0
-              },
-              {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 0
-              }
-            ]
-          },
-          "bonus": "500 zł",
-          "bonus_opis": "- 100 zł - za otwarcie konta. Otwórz konto z kartą, apką PeoPay lub Pekao24, wyraź zgody marketingowe i wykonaj 1x transakcję kartą do konta lub kartą do konta dodaną do portfela cyfrowego w ciągu 14 dni od otwarcia konta.</br>\r\n- 400 zł za spełnienie warunków aktywności. Zapewnij wpływ na konto min. 500 zł i zrób min. 5 transakcji bezgotówkowych w każdym z 4 miesięcy po otwarciu konta.</br>\r\n- Terminy wypłat zależą od miesiąca przystąpienia do promocji. Szczegóły w regulaminie promocji.",
-          "promo_terms": "",
-          "representative_example": ""
-        }
-      },
-      {
-        "bank": "Erste Bank Polska",
-        "produkt": "Konto Smart",
-        "glowna_wartosc": "400 zł",
-        "haczyki": [
-          "krótko"
-        ],
-        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/392?source=api-konta-osobiste",
-        "debug_bonus": {
-          "ai_meta": {
-            "reward_amount": 400.0,
-            "reward_currency": "PLN",
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "400 zł",
-            "conditions_summary": "krótko",
-            "confidence": 0.95,
-            "reason": "krótko",
+            "confidence": 0.8300000000000001,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 50 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
-              "reward_amount": null,
-              "reward_type": "unknown",
-              "is_cash_reward": false,
-              "display_value": "1000 zł | - Do 31 lipca 2026 r. złóż wnios...",
+              "reward_amount": 50.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "50 zł",
               "conditions_summary": "",
-              "confidence": 0.25,
-              "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
+              "confidence": 0.8300000000000001,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 50 zł",
               "candidates": [
                 {
-                  "value": 200.0,
-                  "label": "200 zł",
-                  "score": 0
-                },
-                {
-                  "value": 100.0,
-                  "label": "100 zł",
-                  "score": 0
-                },
-                {
-                  "value": 100.0,
-                  "label": "100 zł",
-                  "score": 0
-                },
-                {
-                  "value": 1500.0,
-                  "label": "1500 zł",
-                  "score": -5
-                },
-                {
-                  "value": 1000.0,
-                  "label": "1000 zł",
-                  "score": -5
+                  "value": 50.0,
+                  "label": "50 zł",
+                  "score": 4
                 },
                 {
                   "value": 600.0,
                   "label": "600 zł",
-                  "score": -5
+                  "score": 0
                 },
                 {
-                  "value": 200.0,
-                  "label": "200 zł",
-                  "score": -5
+                  "value": 600.0,
+                  "label": "600 zł",
+                  "score": 0
                 }
               ]
             }
           },
           "pre_extraction": {
-            "reward_amount": null,
-            "reward_type": "unknown",
-            "is_cash_reward": false,
-            "display_value": "1000 zł | - Do 31 lipca 2026 r. złóż wnios...",
+            "reward_amount": 50.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "50 zł",
             "conditions_summary": "",
-            "confidence": 0.25,
-            "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
+            "confidence": 0.8300000000000001,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 50 zł",
             "candidates": [
               {
-                "value": 200.0,
-                "label": "200 zł",
-                "score": 0
-              },
-              {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 0
-              },
-              {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 0
-              },
-              {
-                "value": 1500.0,
-                "label": "1500 zł",
-                "score": -5
-              },
-              {
-                "value": 1000.0,
-                "label": "1000 zł",
-                "score": -5
+                "value": 50.0,
+                "label": "50 zł",
+                "score": 4
               },
               {
                 "value": 600.0,
                 "label": "600 zł",
-                "score": -5
+                "score": 0
               },
               {
-                "value": 200.0,
-                "label": "200 zł",
-                "score": -5
+                "value": 600.0,
+                "label": "600 zł",
+                "score": 0
               }
             ]
           },
-          "bonus": "1000 zł",
-          "bonus_opis": "- Do 31 lipca 2026 r. złóż wniosek i zawrzyj umowę o konto z kartą debetową oraz usługami Erste online i podczas składania wniosku wyraź zgodę na przystąpienie do promocji, zaakceptuj regulamin oraz pozostałe wymagane zgody. </br>\r\n- do 600 zł (po 200 zł miesięcznie) – za wpływ min. 1500 zł, 5 płatności kartą/BLIK oraz dodaj min. jeden cel oszczędnościowy w ramach usługi Moje Cele.</br>\r\n- 100 zł – jeśli w każdym z trzech miesięcy spełnisz wszystkie warunki promocji. </br>\r\n- 200 zł – za założenie konta dla dziecka w wieku 7-17 lat i spełnienie warunków aktywności przez nieletniego. </br>\r\n- do 100 zł - skuteczne polecanie konta rodzinie i znajomym. \r\n",
+          "bonus": "600 zł",
+          "bonus_opis": "- Do 600 zł za aktywność, przez 12 miesięcy (maksymalnie 50 zł w każdym miesiącu).<br>\r\n- Cashback naliczany jest od drugiego poziomu programu za aktywne korzystanie z Moich rachunków oraz za zakup biletów, parkingów, E-Winiet i autostrad. Możesz go wypłacić na swoje konto osobiste lub oszczędnościowe w VeloBanku. Kwoty niewykorzystanego cashbacku wygasają po upływie 12 miesięcy od zakończenia miesiąca, w którym dokonano jego naliczenia.\r\n",
           "promo_terms": "",
           "representative_example": ""
         }
@@ -1254,7 +1264,7 @@
           "RRSO: 8.17%. Prowizja: 0%. Info: Pożyczka Przekorzystna w kwocie do 250 000 zł spłata do 10 lat RRSO 8,17%"
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3604&ha=3586276304&r=9652"
+        "link": "https://leadstar.pl/c?pid=112247&tid=3604&ha=3586276304&r=6850"
       },
       {
         "bank": "Erste Bank Polska",
@@ -1334,7 +1344,7 @@
           "RRSO: 9.94%. Prowizja: 0%. Info: Pożyczka Gotówkowa 0% prowizji oprocentowanie stałe 9,50% od 15 000 zł do 50 000 zł w r..."
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=4263&ha=1328622039&r=5709"
+        "link": "https://leadstar.pl/c?pid=112247&tid=4263&ha=1328622039&r=7371"
       }
     ],
     "kredyty_konsolidacyjne": [
@@ -1346,7 +1356,7 @@
           "RRSO: 8.18%. Prowizja: 0%. Info: Pożyczka Konsolidacyjna prowizja 0% okres kredytowania do 10 lat RRSO 8,18%"
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=4185&ha=3415451546&r=1430"
+        "link": "https://leadstar.pl/c?pid=112247&tid=4185&ha=3415451546&r=3048"
       },
       {
         "bank": "Raiffeisen Digital Bank",
@@ -1386,7 +1396,7 @@
           "RRSO: 12.14%. Prowizja: 0%. Info: Pożyczka konsolidacyjna do 30% wartości przenoszonych kredytów na okres od 2 do 120 mi..."
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3437&ha=2204705415&r=6566"
+        "link": "https://leadstar.pl/c?pid=112247&tid=3437&ha=2204705415&r=9702"
       },
       {
         "bank": "Santander Consumer Bank",
@@ -1413,22 +1423,22 @@
       {
         "bank": "Erste Bank",
         "produkt": "Konto Firmowe",
-        "glowna_wartosc": "5000 zł",
+        "glowna_wartosc": "1500 zł",
         "haczyki": [
-          "Klient może zyskać do 4500 zł premii za aktywność na koncie firmowym. Jak otrzymać do 4500 zł premii? 1. Do 30 września..."
+          "Przelew do ZUS (100 zł), 5 płatności kartą/BLIK i wpływy min. 5000 zł."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=2241&ha=3193360955&r=100",
+        "link": "https://leadstar.pl/c?pid=112247&tid=2241&ha=3193360955&r=1579",
         "debug_bonus": {
           "ai_meta": {
-            "reward_amount": 5000.0,
+            "reward_amount": 1500.0,
             "reward_currency": "PLN",
             "reward_type": "cash",
             "is_cash_reward": true,
-            "display_value": "5000 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 5000 zł",
+            "display_value": "1500 zł",
+            "conditions_summary": "Przelew do ZUS (100 zł), 5 płatności kartą/BLIK i wpływy min. 5000 zł.",
+            "confidence": 0.9,
+            "reason": "Premia za aktywność na koncie firmowym.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1541,136 +1551,6 @@
         }
       },
       {
-        "bank": "Bank Pekao S.A.",
-        "produkt": "Konto Biznes z Żubrem",
-        "glowna_wartosc": "4200 zł",
-        "haczyki": [
-          "Za założenie Konta Biznes z Żubrem w promocji „Premia do 4 200 zł z Kontem Biznes z Żubrem” Klient może zyskać nawet 4 2..."
-        ],
-        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3270&ha=3372779963&r=3922",
-        "debug_bonus": {
-          "ai_meta": {
-            "reward_amount": 4200.0,
-            "reward_currency": "PLN",
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "4200 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 4200 zł",
-            "haczyki": [],
-            "rekomendacja": "",
-            "pre_extraction": {
-              "reward_amount": 4200.0,
-              "reward_type": "cash",
-              "is_cash_reward": true,
-              "display_value": "4200 zł",
-              "conditions_summary": "",
-              "confidence": 0.8300000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 4200 zł",
-              "candidates": [
-                {
-                  "value": 4200.0,
-                  "label": "4200 zł",
-                  "score": 4
-                },
-                {
-                  "value": 4200.0,
-                  "label": "4200 zł",
-                  "score": 4
-                },
-                {
-                  "value": 2000.0,
-                  "label": "2000 zł",
-                  "score": 4
-                },
-                {
-                  "value": 2000.0,
-                  "label": "2000 zł",
-                  "score": 4
-                },
-                {
-                  "value": 300.0,
-                  "label": "300 zł",
-                  "score": 4
-                },
-                {
-                  "value": 300.0,
-                  "label": "300 zł",
-                  "score": 4
-                },
-                {
-                  "value": 5000.0,
-                  "label": "5000 zł",
-                  "score": 0
-                },
-                {
-                  "value": 5000.0,
-                  "label": "5000 zł",
-                  "score": 0
-                }
-              ]
-            }
-          },
-          "pre_extraction": {
-            "reward_amount": 4200.0,
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "4200 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 4200 zł",
-            "candidates": [
-              {
-                "value": 4200.0,
-                "label": "4200 zł",
-                "score": 4
-              },
-              {
-                "value": 4200.0,
-                "label": "4200 zł",
-                "score": 4
-              },
-              {
-                "value": 2000.0,
-                "label": "2000 zł",
-                "score": 4
-              },
-              {
-                "value": 2000.0,
-                "label": "2000 zł",
-                "score": 4
-              },
-              {
-                "value": 300.0,
-                "label": "300 zł",
-                "score": 4
-              },
-              {
-                "value": 300.0,
-                "label": "300 zł",
-                "score": 4
-              },
-              {
-                "value": 5000.0,
-                "label": "5000 zł",
-                "score": 0
-              },
-              {
-                "value": 5000.0,
-                "label": "5000 zł",
-                "score": 0
-              }
-            ]
-          },
-          "bonus": "Za założenie Konta Biznes z Żubrem w promocji „Premia do 4 200 zł z Kontem Biznes z Żubrem” Klient może zyskać nawet 4 200 zł premii. Jak zyskać premię do 4 200 zł? 1) 200 zł za założenie firmy z bankiem i zawarcie jednym wnioskiem umowy o konto z kartą Mastercard albo za zdalne zawarcie umowy o konto z kartą (jeśli firma już istnieje) oraz wykonanie w ciągu 2 kolejnych miesięcy kalendarzowych po miesiącu zawarcia umowy przelewu do ZUS na min. 300 zł, 2) do 2 000 zł zwrotu za transakcje bezgotówkowe kartą debetową Mastercard (również telefonem lub zegarkiem za pośrednictwem Google Pay, Garmin Pay lub Apple Pay) – 4% wartości transakcji miesięcznie (min. 20 zł, maks. 200 zł miesięcznie przez 10 miesięcy), pod warunkiem wykonywania w każdym z tych miesięcy transakcji na min. 500 zł oraz przelewu do ZUS na min. 300 zł; okres 10 miesięcy liczony jest od pierwszego pełnego miesiąca kalendarzowego po miesiącu zawarcia umowy o konto i kartę, 3) do 800 zł za zawarcie umowy o terminal płatniczy banku i przyjmowanie na nim płatności na kwotę min. 1 000 zł miesięcznie (10 miesięcy x 80 zł), pod warunkiem wykonywania w każdym z tych miesięcy przelewu do ZUS na min. 300 zł; okres 10 miesięcy liczony jest od pierwszego pełnego miesiąca kalendarzowego po miesiącu zawarcia umowy o konto i kartę, 4) 600 zł za zawarcie i uruchomienie kredytu w rachunku bieżącym na kwotę min. 5 000 zł oraz wykonanie z konta co najmniej 1 przelewu do ZUS na min. 300 zł, 5) 600 zł za zawarcie pierwszej umowy leasingu z Pekao Leasing Sp. z o.o., wykonanie z konta min. 1 przelewu na rzecz leasingodawcy tytułem spłaty raty leasingowej oraz wykonanie z konta co najmniej 1 przelewu do ZUS na min. 300 zł.",
-          "bonus_opis": "Za założenie Konta Biznes z Żubrem w promocji „Premia do 4 200 zł z Kontem Biznes z Żubrem” Klient może zyskać nawet 4 200 zł premii. Jak zyskać premię do 4 200 zł? 1) 200 zł za założenie firmy z bankiem i zawarcie jednym wnioskiem umowy o konto z kartą Mastercard albo za zdalne zawarcie umowy o konto z kartą (jeśli firma już istnieje) oraz wykonanie w ciągu 2 kolejnych miesięcy kalendarzowych po miesiącu zawarcia umowy przelewu do ZUS na min. 300 zł, 2) do 2 000 zł zwrotu za transakcje bezgotówkowe kartą debetową Mastercard (również telefonem lub zegarkiem za pośrednictwem Google Pay, Garmin Pay lub Apple Pay) – 4% wartości transakcji miesięcznie (min. 20 zł, maks. 200 zł miesięcznie przez 10 miesięcy), pod warunkiem wykonywania w każdym z tych miesięcy transakcji na min. 500 zł oraz przelewu do ZUS na min. 300 zł; okres 10 miesięcy liczony jest od pierwszego pełnego miesiąca kalendarzowego po miesiącu zawarcia umowy o konto i kartę, 3) do 800 zł za zawarcie umowy o terminal płatniczy banku i przyjmowanie na nim płatności na kwotę min. 1 000 zł miesięcznie (10 miesięcy x 80 zł), pod warunkiem wykonywania w każdym z tych miesięcy przelewu do ZUS na min. 300 zł; okres 10 miesięcy liczony jest od pierwszego pełnego miesiąca kalendarzowego po miesiącu zawarcia umowy o konto i kartę, 4) 600 zł za zawarcie i uruchomienie kredytu w rachunku bieżącym na kwotę min. 5 000 zł oraz wykonanie z konta co najmniej 1 przelewu do ZUS na min. 300 zł, 5) 600 zł za zawarcie pierwszej umowy leasingu z Pekao Leasing Sp. z o.o., wykonanie z konta min. 1 przelewu na rzecz leasingodawcy tytułem spłaty raty leasingowej oraz wykonanie z konta co najmniej 1 przelewu do ZUS na min. 300 zł.",
-          "promo_terms": "",
-          "representative_example": "Za założenie Konta Biznes z Żubrem w promocji „Premia do 4 200 zł z Kontem Biznes z Żubrem” Klient może zyskać nawet 4 200 zł premii. Jak zyskać premię do 4 200 zł? 1) 200 zł za założenie firmy z bankiem i zawarcie jednym wnioskiem umowy o konto z kartą Mastercard albo za zdalne zawarcie umowy o konto z kartą (jeśli firma już istnieje) oraz wykonanie w ciągu 2 kolejnych miesięcy kalendarzowych po "
-        }
-      },
-      {
         "bank": "Alior Bank S.A.",
         "produkt": "iKonto Biznes",
         "glowna_wartosc": "500 zł",
@@ -1678,7 +1558,7 @@
           "Otwarcie konta i płatności kartą/BLIK na min. 500 zł w ciągu 14 dni."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=5009&ha=2297283548&r=9567",
+        "link": "https://leadstar.pl/c?pid=112247&tid=5009&ha=2297283548&r=6689",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 500.0,
@@ -1687,8 +1567,8 @@
             "is_cash_reward": true,
             "display_value": "500 zł",
             "conditions_summary": "Otwarcie konta i płatności kartą/BLIK na min. 500 zł w ciągu 14 dni.",
-            "confidence": 0.98,
-            "reason": "Konkretna kwota 500 zł premii na start.",
+            "confidence": 0.95,
+            "reason": "Premia na start za otwarcie konta i aktywność płatniczą.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1808,7 +1688,7 @@
           "Otwarcie konta i płatności kartą na min. 1000 zł w ciągu 30 dni."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=6093&ha=1809681750&r=6045",
+        "link": "https://leadstar.pl/c?pid=112247&tid=6093&ha=1809681750&r=9154",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 500.0,
@@ -1817,8 +1697,8 @@
             "is_cash_reward": true,
             "display_value": "500 zł",
             "conditions_summary": "Otwarcie konta i płatności kartą na min. 1000 zł w ciągu 30 dni.",
-            "confidence": 0.98,
-            "reason": "Konkretna kwota 500 zł premii za założenie konta.",
+            "confidence": 0.95,
+            "reason": "Premia za otwarcie konta i aktywność transakcyjną.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1909,6 +1789,136 @@
           "promo_terms": "",
           "representative_example": "Zakładając firmę oraz konto mBiznes w mBanku, Klient może zyskać nawet 500 zł premii. Jak zyskać premię do 500 zł? 1. Klient musi otworzyć konto z kartą Mastercard Debit Business, Mastercard Business WOŚP lub Mastercard Business WOŚP Mobilną w promocji „Załóż firmę i zyskaj konto na zawsze za 0 zł – edycja 4”. 2. Klient musi wykonać kartą transakcje na minimum 1000 zł w ciągu 30 dni od zawarcia um"
         }
+      },
+      {
+        "bank": "Bank Pekao S.A.",
+        "produkt": "Konto Biznes z Żubrem",
+        "glowna_wartosc": "200 zł",
+        "haczyki": [
+          "Otwarcie konta z kartą oraz przelew do ZUS na min. 300 zł."
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://leadstar.pl/c?pid=112247&tid=3270&ha=3372779963&r=1243",
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 200.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "200 zł",
+            "conditions_summary": "Otwarcie konta z kartą oraz przelew do ZUS na min. 300 zł.",
+            "confidence": 0.95,
+            "reason": "Bonus za założenie konta i opłacenie składki ZUS.",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": 4200.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "4200 zł",
+              "conditions_summary": "",
+              "confidence": 0.8300000000000001,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 4200 zł",
+              "candidates": [
+                {
+                  "value": 4200.0,
+                  "label": "4200 zł",
+                  "score": 4
+                },
+                {
+                  "value": 4200.0,
+                  "label": "4200 zł",
+                  "score": 4
+                },
+                {
+                  "value": 2000.0,
+                  "label": "2000 zł",
+                  "score": 4
+                },
+                {
+                  "value": 2000.0,
+                  "label": "2000 zł",
+                  "score": 4
+                },
+                {
+                  "value": 300.0,
+                  "label": "300 zł",
+                  "score": 4
+                },
+                {
+                  "value": 300.0,
+                  "label": "300 zł",
+                  "score": 4
+                },
+                {
+                  "value": 5000.0,
+                  "label": "5000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 5000.0,
+                  "label": "5000 zł",
+                  "score": 0
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": 4200.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "4200 zł",
+            "conditions_summary": "",
+            "confidence": 0.8300000000000001,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 4200 zł",
+            "candidates": [
+              {
+                "value": 4200.0,
+                "label": "4200 zł",
+                "score": 4
+              },
+              {
+                "value": 4200.0,
+                "label": "4200 zł",
+                "score": 4
+              },
+              {
+                "value": 2000.0,
+                "label": "2000 zł",
+                "score": 4
+              },
+              {
+                "value": 2000.0,
+                "label": "2000 zł",
+                "score": 4
+              },
+              {
+                "value": 300.0,
+                "label": "300 zł",
+                "score": 4
+              },
+              {
+                "value": 300.0,
+                "label": "300 zł",
+                "score": 4
+              },
+              {
+                "value": 5000.0,
+                "label": "5000 zł",
+                "score": 0
+              },
+              {
+                "value": 5000.0,
+                "label": "5000 zł",
+                "score": 0
+              }
+            ]
+          },
+          "bonus": "Za założenie Konta Biznes z Żubrem w promocji „Premia do 4 200 zł z Kontem Biznes z Żubrem” Klient może zyskać nawet 4 200 zł premii. Jak zyskać premię do 4 200 zł? 1) 200 zł za założenie firmy z bankiem i zawarcie jednym wnioskiem umowy o konto z kartą Mastercard albo za zdalne zawarcie umowy o konto z kartą (jeśli firma już istnieje) oraz wykonanie w ciągu 2 kolejnych miesięcy kalendarzowych po miesiącu zawarcia umowy przelewu do ZUS na min. 300 zł, 2) do 2 000 zł zwrotu za transakcje bezgotówkowe kartą debetową Mastercard (również telefonem lub zegarkiem za pośrednictwem Google Pay, Garmin Pay lub Apple Pay) – 4% wartości transakcji miesięcznie (min. 20 zł, maks. 200 zł miesięcznie przez 10 miesięcy), pod warunkiem wykonywania w każdym z tych miesięcy transakcji na min. 500 zł oraz przelewu do ZUS na min. 300 zł; okres 10 miesięcy liczony jest od pierwszego pełnego miesiąca kalendarzowego po miesiącu zawarcia umowy o konto i kartę, 3) do 800 zł za zawarcie umowy o terminal płatniczy banku i przyjmowanie na nim płatności na kwotę min. 1 000 zł miesięcznie (10 miesięcy x 80 zł), pod warunkiem wykonywania w każdym z tych miesięcy przelewu do ZUS na min. 300 zł; okres 10 miesięcy liczony jest od pierwszego pełnego miesiąca kalendarzowego po miesiącu zawarcia umowy o konto i kartę, 4) 600 zł za zawarcie i uruchomienie kredytu w rachunku bieżącym na kwotę min. 5 000 zł oraz wykonanie z konta co najmniej 1 przelewu do ZUS na min. 300 zł, 5) 600 zł za zawarcie pierwszej umowy leasingu z Pekao Leasing Sp. z o.o., wykonanie z konta min. 1 przelewu na rzecz leasingodawcy tytułem spłaty raty leasingowej oraz wykonanie z konta co najmniej 1 przelewu do ZUS na min. 300 zł.",
+          "bonus_opis": "Za założenie Konta Biznes z Żubrem w promocji „Premia do 4 200 zł z Kontem Biznes z Żubrem” Klient może zyskać nawet 4 200 zł premii. Jak zyskać premię do 4 200 zł? 1) 200 zł za założenie firmy z bankiem i zawarcie jednym wnioskiem umowy o konto z kartą Mastercard albo za zdalne zawarcie umowy o konto z kartą (jeśli firma już istnieje) oraz wykonanie w ciągu 2 kolejnych miesięcy kalendarzowych po miesiącu zawarcia umowy przelewu do ZUS na min. 300 zł, 2) do 2 000 zł zwrotu za transakcje bezgotówkowe kartą debetową Mastercard (również telefonem lub zegarkiem za pośrednictwem Google Pay, Garmin Pay lub Apple Pay) – 4% wartości transakcji miesięcznie (min. 20 zł, maks. 200 zł miesięcznie przez 10 miesięcy), pod warunkiem wykonywania w każdym z tych miesięcy transakcji na min. 500 zł oraz przelewu do ZUS na min. 300 zł; okres 10 miesięcy liczony jest od pierwszego pełnego miesiąca kalendarzowego po miesiącu zawarcia umowy o konto i kartę, 3) do 800 zł za zawarcie umowy o terminal płatniczy banku i przyjmowanie na nim płatności na kwotę min. 1 000 zł miesięcznie (10 miesięcy x 80 zł), pod warunkiem wykonywania w każdym z tych miesięcy przelewu do ZUS na min. 300 zł; okres 10 miesięcy liczony jest od pierwszego pełnego miesiąca kalendarzowego po miesiącu zawarcia umowy o konto i kartę, 4) 600 zł za zawarcie i uruchomienie kredytu w rachunku bieżącym na kwotę min. 5 000 zł oraz wykonanie z konta co najmniej 1 przelewu do ZUS na min. 300 zł, 5) 600 zł za zawarcie pierwszej umowy leasingu z Pekao Leasing Sp. z o.o., wykonanie z konta min. 1 przelewu na rzecz leasingodawcy tytułem spłaty raty leasingowej oraz wykonanie z konta co najmniej 1 przelewu do ZUS na min. 300 zł.",
+          "promo_terms": "",
+          "representative_example": "Za założenie Konta Biznes z Żubrem w promocji „Premia do 4 200 zł z Kontem Biznes z Żubrem” Klient może zyskać nawet 4 200 zł premii. Jak zyskać premię do 4 200 zł? 1) 200 zł za założenie firmy z bankiem i zawarcie jednym wnioskiem umowy o konto z kartą Mastercard albo za zdalne zawarcie umowy o konto z kartą (jeśli firma już istnieje) oraz wykonanie w ciągu 2 kolejnych miesięcy kalendarzowych po "
+        }
       }
     ],
     "karty_kredytowe": [
@@ -1917,10 +1927,10 @@
         "produkt": "Karta Kredytowa Provi Sm@rt",
         "glowna_wartosc": "1000 zł",
         "haczyki": [
-          "Zwroty 100 zł przez 6 miesięcy za transakcje min. 500 zł oraz bonus 100-400 zł za aktywność w pierwszym cyklu."
+          "transakcje min. 500 zł miesięcznie przez 6 miesięcy + warunek limitu karty"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=6070&ha=376936182&r=3118",
+        "link": "https://leadstar.pl/c?pid=112247&tid=6070&ha=376936182&r=729",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 1000.0,
@@ -1928,9 +1938,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1000 zł",
-            "conditions_summary": "Zwroty 100 zł przez 6 miesięcy za transakcje min. 500 zł oraz bonus 100-400 zł za aktywność w pierwszym cyklu.",
-            "confidence": 0.96,
-            "reason": "Szczegółowo opisana promocja z łączną sumą premii do 1000 zł.",
+            "conditions_summary": "transakcje min. 500 zł miesięcznie przez 6 miesięcy + warunek limitu karty",
+            "confidence": 0.95,
+            "reason": "Szczegółowo opisany system zwrotów",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2047,10 +2057,10 @@
         "produkt": "Karta Kredytowa z Żubrem",
         "glowna_wartosc": "500 zł",
         "haczyki": [
-          "Wpisz kod BONUS, wykonaj transakcje na min. 1000 zł w miesiącu dołączenia do programu lub kolejnym, zgody marketingowe."
+          "transakcje min. 1000 zł, zgoda marketingowa, kod BONUS"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=4977&ha=1944717384&r=7124",
+        "link": "https://leadstar.pl/c?pid=112247&tid=4977&ha=1944717384&r=9721",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 500.0,
@@ -2058,9 +2068,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "500 zł",
-            "conditions_summary": "Wpisz kod BONUS, wykonaj transakcje na min. 1000 zł w miesiącu dołączenia do programu lub kolejnym, zgody marketingowe.",
+            "conditions_summary": "transakcje min. 1000 zł, zgoda marketingowa, kod BONUS",
             "confidence": 0.98,
-            "reason": "Oferta zawiera jasne warunki zdobycia 500 zł premii gotówkowej.",
+            "reason": "Jasno określona kwota bonusu i warunki",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2157,20 +2167,20 @@
         "produkt": "Karta AXI Card SMART",
         "glowna_wartosc": "Cashback / Punkty",
         "haczyki": [
-          "Sprawdź warunki premii na stronie."
+          "brak informacji o nagrodzie"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3310&ha=3106300178&r=2610",
+        "link": "https://leadstar.pl/c?pid=112247&tid=3310&ha=3106300178&r=2551",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": null,
             "reward_currency": "PLN",
-            "reward_type": "unknown",
+            "reward_type": "none",
             "is_cash_reward": false,
-            "display_value": "Karta AXI Card SMART",
-            "conditions_summary": "",
-            "confidence": 0.0,
-            "reason": "",
+            "display_value": "brak danych",
+            "conditions_summary": "brak informacji o nagrodzie",
+            "confidence": 0.9,
+            "reason": "Brak danych w ofercie",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2205,20 +2215,20 @@
         "produkt": "Karta Kredytowa",
         "glowna_wartosc": "Cashback / Punkty",
         "haczyki": [
-          "Sprawdź warunki premii na stronie."
+          "brak informacji o nagrodzie"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=5014&ha=3139556552&r=262",
+        "link": "https://leadstar.pl/c?pid=112247&tid=5014&ha=3139556552&r=5243",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": null,
             "reward_currency": "PLN",
-            "reward_type": "unknown",
+            "reward_type": "none",
             "is_cash_reward": false,
-            "display_value": "Karta Kredytowa",
-            "conditions_summary": "",
-            "confidence": 0.0,
-            "reason": "",
+            "display_value": "brak danych",
+            "conditions_summary": "brak informacji o nagrodzie",
+            "confidence": 0.9,
+            "reason": "Brak danych w ofercie",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2272,14 +2282,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13352999",
+      "id": "td_prog_266119",
       "kategoria": "Sklepy",
       "marka": "ABRA MEBLE (PL)",
       "logo": "http://hst.tradedoubler.com/file/266119/ABRA_logo_new_size2019.jpg",
-      "opis": "Nowa gazetka - Czas na urządzanie ogrodu!",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(266119)ttid(13)url(https://www.abra-meble.pl/aktualne-gazetki/kwitnace_okazje_gazetka_ogrod_czerwiec_2026?utm_source=TD&utm_medium=bannery&utm_campaign=gazetka_ogrod_270626)",
-      "wazny_do": "1781647199000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie ABRA MEBLE (PL)!",
+      "kod": "SPRAWDŹ",
+      "link": "https://www.abra-meble.pl/",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5803",
@@ -2320,26 +2330,6 @@
       "kod": "SPRAWDŹ",
       "link": "https://leadstar.pl/c?pid=112247&tid=5154&ha=2261228906&r=7016",
       "wazny_do": ""
-    },
-    {
-      "id": "td_13319840",
-      "kategoria": "Sklepy",
-      "marka": "Allegro PAY",
-      "logo": "http://hst.tradedoubler.com/file/326478/loga/100x100.png",
-      "opis": "3x30 PLN - Za udaną aktywację Allegro Pay, klient otrzyma 3 kupony o wartości 30 zł do wykorzystania na Allegro",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(326478)ttid(13)url(https://allegro.pl/zobacz/kupony-allegro-pay-3x30zl)",
-      "wazny_do": "1781560799000"
-    },
-    {
-      "id": "td_13354231",
-      "kategoria": "Sklepy",
-      "marka": "Allegro.pl (PL)",
-      "logo": "https://hst.tradedoubler.com/file/288386/loga/allegro_logo_zmienione.jpg",
-      "opis": "Allegro Days - Allegro Days",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(288386)ttid(13)url(https://allegro.pl/strefaokazji/allegro-days)",
-      "wazny_do": "1781560799000"
     },
     {
       "id": "prog_ls_6187",
@@ -2388,7 +2378,7 @@
       "logo": "//img.leadmax.pl/logo/d88f7eeb7c2740e348559651c90c2f7d.png",
       "opis": "Rabat w wysokości 10%.",
       "kod": "AC10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6204&ha=1768755623&r=4876",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6204&ha=1768755623&r=1644",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -2492,44 +2482,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13080385",
+      "id": "td_prog_383093",
       "kategoria": "Sklepy",
       "marka": "BINGOSPA.PL",
       "logo": "https://hst.tradedoubler.com/file/383093/common/p-e29ede947b65bc8b029c4d25467b2826.png",
-      "opis": "Taniej specjalnie dla Twoich włosów - Płynna keratyna z biotyną, kwasem hialuronowym, L-cysteiną i witaminą C do pielęgnacji włosów wymagających regeneracji, zniszczonych zabiegami fryzjerskimi, łamliwych, przesuszonych, cienkich. Można ją stosować również włosów zdrowych w celu ochrony przed czynnikami zewnętrznymi i zniszczeniami.",
-      "kod": "K18",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(383093)ttid(13)url(https://bingospa.pl/Plynna-keratyna-100-z-biotyna-kwasem-hialuronowym-L-cysteina-i-witamina-C-BINGOSPA.html)",
-      "wazny_do": "1793055600000"
-    },
-    {
-      "id": "td_13080373",
-      "kategoria": "Sklepy",
-      "marka": "BINGOSPA.PL",
-      "logo": "https://hst.tradedoubler.com/file/383093/common/p-e29ede947b65bc8b029c4d25467b2826.png",
-      "opis": "20% Aktywne serum do twarzy z kwasem hialuronowym - Aktywne serum algowe BINGOSPA o właściwościach intensywnie nawilżających i odżywiających, przeznaczone jest do pielęgnacji suchej i przesuszonej skóry, jak i wymagającej intensywnej regeneracji oraz permanentnego nawilżania",
-      "kod": "S20",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(383093)ttid(13)url(https://bingospa.pl/aktywne-serum-algowe-kwasem-hialuronowym-BingoSpa.html)",
-      "wazny_do": "1793055600000"
-    },
-    {
-      "id": "td_13080363",
-      "kategoria": "Sklepy",
-      "marka": "BINGOSPA.PL",
-      "logo": "https://hst.tradedoubler.com/file/383093/common/p-e29ede947b65bc8b029c4d25467b2826.png",
-      "opis": "30% Liposomowy krem na noc przeciwzmarszczkowy ujędrniający - Krem do pielęgnacji cery dojrzałej. Intensywna naprawa skóry, ujędrnianie i efekt liftingu w czasie snu.",
-      "kod": "L30",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(383093)ttid(13)url(https://bingospa.pl/Liposomowy-krem-przeciwzmarszczkowy-z-formula-ujedrniajaca-na-noc-BingoSpa.html)",
-      "wazny_do": "1793055600000"
-    },
-    {
-      "id": "td_12978545",
-      "kategoria": "Sklepy",
-      "marka": "BINGOSPA.PL",
-      "logo": "https://hst.tradedoubler.com/file/383093/common/p-e29ede947b65bc8b029c4d25467b2826.png",
-      "opis": "Promocje - Strona zawiera aktualne promocje dostępne w programie BINGOSPA.PL",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(383093)ttid(13)url(https://bingospa.pl/pl/promotions)",
-      "wazny_do": "1788127200000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie BINGOSPA.PL!",
+      "kod": "SPRAWDŹ",
+      "link": "https://bingospa.pl",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_2695",
@@ -2542,14 +2502,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13353131",
+      "id": "td_prog_337106",
       "kategoria": "Sklepy",
       "marka": "Bitdefender",
       "logo": "https://grow-platform.tradedoubler.com/uploads/organizations/2345794/p-a773a52f701484d72f76639d489f2451.jpg",
-      "opis": "Zaoszczędź 10% w Bitdefender - Zaoszczędź 10% w Bitdefender do 04/07/2026",
-      "kod": "V63VE3EG",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(337106)ttid(13)url()",
-      "wazny_do": "1783116000000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Bitdefender!",
+      "kod": "SPRAWDŹ",
+      "link": "https://bitdefender.pl/",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5945",
@@ -2708,7 +2668,7 @@
       "logo": "//img.leadmax.pl/logo/37ffc5bfd3f76e033d0eab300f849c10.png",
       "opis": "Dodatkowy rabat w wysokości 10% przy zakupie co najmniej 2 rzeczy.",
       "kod": "EXTRA10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6119&ha=1799953454&r=3376",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6119&ha=1799953454&r=6147",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -2832,44 +2792,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13319626",
+      "id": "td_prog_369095",
       "kategoria": "Sklepy",
       "marka": "Cocolita",
       "logo": "https://hst.tradedoubler.com/file/369095/common/p-1ac6b93c2bcab19bdceece1d546bb0a1.png",
-      "opis": "brelok za 1 grosz - Promocja na produkty KIKO Milano: przy zakupie dwóch produktów marki klient może otrzymać brelok za 1 grosz.",
-      "kod": "",
-      "link": "https://link.cocolita.pl/click?a(3480929)p(369095)ttid(13)url(https://www.cocolita.pl/promo-przy-zakupie-dwoch-produktow-marki-kiko-milano-brelok-za-1grosz)",
-      "wazny_do": "1785535199000"
-    },
-    {
-      "id": "td_13319625",
-      "kategoria": "Sklepy",
-      "marka": "Cocolita",
-      "logo": "https://hst.tradedoubler.com/file/369095/common/p-1ac6b93c2bcab19bdceece1d546bb0a1.png",
-      "opis": "Darmowa dostawa Orlen Paczki - Dostawa za darmo do Orlen Paczki przy zakupach od 79 zł.",
-      "kod": "",
-      "link": "https://link.cocolita.pl/click?a(3480929)p(369095)ttid(13)url(https://www.cocolita.pl/dostawa-za-darmo-do-orlen-paczki-za-zakupy-od-79-zl)",
-      "wazny_do": "1795042799000"
-    },
-    {
-      "id": "td_13319624",
-      "kategoria": "Sklepy",
-      "marka": "Cocolita",
-      "logo": "https://hst.tradedoubler.com/file/369095/common/p-1ac6b93c2bcab19bdceece1d546bb0a1.png",
-      "opis": "Darmowa dostawa Pocztex od 129zł - Promocja obejmuje darmową dostawę do punktu lub automatu Pocztex dla zamówień od 129 zł.",
-      "kod": "",
-      "link": "https://link.cocolita.pl/click?a(3480929)p(369095)ttid(13)url(http://www.cocolita.pl/promo-darmowa-dostawa-do-punktu-lub-automatu-pocztex-od-129-zl)",
-      "wazny_do": "1795042799000"
-    },
-    {
-      "id": "td_13319623",
-      "kategoria": "Sklepy",
-      "marka": "Cocolita",
-      "logo": "https://hst.tradedoubler.com/file/369095/common/p-1ac6b93c2bcab19bdceece1d546bb0a1.png",
-      "opis": "20% przy zakupach za min.150 zł - d deal20 daje 20% rabatu przy zakupach za minimum 150 zł na produkty z oficjalnej listy promocyjnej.",
-      "kod": "deal20",
-      "link": "https://link.cocolita.pl/click?a(3480929)p(369095)ttid(13)url(https://www.cocolita.pl/zrob-zakupy-za-min-150-zl-i-odbierz-rabat-20-z-kodem-deal20)",
-      "wazny_do": "1795042799000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Cocolita!",
+      "kod": "SPRAWDŹ",
+      "link": "https://www.cocolita.pl/",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5066",
@@ -3028,18 +2958,8 @@
       "logo": "//img.leadmax.pl/logo/51e588faa7e0a968336c62afe2e548f9.png",
       "opis": "Rabat w wysokości 42 zł na produkty z nowej kolekcji, z wyjątkiem produktów z serii „Collaborations” przy minimalnej wartości zamówienia 495 zł.",
       "kod": "DESIGUAL-PL",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3047&ha=1780692524&r=8866",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3047&ha=1780692524&r=7442",
       "wazny_do": "2027-03-31 23:59:59"
-    },
-    {
-      "id": "td_13352954",
-      "kategoria": "Sklepy",
-      "marka": "DHL PL",
-      "logo": "https://hst.tradedoubler.com/file/297931/100x35.jpg",
-      "opis": "30% na przesyłki krajowe - -30% na przesyłki krajowe Z OKAZJI DNIA OJCA",
-      "kod": "DLATATY",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(297931)ttid(13)url(https://dhl24.com.pl/dlaciebie?utm_source=dhlparcel&utm_medium=referral)",
-      "wazny_do": "1782856799000"
     },
     {
       "id": "prog_ls_6083",
@@ -3178,28 +3098,18 @@
       "logo": "//img.leadmax.pl/logo/133d75386aaf3196a3d891c8afcf105a.png",
       "opis": "Rabat w wysokości 8% na letnią wyprzedaż.",
       "kod": "EFAFFSUMMER8",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6181&ha=2083915303&r=9459",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6181&ha=2083915303&r=802",
       "wazny_do": "2026-07-02 23:59:59"
     },
     {
-      "id": "td_13319926",
+      "id": "td_prog_361331",
       "kategoria": "Sklepy",
       "marka": "EcoFlow EU",
       "logo": "https://hst.tradedoubler.com/file/361331/common/p-8c6630112b72e0efd1dc1c0fdb7190ae.png",
-      "opis": "Kupon EcoFlow 8% zniżki na letnią wyprzedaż - Kupon EcoFlow 8% zniżki na letnią wyprzedaż",
-      "kod": "EFAFFSUMMER8",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(361331)ttid(13)url()",
-      "wazny_do": "1782943200000"
-    },
-    {
-      "id": "td_13119770",
-      "kategoria": "Sklepy",
-      "marka": "EcoFlow EU",
-      "logo": "https://hst.tradedoubler.com/file/361331/common/p-8c6630112b72e0efd1dc1c0fdb7190ae.png",
-      "opis": "Zaoszczędź 5% w EcoFlow EU - Zaoszczędź 5% w EcoFlow EU do 01/01/2027",
-      "kod": "EFEUAFF5",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(361331)ttid(13)url(https://eu.ecoflow.com)",
-      "wazny_do": "1798758000000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie EcoFlow EU!",
+      "kod": "SPRAWDŹ",
+      "link": "https://eu.ecoflow.com/",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_4439",
@@ -3218,7 +3128,7 @@
       "logo": "//img.leadmax.pl/logo/ebe14cab3b0079e9233ccba10a546510.png",
       "opis": "Rabat w wysokości 50 zł przy zamówieniu za min. 500 zł.",
       "kod": "EDAXO50",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3201&ha=3916271795&r=4965",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3201&ha=3916271795&r=8686",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -3320,16 +3230,6 @@
       "kod": "SPRAWDŹ",
       "link": "https://leadstar.pl/c?pid=112247&tid=3241&ha=1929171621&r=6239",
       "wazny_do": ""
-    },
-    {
-      "id": "td_13353170",
-      "kategoria": "Sklepy",
-      "marka": "Eobuwie (PL)",
-      "logo": "http://hst.tradedoubler.com/file/274960/logo/eobuwie-100x35.jpg",
-      "opis": "SALE DO -50% Bestsellery SALE BE - SALE DO -50% Bestsellery SALE BESTSELLERY SALE 10% zwrotu w MODIVOclub gold",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(274960)ttid(13)url(https://eobuwie.com.pl/c/eobuwie/omnibus_discount:~r-5-59)",
-      "wazny_do": "1782165599000"
     },
     {
       "id": "prog_ls_2719",
@@ -3472,56 +3372,6 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13320006",
-      "kategoria": "Sklepy",
-      "marka": "Ferryhopper PL",
-      "logo": "https://hst.tradedoubler.com/file/377698/common/p-951b14690adfe5eda9b4ebf77acbac6a.jpg",
-      "opis": "20% zniżki na promy w Grecji - 20% zniżki na bilety powrotne z Aegean Sea Lines. Trasy objęte promocją: Ateny (Pireus) – Serifos; Ateny (Pireus) – Sifnos; Ateny (Pireus) – Milos; Ateny (Pireus) – Kimolos",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(382550)ttid(13)url(https://www.ferryhopper.com/pl/blog/special-offers/aegean-sea-lines-cyclades-offer)",
-      "wazny_do": "1782856799000"
-    },
-    {
-      "id": "td_13320003",
-      "kategoria": "Sklepy",
-      "marka": "Ferryhopper PL",
-      "logo": "https://hst.tradedoubler.com/file/377698/common/p-951b14690adfe5eda9b4ebf77acbac6a.jpg",
-      "opis": "Do 25% zniżki z Viking Line - Podróż do Tallina z rabatem do 25% Trasy objęte promocją: Helsinki–Tallinn",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(382550)ttid(13)url(https://www.ferryhopper.com/pl/blog/special-offers/helsinki-tallinn-25-discount-viking-line)",
-      "wazny_do": "1782165599000"
-    },
-    {
-      "id": "td_13320001",
-      "kategoria": "Sklepy",
-      "marka": "Ferryhopper PL",
-      "logo": "https://hst.tradedoubler.com/file/377698/common/p-951b14690adfe5eda9b4ebf77acbac6a.jpg",
-      "opis": "Zniżki na promy w Grecji - 20% zniżki na bilety w obie strony z Magic Sea Ferries. Trasy objęte ofertą: Lavrio - Serifos; Lavrio - Sifnos",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(382550)ttid(13)url(https://www.ferryhopper.com/pl/blog/special-offers/sifnos-serifos-offer-magic-sea-ferries)",
-      "wazny_do": "1790719199000"
-    },
-    {
-      "id": "td_13320000",
-      "kategoria": "Sklepy",
-      "marka": "Ferryhopper PL",
-      "logo": "https://hst.tradedoubler.com/file/377698/common/p-951b14690adfe5eda9b4ebf77acbac6a.jpg",
-      "opis": "Zniżka na Promy Ibiza - 15% zniżki na bilety pasażerskie w obie strony.Trasy: Ibiza ↔ Formentera",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(382550)ttid(13)url(https://www.ferryhopper.com/pl/blog/special-offers/20-percent-discount-trasmapi-formentera)",
-      "wazny_do": "1782511199000"
-    },
-    {
-      "id": "td_13319999",
-      "kategoria": "Sklepy",
-      "marka": "Ferryhopper PL",
-      "logo": "https://hst.tradedoubler.com/file/377698/common/p-951b14690adfe5eda9b4ebf77acbac6a.jpg",
-      "opis": "Wakacje w Grecji? - 20% zniżki na bilety powrotne i 50% na bilety powrotne tego samego dnia Trasy objęte ofertą: Pireus – Hydra; Pireus – Spetses",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(382550)ttid(13)url(https://www.ferryhopper.com/pl/blog/special-offers/hydra-spetses-ferry-offers-magic-sea-ferries-alpha-lines)",
-      "wazny_do": "1782856799000"
-    },
-    {
       "id": "prog_ls_4839",
       "kategoria": "Sklepy",
       "marka": "Fielmann",
@@ -3622,24 +3472,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13081389",
+      "id": "td_prog_373994",
       "kategoria": "Sklepy",
       "marka": "Fonia Telecom - SIM card with Internet up to 500 GB/month",
       "logo": "https://hst.tradedoubler.com/file/373994/common/p-1c1a2d0c660a131a2b5170189d4bfd6c.png",
-      "opis": "Dwa miesiące za darmo przy wyborze pakietu rocznego - Warunki: Przenieś lub weź nowy numer w pakiecie rocznym, a zapłacisz tylko za 10 miesięcy. Dwa miesiące są za darmo. Promocja nalicza się automatycznie po wybraniu pakietu rocznego.",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(373994)ttid(13)url(https://fonia.app/dwa-miesiace-za-darmo/)",
-      "wazny_do": "1782770400000"
-    },
-    {
-      "id": "td_13081388",
-      "kategoria": "Sklepy",
-      "marka": "Fonia Telecom - SIM card with Internet up to 500 GB/month",
-      "logo": "https://hst.tradedoubler.com/file/373994/common/p-1c1a2d0c660a131a2b5170189d4bfd6c.png",
-      "opis": "50% w pierwszym miesiącu przy wyborze pakietu miesięcznego - Warunki: Przenieś lub weź nowy numer w pakiecie miesięcznym, a zapłacisz połowę ceny w pierwszym miesiącu. Promocja nalicza się automatycznie po wybraniu pakietu miesięcznego.",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(373994)ttid(13)url(https://fonia.app/zamow-sim-50-procent-taniej/)",
-      "wazny_do": "1782770400000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Fonia Telecom - SIM card with Internet up to 500 GB/month!",
+      "kod": "SPRAWDŹ",
+      "link": "https://fonia.app/zamow-sim/",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_6154",
@@ -3692,14 +3532,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13129131",
+      "id": "td_prog_356307",
       "kategoria": "Sklepy",
       "marka": "GetYourGuide.pl",
       "logo": "https://hst.tradedoubler.com/file/356307/AN_GYG_Banner_800x200.png",
-      "opis": "Obniżki nawet do -50% - Obniżki nawet do -50% na lokalne atrakcje z GetYourGuide",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(356307)ttid(13)url(https://www.getyourguide.pl/s/?dealsFirst=true)",
-      "wazny_do": "1786399199000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie GetYourGuide.pl!",
+      "kod": "SPRAWDŹ",
+      "link": "https://www.getyourguide.com/pl-pl",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5067",
@@ -3892,14 +3732,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13319508",
+      "id": "td_prog_325689",
       "kategoria": "Sklepy",
       "marka": "HP Store PL",
       "logo": "https://hst.tradedoubler.com/file/325689/logo_hp_zmniejszone.png",
-      "opis": "Majowe Promocje - Oszczędź do 40% - złap słońce i rabaty",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(325689)ttid(13)url(https://www.hp.com/pl-pl/shop/)",
-      "wazny_do": "1781560799000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie HP Store PL!",
+      "kod": "SPRAWDŹ",
+      "link": "https://www.hp.com/pl-pl/shop/",
+      "wazny_do": ""
     },
     {
       "id": "td_prog_306442",
@@ -3942,24 +3782,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13141066",
+      "id": "td_prog_398473",
       "kategoria": "Sklepy",
       "marka": "In&Out",
       "logo": "https://hst.tradedoubler.com/file/398473/common/p-b752d7a5e0c64f4748fdf13e6c47319b.png",
-      "opis": "Darmowa wysyłka przy zakupach z In&Out - Darmowa wysyłka przy zakupach z In&Out do 30/09/2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(398473)ttid(13)url(https://inoutdecor.pl)",
-      "wazny_do": "1790719200000"
-    },
-    {
-      "id": "td_13141065",
-      "kategoria": "Sklepy",
-      "marka": "In&Out",
-      "logo": "https://hst.tradedoubler.com/file/398473/common/p-b752d7a5e0c64f4748fdf13e6c47319b.png",
-      "opis": "Zaoszczędź 10% w In&Out - Zaoszczędź 10% w In&Out do 30/09/2026",
-      "kod": "IO10TD",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(398473)ttid(13)url(https://inoutdecor.pl)",
-      "wazny_do": "1790719200000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie In&Out!",
+      "kod": "SPRAWDŹ",
+      "link": "https://inoutdecor.pl",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_3051",
@@ -4182,14 +4012,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13138356",
+      "id": "td_prog_398004",
       "kategoria": "Sklepy",
       "marka": "kk ELEGANTE",
       "logo": "https://hst.tradedoubler.com/file/398004/common/p-7b0ed494efaa201f9c44512da8856723.png",
-      "opis": "PWIT10 - 10% off Bielizna",
-      "kod": "PWIT10",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(398004)ttid(13)url()",
-      "wazny_do": "1805555996000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie kk ELEGANTE!",
+      "kod": "SPRAWDŹ",
+      "link": "https://kkelegante.pl",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5794",
@@ -4252,16 +4082,6 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13121386",
-      "kategoria": "Sklepy",
-      "marka": "Konsimo.pl",
-      "logo": "http://hst.tradedoubler.com/file/306177/logo-kosimo.png",
-      "opis": "Uzyskaj zniżkę 30,00 zł od wartości koszyka 150 zł w Konsimo.pl - Uzyskaj zniżkę 30,00 zł od wartości koszyka 150 zł w Konsimo.pl",
-      "kod": "53JGJE76",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306177)ttid(13)url(https://konsimo.pl)",
-      "wazny_do": "1799190000000"
-    },
-    {
       "id": "prog_ls_5286",
       "kategoria": "Sklepy",
       "marka": "Kopalnia Zdrowia",
@@ -4290,26 +4110,6 @@
       "kod": "SPRAWDŹ",
       "link": "https://www.krakvet.pl/",
       "wazny_do": ""
-    },
-    {
-      "id": "td_13320112",
-      "kategoria": "Sklepy",
-      "marka": "KrolMateracy PL",
-      "logo": "http://hst.tradedoubler.com/file/325996/370619765-logo_fiolet_100x75.png",
-      "opis": "Zaoszczędź 50% w KrolMateracy PL - Druga poduszka 50% taniej! Zadbaj o jeszcze lepszy sen i podwój komfort każdej nocy. Dodaj do koszyka dwie poduszki i wpisz kod PODUSZKA50 — rabat naliczy się automatycznie.",
-      "kod": "PODUSZKA50",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(325996)ttid(13)url(https://krolmateracy.pl/promocje/druga-poduszka-50-taniej/)",
-      "wazny_do": "1782770400000"
-    },
-    {
-      "id": "td_13320111",
-      "kategoria": "Sklepy",
-      "marka": "KrolMateracy PL",
-      "logo": "http://hst.tradedoubler.com/file/325996/370619765-logo_fiolet_100x75.png",
-      "opis": "Kup materac Tempur i odbierz poduszkę za 1zł - Przy zakupie materaca Tempur możesz odebrać poduszkę Tempur za 1 zł! Dodaj produkty do koszyka i użyj kodu rabatowego.",
-      "kod": "SET1ZL",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(325996)ttid(13)url(https://krolmateracy.pl/promocje/kup-materac-odbierz-poduszke/)",
-      "wazny_do": "1782770400000"
     },
     {
       "id": "prog_ls_5438",
@@ -4418,7 +4218,7 @@
       "logo": "//img.leadmax.pl/logo/a6932d71858c0b47ce15b688906ba1e6.png",
       "opis": "Rabat w wysokości 15% na wszystko.",
       "kod": "SUMMER15",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5373&ha=4004573528&r=6436",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5373&ha=4004573528&r=6874",
       "wazny_do": "2026-06-11 23:59:59"
     },
     {
@@ -4502,14 +4302,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13354220",
+      "id": "td_prog_298327",
       "kategoria": "Sklepy",
       "marka": "Lidl Sklep Online",
       "logo": "https://hst.tradedoubler.com/file/298327/logo200x200.jpg",
-      "opis": "Rabaty do 30% na zestawy produkt - Rabaty do 30% na zestawy produktowe",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(298327)ttid(13)url(https://www.lidl.pl/c/rabaty-do-30-na-wybrane-zestawy/a10095646)",
-      "wazny_do": "1781819999000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Lidl Sklep Online!",
+      "kod": "SPRAWDŹ",
+      "link": "https://www.lidl.pl/",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5959",
@@ -4548,7 +4348,7 @@
       "logo": "//img.leadmax.pl/logo/9af17051489684cb5cdd1061d68f07e2.png",
       "opis": "Rabat w wysokości 5% na cała ofertę. Użytkownik może wykorzystać kod tylko raz.",
       "kod": "W8XU1GM1",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6199&ha=2266668611&r=5933",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6199&ha=2266668611&r=350",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -4628,7 +4428,7 @@
       "logo": "//img.leadmax.pl/logo/ac5ae8fdf9f3d4b56f5ec90e353cac64.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "SUNNY10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5540&ha=1280625692&r=8521",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5540&ha=1280625692&r=3246",
       "wazny_do": "2026-08-31 23:59:59"
     },
     {
@@ -4728,7 +4528,7 @@
       "logo": "//img.leadmax.pl/logo/f7f1d4418af8e788b62c4e192c4d077d.png",
       "opis": "Setki książek w promocyjnej cenie 16,90 zł.",
       "kod": "BOOK16",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4876&ha=3908905548&r=9261",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4876&ha=3908905548&r=9756",
       "wazny_do": "2026-06-21 23:59:59"
     },
     {
@@ -4738,7 +4538,7 @@
       "logo": "//img.leadmax.pl/logo/f7f1d4418af8e788b62c4e192c4d077d.png",
       "opis": "MIESIĄC DARMOWEJ DOSTAWY do punktów, automatów oraz kurierem Pocztex!",
       "kod": "POCZTEX",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4876&ha=3908905548&r=8749",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4876&ha=3908905548&r=5738",
       "wazny_do": "2026-06-30 23:59:59"
     },
     {
@@ -4748,7 +4548,7 @@
       "logo": "//img.leadmax.pl/logo/f7f1d4418af8e788b62c4e192c4d077d.png",
       "opis": "Letnia Wyprzedaż Książek: Książki już od 5 zł – setki tytułów w wyjątkowych cenach.",
       "kod": "LATO5",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4876&ha=3908905548&r=7527",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4876&ha=3908905548&r=5013",
       "wazny_do": "2026-07-05 23:59:59"
     },
     {
@@ -4848,7 +4648,7 @@
       "logo": "//img.leadmax.pl/logo/3c69feb44f13872f4be58da6ad0135ea.png",
       "opis": "Rabat w wysokości 10%.",
       "kod": "newsletter10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6123&ha=2808968737&r=903",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6123&ha=2808968737&r=2338",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -4858,7 +4658,7 @@
       "logo": "//img.leadmax.pl/logo/3c69feb44f13872f4be58da6ad0135ea.png",
       "opis": "Rabat w wysokości 20%.",
       "kod": "ostatnidzwonek20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6123&ha=2808968737&r=3553",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6123&ha=2808968737&r=158",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -4932,16 +4732,6 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13353169",
-      "kategoria": "Sklepy",
-      "marka": "Modivo.pl",
-      "logo": "https://hst.tradedoubler.com/file/300315/100x75.png",
-      "opis": "SALE DO -50% - SALE DO -50% Bestsellery SALE BESTSELLERY SALE 10% zwrotu w MODIVOclub gold",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(300315)ttid(13)url(https://modivo.pl/c/modivo/omnibus_discount:~r-5-59)",
-      "wazny_do": "1782165599000"
-    },
-    {
       "id": "prog_ls_3978",
       "kategoria": "Sklepy",
       "marka": "Moi Mili",
@@ -4998,7 +4788,7 @@
       "logo": "//img.leadmax.pl/logo/59f049cea878f66f138f7e8e685d0ebf.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "GOODMOOD10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6128&ha=3502065456&r=9086",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6128&ha=3502065456&r=3256",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -5008,7 +4798,7 @@
       "logo": "//img.leadmax.pl/logo/59f049cea878f66f138f7e8e685d0ebf.png",
       "opis": "Darmowa wysyłka.",
       "kod": "FREESHIPTD",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6128&ha=3502065456&r=2564",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6128&ha=3502065456&r=1562",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -5028,7 +4818,7 @@
       "logo": "//img.leadmax.pl/logo/df4fcf9c8ac713d6ce155aa377bf405c.png",
       "opis": "Dodatkowy rabat w wysokości 20% na wszystkie produkty kempingowe Mountain Warehouse.",
       "kod": "KEMPING20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4727&ha=1931010726&r=1203",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4727&ha=1931010726&r=1489",
       "wazny_do": "2026-06-16 23:59:59"
     },
     {
@@ -5182,24 +4972,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13220341",
+      "id": "td_prog_401550",
       "kategoria": "Sklepy",
       "marka": "Noro",
       "logo": "https://hst.tradedoubler.com/file/401550/common/p-96f579475773d98d7d49d25de49d3984.png",
-      "opis": "Darmowa wysyłka od 299 zł przy zakupach z Noro - Darmowa wysyłka od 299 zł przy zakupach z Noro do 23/05/2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(401550)ttid(13)url(https://noroshop.pl/)",
-      "wazny_do": "1779487200000"
-    },
-    {
-      "id": "td_13220340",
-      "kategoria": "Sklepy",
-      "marka": "Noro",
-      "logo": "https://hst.tradedoubler.com/file/401550/common/p-96f579475773d98d7d49d25de49d3984.png",
-      "opis": "Zaoszczędź 10% w Noro - Zaoszczędź 10% w Noro do 01/10/2026",
-      "kod": "N10TD",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(401550)ttid(13)url(https://noroshop.pl/)",
-      "wazny_do": "1790805600000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Noro!",
+      "kod": "SPRAWDŹ",
+      "link": "https://noroshop.pl/",
+      "wazny_do": ""
     },
     {
       "id": "5066",
@@ -5208,7 +4988,7 @@
       "logo": "//img.leadmax.pl/logo/b6c91dccc130e5b51935d4acfd2ebedd.png",
       "opis": "Rabat w wysokości 20% na kosmetyki przy zakupach powyżej 85 zł.",
       "kod": "BLACK",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3057&ha=2709513609&r=8812",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3057&ha=2709513609&r=7627",
       "wazny_do": "2026-06-14 23:59:59"
     },
     {
@@ -5218,7 +4998,7 @@
       "logo": "//img.leadmax.pl/logo/9a75b83cd45943e8f09164b9dae2e68d.png",
       "opis": "Rabat w wysokości 10% na pierwszy zakup dla wszystkich subskrypcji.",
       "kod": "NOVIM10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=7773",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=9748",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5228,7 +5008,7 @@
       "logo": "//img.leadmax.pl/logo/9a75b83cd45943e8f09164b9dae2e68d.png",
       "opis": "Rabat w wysokości 15% na pierwszy zakup dla wszystkich subskrypcji.",
       "kod": "NOVIM15",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=9323",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=4166",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5238,7 +5018,7 @@
       "logo": "//img.leadmax.pl/logo/9a75b83cd45943e8f09164b9dae2e68d.png",
       "opis": "Rabat w wysokości 5% na pierwszy zakup dla wszystkich subskrypcji.",
       "kod": "NOVIM5",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=3828",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=7558",
       "wazny_do": "2028-02-01 23:59:59"
     },
     {
@@ -5248,7 +5028,7 @@
       "logo": "//img.leadmax.pl/logo/9a75b83cd45943e8f09164b9dae2e68d.png",
       "opis": "Rabat w wysokości 20% na wszystkie plany subskrypcji z płatnościami ratalnymi dla uczniów rezerwujących 2 lub więcej zajęć w tygodniu.",
       "kod": "NOVASUMMER",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=6542",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=4403",
       "wazny_do": "2026-08-31 23:59:59"
     },
     {
@@ -5298,7 +5078,7 @@
       "logo": "//img.leadmax.pl/logo/67af74ef133dcd2038bab1c81aa95fb8.png",
       "opis": "Rabat w wysokości 200 zł na pierścionki zaręczynowe. Bez minimalnego progu zamówienia.",
       "kod": "YES200",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6184&ha=3033958743&r=1809",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6184&ha=3033958743&r=9808",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -5488,7 +5268,7 @@
       "logo": "//img.leadmax.pl/logo/78ed29ac35ad40c6a3dc94352d3c3a2d.png",
       "opis": "Rabat w wysokości 35%. Rabat łączy się z produktami w promocji i programem lojalnościowym.",
       "kod": "HELLO35",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4224&ha=1719711697&r=5201",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4224&ha=1719711697&r=1939",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5502,14 +5282,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13084809",
+      "id": "td_prog_393043",
       "kategoria": "Sklepy",
       "marka": "Papique PL",
       "logo": "https://hst.tradedoubler.com/file/393043/common/p-a4ca2df72f8c3c8bd3ea1d5b3d05f735.png",
-      "opis": "4RARE 4% w Papique PL - Zaoszczędź 4% w Papique PL do 06/11/2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(393043)ttid(13)url()",
-      "wazny_do": "1793919600000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Papique PL!",
+      "kod": "SPRAWDŹ",
+      "link": "https://papique.com/pl",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5941",
@@ -5552,14 +5332,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13319814",
+      "id": "td_prog_398550",
       "kategoria": "Sklepy",
       "marka": "Petbiotic",
       "logo": "https://hst.tradedoubler.com/file/398550/common/p-f7978037fcc1bf2c713177d4423b0798.png",
-      "opis": "Zaoszczędź 12% w Petbiotic - Zaoszczędź 12% w Petbiotic do 20/06/2026",
-      "kod": "PET12",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(398550)ttid(13)url()",
-      "wazny_do": "1781906400000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Petbiotic!",
+      "kod": "SPRAWDŹ",
+      "link": "https://petbiotic.pl/",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5292",
@@ -5580,16 +5360,6 @@
       "kod": "SPRAWDŹ",
       "link": "https://leadstar.pl/c?pid=112247&tid=2365&ha=2691292740&r=5344",
       "wazny_do": ""
-    },
-    {
-      "id": "td_13354276",
-      "kategoria": "Sklepy",
-      "marka": "Philips Hue PL - AFF",
-      "logo": "https://hst.tradedoubler.com/file/385882/PhilipsHueLogo_100x35.png",
-      "opis": "Hue Sports Live - Hue Sports Live",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(385882)ttid(13)url(https://www.philips-hue.com/pl-pl/products/promotions/sport-experience)",
-      "wazny_do": "1782079199000"
     },
     {
       "id": "prog_ls_4331",
@@ -5732,124 +5502,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13354128",
+      "id": "td_prog_306380",
       "kategoria": "Sklepy",
       "marka": "Przyjacielekawy.pl",
       "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Do -20% taniej na butelki na wodę i butelki termiczne - Do -20% taniej na butelki na wodę i butelki termiczne. Promocja trwa do 22.06.2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url(https://www.przyjacielekawy.pl/c/naczynia/butelki-na-napoje/?onsale=tak)",
-      "wazny_do": "1784671200000"
-    },
-    {
-      "id": "td_13354127",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Ekspresy kolbowe + bon upominkowy o wartości 215 zł - Ekspresy kolbowe + bon upominkowy o wartości 215 zł. Promocja trwa do 30.06.2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url(https://www.przyjacielekawy.pl/c/ekspresy-do-kawy/ekspresy-kolbowe/)",
-      "wazny_do": "1785362400000"
-    },
-    {
-      "id": "td_13354126",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Odkryj nowe smaki dzięki kawie single origin. Do -30% - Odkryj nowe smaki dzięki kawie single origin. Do -30%. Promocja trwa do 30.06.2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url(https://www.przyjacielekawy.pl/c/kawa/kawa-specialty/)",
-      "wazny_do": "1785362400000"
-    },
-    {
-      "id": "td_13354125",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Najlepsze oferty do Twojej letniej kuchni. Ekspresy kapsułkowe - Najlepsze oferty do Twojej letniej kuchni. Ekspresy kapsułkowe. Promocja trwa do 30.06.2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url(https://www.przyjacielekawy.pl/c/ekspresy-do-kawy/na-kapsulki/)",
-      "wazny_do": "1785362400000"
-    },
-    {
-      "id": "td_13354124",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Gorące letnie promocje na ekspresy do kawy. Do -50% - Gorące letnie promocje na ekspresy do kawy. Do -50%. Promocja trwa do 30.06.2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url(https://www.przyjacielekawy.pl/c/ekspresy-do-kawy/)",
-      "wazny_do": "1785362400000"
-    },
-    {
-      "id": "td_13354123",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Do -40% na urządzenia kuchenne CHiATO - Do -40% na urządzenia kuchenne CHiATO. Promocja trwa do 30.06.2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url(https://www.przyjacielekawy.pl/c/chiato/)",
-      "wazny_do": "1785362400000"
-    },
-    {
-      "id": "td_13354122",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Do -25% Ekspres Nespresso® - Do -25% Ekspres Nespresso®. Promocja trwa do 30.06.2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url(https://www.przyjacielekawy.pl/c/ekspresy-do-kawy/na-kapsulki/ekspresy-do-kawy-nespresso/)",
-      "wazny_do": "1785362400000"
-    },
-    {
-      "id": "td_13354121",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Do -50% na kawy - Do -50% na kawy. Promocja trwa do 30.06.2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url(https://www.przyjacielekawy.pl/c/kawa/)",
-      "wazny_do": "1785362400000"
-    },
-    {
-      "id": "td_10862031",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "15 zł od 200 zł kosz na utrzymanie w Przyjacielekawy.pl - 15 zł od 200 zł kosz na utrzymanie w Przyjacielekawy.pl do 31/12/2025",
-      "kod": "maint2024",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url()",
-      "wazny_do": "1796252400000"
-    },
-    {
-      "id": "td_10862030",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "80 zł z koszyka 2000 zł w Przyjacielekawy.pl - 80 zł z koszyka 2000 zł w Przyjacielekawy.pl do 31/12/2025",
-      "kod": "CFBASKET",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url()",
-      "wazny_do": "1796252400000"
-    },
-    {
-      "id": "td_10862029",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "Uzyskaj zniżkę zł 50.00 w Przyjacielekawy.pl - 50 zł z koszyka 700 zł w Przyjacielekawy.pl do 31/12/2025",
-      "kod": "k50aw700a / CFDISCOUNT",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url()",
-      "wazny_do": "1796252400000"
-    },
-    {
-      "id": "td_10862028",
-      "kategoria": "Sklepy",
-      "marka": "Przyjacielekawy.pl",
-      "logo": "http://hst.tradedoubler.com/file/306380/Przyjacielekawy.png",
-      "opis": "25 zł od koszyka 500 zł - 25 zł od koszyka 500 zł w Przyjacielekawy.pl do 31/12/2025",
-      "kod": "k25aw300a / CFSALE",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(306380)ttid(13)url()",
-      "wazny_do": "1796252400000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Przyjacielekawy.pl!",
+      "kod": "SPRAWDŹ",
+      "link": "https://www.przyjacielekawy.pl/",
+      "wazny_do": ""
     },
     {
       "id": "4749",
@@ -5858,7 +5518,7 @@
       "logo": "//img.leadmax.pl/logo/19653e82a9cf6d40e47a063ff5e0185a.png",
       "opis": "Rabat w wysokości 25 zł dla nowych użytkowników, uwzględnia on zniżkę na dwa pierwsze zamówienia.",
       "kod": "2psiakarma25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5302&ha=3470125136&r=9825",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5302&ha=3470125136&r=9111",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5878,7 +5538,7 @@
       "logo": "//img.leadmax.pl/logo/e031f52cfd14dfeb6a6ea19718f35b12.png",
       "opis": "Rabat w wysokości 30% na wybrane produkty.",
       "kod": "DAD30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=622",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=9801",
       "wazny_do": "2026-06-23 23:59:59"
     },
     {
@@ -5888,7 +5548,7 @@
       "logo": "//img.leadmax.pl/logo/e031f52cfd14dfeb6a6ea19718f35b12.png",
       "opis": "Rabat w wysokości 20% na wybrane walizki, plecaki i torby.",
       "kod": "LATO20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=3692",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=804",
       "wazny_do": "2026-06-17 23:59:59"
     },
     {
@@ -5912,14 +5572,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13087446",
+      "id": "td_prog_393394",
       "kategoria": "Sklepy",
       "marka": "Qathu PL",
       "logo": "https://hst.tradedoubler.com/file/393394/common/p-e9e3954b3b9250ad03a72d6ebeb44d73.png",
-      "opis": "4QATHU Zaoszczędź 4% w Qathu PL - 4QATHU Zaoszczędź 4% w Qathu PL do 25/11/2026",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(393394)ttid(13)url()",
-      "wazny_do": "1795561200000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Qathu PL!",
+      "kod": "SPRAWDŹ",
+      "link": "https://qathu.com/pl",
+      "wazny_do": ""
     },
     {
       "id": "td_prog_398552",
@@ -5992,84 +5652,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13354210",
+      "id": "td_prog_118512",
       "kategoria": "Sklepy",
       "marka": "RTV EURO AGD (PL)",
       "logo": "https://hst.tradedoubler.com/file/118512/EURO_logo_apla_Yellow_2.png",
-      "opis": "Kaski rowerowe - Zadbaj o bezpieczeństwo na rowerze, hulajnodze, rolkach",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(118512)ttid(13)url(https://www.euro.com.pl/kaski.bhtml)",
-      "wazny_do": "1782856799000"
-    },
-    {
-      "id": "td_13354209",
-      "kategoria": "Sklepy",
-      "marka": "RTV EURO AGD (PL)",
-      "logo": "https://hst.tradedoubler.com/file/118512/EURO_logo_apla_Yellow_2.png",
-      "opis": "Wentylatory Raven - Gorąco? Sprawdź ofertę wentylatorów, klimatorów i cyrkulatorów",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(118512)ttid(13)url(https://www.euro.com.pl/promowane.bhtml?listing=raven-cyrkulatory-wentylatory-klimatory)",
-      "wazny_do": "1781647199000"
-    },
-    {
-      "id": "td_13354129",
-      "kategoria": "Sklepy",
-      "marka": "RTV EURO AGD (PL)",
-      "logo": "https://hst.tradedoubler.com/file/118512/EURO_logo_apla_Yellow_2.png",
-      "opis": "Zyskaj kod w RTV euro AGD! - Zyskaj kod na kolejne zakupy 50 zł za każde wydane 500 zł",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(118512)ttid(13)url(https://www.euro.com.pl/cms/50za500.bhtml)",
-      "wazny_do": "1781215199000"
-    },
-    {
-      "id": "td_13354102",
-      "kategoria": "Sklepy",
-      "marka": "RTV EURO AGD (PL)",
-      "logo": "https://hst.tradedoubler.com/file/118512/EURO_logo_apla_Yellow_2.png",
-      "opis": "2 raty gratis! 30 rat 0% RRSO 0% - 2 raty gratis! 30 rat 0% RRSO 0% na wybrane telewizory w RTV euro AGD",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(118512)ttid(13)url(https://www.euro.com.pl/cms/2-raty-gratis-telewizory.bhtml)",
-      "wazny_do": "1781647199000"
-    },
-    {
-      "id": "td_13319963",
-      "kategoria": "Sklepy",
-      "marka": "RTV EURO AGD (PL)",
-      "logo": "https://hst.tradedoubler.com/file/118512/EURO_logo_apla_Yellow_2.png",
-      "opis": "Aż 40 rat 0% w Euro! - Aż 40 rat 0% i do września nie płacisz",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(118512)ttid(13)url(https://www.euro.com.pl/cms/zakupy-na-raty.bhtml)",
-      "wazny_do": "1782338399000"
-    },
-    {
-      "id": "td_13319962",
-      "kategoria": "Sklepy",
-      "marka": "RTV EURO AGD (PL)",
-      "logo": "https://hst.tradedoubler.com/file/118512/EURO_logo_apla_Yellow_2.png",
-      "opis": "Apple do 30 rat 0% - Apple do 30 rat 0% w RTV euro AGD",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(118512)ttid(13)url(https://www.euro.com.pl/cms/apple-na-raty.bhtml)",
-      "wazny_do": "1782338399000"
-    },
-    {
-      "id": "td_13319960",
-      "kategoria": "Sklepy",
-      "marka": "RTV EURO AGD (PL)",
-      "logo": "https://hst.tradedoubler.com/file/118512/EURO_logo_apla_Yellow_2.png",
-      "opis": "Oczyszczacze i nawilżacze! - Sezon na pyłki? Zadbaj o powietrze, którym oddychasz. Oczyszczacze i nawilżacze w RTV euro AGD!",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(118512)ttid(13)url(https://www.euro.com.pl/cms/oczyszczacze-sojusznicy-w-walce-z-alergia.bhtml)",
-      "wazny_do": "1788213599000"
-    },
-    {
-      "id": "td_13319696",
-      "kategoria": "Sklepy",
-      "marka": "RTV EURO AGD (PL)",
-      "logo": "https://hst.tradedoubler.com/file/118512/EURO_logo_apla_Yellow_2.png",
-      "opis": "Wybierz hulajnogę - Wybierz hulajnogę lub rower elektryczny w RTV euro AGD",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(118512)ttid(13)url(https://www.euro.com.pl/cms/strefa-mobility.bhtml)",
-      "wazny_do": "1782856799000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie RTV EURO AGD (PL)!",
+      "kod": "SPRAWDŹ",
+      "link": "http://www.euro.com.pl/",
+      "wazny_do": ""
     },
     {
       "id": "td_prog_333068",
@@ -6122,14 +5712,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13353004",
+      "id": "td_prog_383711",
       "kategoria": "Sklepy",
       "marka": "SeePlaces (PL)",
       "logo": "https://hst.tradedoubler.com/file/383711/800x280logo.png",
-      "opis": "Więcej wakacyjnych wspomnień - Więcej wakacyjnych wspomnień - do -26% na wybrane kierunki",
-      "kod": "",
-      "link": "https://ad.seeplaces.com/click?a(3480929)p(383711)ttid(13)url(https://seeplaces.com/pl/promocje/wiecej-wakacyjnych-wspomnien/)",
-      "wazny_do": "1781560799000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie SeePlaces (PL)!",
+      "kod": "SPRAWDŹ",
+      "link": "https://seeplaces.com/pl/",
+      "wazny_do": ""
     },
     {
       "id": "1734",
@@ -6138,7 +5728,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na całą ofertę sklepu.",
       "kod": "SEKRECIK-20-LEAD",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9549",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7847",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6148,7 +5738,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na masażery do ciała i twarzy.",
       "kod": "MASAŻERY-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4612",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3058",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6158,7 +5748,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na Body Painting.",
       "kod": "BodyPainting-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2289",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8369",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6168,7 +5758,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na cellulit tj.: suplementy, kosmetyki, rajstopy i pończochy.",
       "kod": "CELLULIT-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4755",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3569",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6178,7 +5768,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroczki i koszulki nocne.",
       "kod": "SZLAFROCZKI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=6704",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=471",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6188,7 +5778,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na rajstopy, pończochy, leginsy, podkolanówki, paski do pończoch, rajstopy.",
       "kod": "PIEKNENOGI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2526",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=5949",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6198,7 +5788,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na komplety bielizny.",
       "kod": "KOMPLETY-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3158",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=793",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6208,7 +5798,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 25% na gry dla dorosłych.",
       "kod": "GRY-25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9166",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8367",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6218,7 +5808,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na peruki.",
       "kod": "PERUKI-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8346",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2650",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6228,7 +5818,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na buty na platformie.",
       "kod": "BUTYPLATFORMA-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3552",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7537",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6238,7 +5828,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na piżamy damskie.",
       "kod": "PIZAMYDAMSKIE-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=6767",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7413",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6248,7 +5838,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na piżamy męskie.",
       "kod": "PIZAMYMESKIE-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=1058",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8829",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6258,7 +5848,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroki męskie.",
       "kod": "SZLAFROKI-20M",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9239",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=5297",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6268,7 +5858,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroki damskie.",
       "kod": "SZLAFROKI-20D",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7373",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7973",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6278,7 +5868,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na świece do masażu.",
       "kod": "MASAZESWIECA-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3492",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7370",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6288,7 +5878,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na śmieszne gadżety.",
       "kod": "SMIESZNE-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3202",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4442",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6298,7 +5888,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na śmieszne kubki, kubki imprezowe, kubki na prezenty .",
       "kod": "KUBKI-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3081",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=60",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6308,7 +5898,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na majteczki dla kobiet tj. stringi, figi, szorty.",
       "kod": "MAJTECZKI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=5162",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7422",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6340,26 +5930,6 @@
       "kod": "SPRAWDŹ",
       "link": "https://leadstar.pl/c?pid=112247&tid=5093&ha=3847391925&r=8776",
       "wazny_do": ""
-    },
-    {
-      "id": "td_13320115",
-      "kategoria": "Sklepy",
-      "marka": "Senpo",
-      "logo": "https://hst.tradedoubler.com/file/392080/150x150.png",
-      "opis": "Kup materac Tempur i odbierz wybraną poduszkę za 1 zł - Rabat w koszyku naliczy się automatycznie po wpisaniu kodu promocyjnego.",
-      "kod": "SET1ZL",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(392080)ttid(13)url(https://senpo.pl/promocje/kup-materac-odbierz-poduszke/)",
-      "wazny_do": "1782770400000"
-    },
-    {
-      "id": "td_13320113",
-      "kategoria": "Sklepy",
-      "marka": "Senpo",
-      "logo": "https://hst.tradedoubler.com/file/392080/150x150.png",
-      "opis": "Druga poduszka 50% taniej! - Druga poduszka 50% taniej! Zadbaj o jeszcze lepszy sen i podwój komfort każdej nocy. Dodaj do koszyka dwie poduszki i wpisz kod PODUSZKA50 — rabat naliczy się automatycznie.",
-      "kod": "PODUSZKA50",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(392080)ttid(13)url(https://senpo.pl/promocje/druga-poduszka-50-taniej/)",
-      "wazny_do": "1782770400000"
     },
     {
       "id": "prog_ls_4880",
@@ -6442,84 +6012,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13132071",
+      "id": "td_prog_396546",
       "kategoria": "Sklepy",
       "marka": "sklep.yanosik.pl",
       "logo": "https://hst.tradedoubler.com/file/396546/common/p-c9bcb325ee33420d3d14f05094815ad9.jpg",
-      "opis": "Darmowa wysyłka dla Yanbox GO - Darmowa wysyłka dla Yanbox GO",
-      "kod": "dyskrecja",
-      "link": "https://link.sklep.yanosik.pl/click?a(3480929)p(396546)ttid(13)url(https://www.sklep.yanosik.pl/)",
-      "wazny_do": "1787867999000"
-    },
-    {
-      "id": "td_13132070",
-      "kategoria": "Sklepy",
-      "marka": "sklep.yanosik.pl",
-      "logo": "https://hst.tradedoubler.com/file/396546/common/p-c9bcb325ee33420d3d14f05094815ad9.jpg",
-      "opis": "Darmowa wysyłka dla produktów SP - Darmowa wysyłka dla produktów SP Connect",
-      "kod": "moto",
-      "link": "https://link.sklep.yanosik.pl/click?a(3480929)p(396546)ttid(13)url(https://www.sklep.yanosik.pl/)",
-      "wazny_do": "1787867999000"
-    },
-    {
-      "id": "td_13132069",
-      "kategoria": "Sklepy",
-      "marka": "sklep.yanosik.pl",
-      "logo": "https://hst.tradedoubler.com/file/396546/common/p-c9bcb325ee33420d3d14f05094815ad9.jpg",
-      "opis": "Darmowa wysyłka dla alkomatów - Darmowa wysyłka dla alkomatów",
-      "kod": "promil",
-      "link": "https://link.sklep.yanosik.pl/click?a(3480929)p(396546)ttid(13)url(https://www.sklep.yanosik.pl/)",
-      "wazny_do": "1787867999000"
-    },
-    {
-      "id": "td_13132068",
-      "kategoria": "Sklepy",
-      "marka": "sklep.yanosik.pl",
-      "logo": "https://hst.tradedoubler.com/file/396546/common/p-c9bcb325ee33420d3d14f05094815ad9.jpg",
-      "opis": "Darmowa wysyłka dla wideorejestr - Darmowa wysyłka dla wideorejestratorów",
-      "kod": "widzeCie",
-      "link": "https://link.sklep.yanosik.pl/click?a(3480929)p(396546)ttid(13)url(https://www.sklep.yanosik.pl/)",
-      "wazny_do": "1787867999000"
-    },
-    {
-      "id": "td_13132067",
-      "kategoria": "Sklepy",
-      "marka": "sklep.yanosik.pl",
-      "logo": "https://hst.tradedoubler.com/file/396546/common/p-c9bcb325ee33420d3d14f05094815ad9.jpg",
-      "opis": "Darmowa wysyłka dla Yanosika GTM - Darmowa wysyłka dla Yanosika GTM",
-      "kod": "vip",
-      "link": "https://link.sklep.yanosik.pl/click?a(3480929)p(396546)ttid(13)url(https://www.sklep.yanosik.pl/)",
-      "wazny_do": "1787867999000"
-    },
-    {
-      "id": "td_13132065",
-      "kategoria": "Sklepy",
-      "marka": "sklep.yanosik.pl",
-      "logo": "https://hst.tradedoubler.com/file/396546/common/p-c9bcb325ee33420d3d14f05094815ad9.jpg",
-      "opis": "Darmowa wysyłka dla Yanosika GTR - Darmowa wysyłka dla Yanosika GTR",
-      "kod": "misiaki",
-      "link": "https://link.sklep.yanosik.pl/click?a(3480929)p(396546)ttid(13)url(https://www.sklep.yanosik.pl/)",
-      "wazny_do": "1787867999000"
-    },
-    {
-      "id": "td_13132064",
-      "kategoria": "Sklepy",
-      "marka": "sklep.yanosik.pl",
-      "logo": "https://hst.tradedoubler.com/file/396546/common/p-c9bcb325ee33420d3d14f05094815ad9.jpg",
-      "opis": "Darmowa wysyłka dla Yanosika XS - Darmowa wysyłka dla Yanosika XS",
-      "kod": "suszarka",
-      "link": "https://link.sklep.yanosik.pl/click?a(3480929)p(396546)ttid(13)url(https://www.sklep.yanosik.pl/)",
-      "wazny_do": "1787867999000"
-    },
-    {
-      "id": "td_13132063",
-      "kategoria": "Sklepy",
-      "marka": "sklep.yanosik.pl",
-      "logo": "https://hst.tradedoubler.com/file/396546/common/p-c9bcb325ee33420d3d14f05094815ad9.jpg",
-      "opis": "Darmowa wysyłka dla Yanosika RS - Darmowa wysyłka dla Yanosika RS",
-      "kod": "rewolucja",
-      "link": "https://link.sklep.yanosik.pl/click?a(3480929)p(396546)ttid(13)url(https://www.sklep.yanosik.pl/)",
-      "wazny_do": "1787867999000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie sklep.yanosik.pl!",
+      "kod": "SPRAWDŹ",
+      "link": "https://www.sklep.yanosik.pl/",
+      "wazny_do": ""
     },
     {
       "id": "td_prog_397732",
@@ -6568,7 +6068,7 @@
       "logo": "//img.leadmax.pl/logo/42616220c3701d0827e4b2b1a7c6a9c8.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "ls10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6115&ha=2931421487&r=7318",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6115&ha=2931421487&r=8796",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6588,7 +6088,7 @@
       "logo": "//img.leadmax.pl/logo/7842a1d7c296ca69923752d1f1e0183e.png",
       "opis": "Rabat w wysokości 10% na nową kolekcję SS 2026.",
       "kod": "SOTHO10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5806&ha=961682026&r=4366",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5806&ha=961682026&r=7175",
       "wazny_do": "2026-07-30 09:59:59"
     },
     {
@@ -6598,7 +6098,7 @@
       "logo": "//img.leadmax.pl/logo/dd41cfb1de23d07783e8062b2c03053b.png",
       "opis": "Rabat w wysokości 5% bez minimalnej kwoty zakupów.",
       "kod": "5LATO26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=7650",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=5404",
       "wazny_do": "2026-07-21 23:59:59"
     },
     {
@@ -6632,24 +6132,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13354100",
+      "id": "td_prog_307803",
       "kategoria": "Sklepy",
       "marka": "Sportstylestory.com(PL)",
       "logo": "http://hst.tradedoubler.com/file/307803/logo2022/sss-logo-200x70.png",
-      "opis": "SALE up to - 50% - Wyprzedaż",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(307803)ttid(13)url(https://sportstylestory.com/sale,1841,0.html)",
-      "wazny_do": "1782251999000"
-    },
-    {
-      "id": "td_13319752",
-      "kategoria": "Sklepy",
-      "marka": "Sportstylestory.com(PL)",
-      "logo": "http://hst.tradedoubler.com/file/307803/logo2022/sss-logo-200x70.png",
-      "opis": "30% - 30% rabatu od aktualnych cen na wybrane buty",
-      "kod": "UA30",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(307803)ttid(13)url(https://sportstylestory.com/afiliacja,2463,0.html)",
-      "wazny_do": "1781474399000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Sportstylestory.com(PL)!",
+      "kod": "SPRAWDŹ",
+      "link": "https://sportstylestory.com/",
+      "wazny_do": ""
     },
     {
       "id": "td_prog_329493",
@@ -6678,7 +6168,7 @@
       "logo": "//img.leadmax.pl/logo/11eed128a0991b08bbd3a40f9023b504.png",
       "opis": "Rabat w wysokości 10% na wszystkie produkty nieprzecenione.",
       "kod": "RABAT10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5947&ha=970226296&r=3086",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5947&ha=970226296&r=5122",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6818,7 +6308,7 @@
       "logo": "//img.leadmax.pl/logo/4bc61e5cd76120211a4964fcc781871e.png",
       "opis": "Dodatkowy rabat w wysokości 10% dla członków Klubu tołpa.",
       "kod": "KLUB10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3261&ha=1060402094&r=7339",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3261&ha=1060402094&r=1737",
       "wazny_do": "2026-06-15 23:59:59"
     },
     {
@@ -6898,7 +6388,7 @@
       "logo": "//img.leadmax.pl/logo/6c5f8dbfe78dd72e5c1de3d72f66e413.png",
       "opis": "Rabat w wysokości 10% na pierwsze zamówieniu przy zakupach za min. 199 zł. Nie dotyczy towarów przecenionych.",
       "kod": "PLUS10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5467&ha=365673139&r=2341",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5467&ha=365673139&r=799",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -7058,7 +6548,7 @@
       "logo": "//img.leadmax.pl/logo/0b7d7e2f077920a2a744cc3e1bb5918c.png",
       "opis": "Rabat w wysokości 25%. Rabat dotyczy oznaczonych produktów przy wartości koszyka 299 zł. Nie łączy się z innymi kodami i promocjami.",
       "kod": "OUTLET26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6224&ha=614838444&r=5518",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6224&ha=614838444&r=1925",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -7148,18 +6638,18 @@
       "logo": "//img.leadmax.pl/logo/139a349ca1947429cb9846cc83ed6803.png",
       "opis": "Rabat w wysokości 5% na cały koszyk przy zakupach za min. 249,90 zł.",
       "kod": "LEAWITTCHEN5_26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2368&ha=1492720373&r=1139",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2368&ha=1492720373&r=7738",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
-      "id": "td_13137991",
+      "id": "td_prog_397830",
       "kategoria": "Sklepy",
       "marka": "Wklady24.pl v2",
       "logo": "https://hst.tradedoubler.com/file/397830/common/p-dba882348c36aa7b89ff10b01ca81e7f.png",
-      "opis": "10%! - Rabat na zakupy w naszym sklepie 10%, obowiązuje od wartości koszyka 150 zł. Darmowa dostawa na wkłady, znicze, kwiaty. Najniższe ceny w sieci. Wejdź, zobacz, kup. KOD: WIOSNA10",
-      "kod": "WIOSNA10",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(397830)ttid(13)url()",
-      "wazny_do": "1782770400000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Wklady24.pl v2!",
+      "kod": "SPRAWDŹ",
+      "link": "https://wklady24.pl/",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_4993",
@@ -7228,7 +6718,7 @@
       "logo": "//img.leadmax.pl/logo/6d0ec4fd81ddf742f0b157e969cd0a41.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "ALERABAT10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=9725",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=6813",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -7238,7 +6728,7 @@
       "logo": "//img.leadmax.pl/logo/6d0ec4fd81ddf742f0b157e969cd0a41.png",
       "opis": "Rabat w wysokości 5% na wszystko.",
       "kod": "RABAT5",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=6402",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=5882",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -7258,18 +6748,18 @@
       "logo": "//img.leadmax.pl/logo/ee9e8166d81defde648da24066415c7e.png",
       "opis": "Rabat w wysokości 85 zł przy zakupach za min. 210 zł.",
       "kod": "DISCOUNT",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5608&ha=3596476246&r=7628",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5608&ha=3596476246&r=6403",
       "wazny_do": "2026-06-14 23:59:59"
     },
     {
-      "id": "td_13353045",
+      "id": "td_prog_271896",
       "kategoria": "Sklepy",
       "marka": "Zadowolenie.pl (PL)",
       "logo": "https://hst.tradedoubler.com/file/271896/zdw_logo_300x300.jpg",
-      "opis": "TV Toshiba taniej o 1000zł! - TV Toshiba taniej o 1000zł! Oferta ważna do wyczerpania zapasów.",
-      "kod": "",
-      "link": "https://a.zadowolenie.pl/click?a(3480929)p(271896)ttid(13)url(https://www.zadowolenie.pl/toshiba-telewizor-qled-55-cali-55qv7g63dg)",
-      "wazny_do": "1781733599000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie Zadowolenie.pl (PL)!",
+      "kod": "SPRAWDŹ",
+      "link": "https://zadowolenie.pl",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5804",
@@ -7302,604 +6792,14 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13220513",
+      "id": "td_prog_383097",
       "kategoria": "Sklepy",
       "marka": "zigbuy.pl",
       "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "300 zł zniżki na zamówienia powyżej 6000 zł - Skorzystaj z kodu rabatowego i zaoszczędź 300zł na zakupach!",
-      "kod": "NmVAZkd6",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1801350000000"
-    },
-    {
-      "id": "td_13220512",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "200 zł zniżki na zamówienia powyżej 4000 zł - Skorzystaj z kodu rabatowego i zaoszczędź 200 zł na zakupach!",
-      "kod": "EGN7dWBn",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1806444000000"
-    },
-    {
-      "id": "td_13220511",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "150 zł rabatu na Hydrofast C300 - Skorzystaj z kodu rabatowego i zaoszczędź 150 zł na zakupach!",
-      "kod": "pRxGLuFn",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/dyspensery-do-wody/1186-hydrofast-c300-nablatowy-oczyszczacz-wody-z-odwrocona-osmoza-uv-czarny-6978338963288.html)",
-      "wazny_do": "1801350000000"
-    },
-    {
-      "id": "td_13215485",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "180 zł rabatu na Ausom DT2 Pro - Skorzystaj z kodu rabatowego i zaoszczędź 180 zł na zakupach!",
-      "kod": "4vuuLCSn",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/hulajnogi-elektryczne/1056-ausom-dt2-pro-hulajnoga-elektryczna-silnik-2200w-6975606877964.html)",
-      "wazny_do": "1790719200000"
-    },
-    {
-      "id": "td_13215484",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "150 zł rabatu na Ausom L2 Max - Skorzystaj z kodu rabatowego i zaoszczędź 150 zł na zakupach!",
-      "kod": "J5QDZAIr",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/hulajnogi-elektryczne/1137-ausom-l2-max-dwusilnikowy-skuter-elektryczny-2000-w-silniki-ciemnoszary-6975606877926.html)",
-      "wazny_do": "1790719200000"
-    },
-    {
-      "id": "td_13215483",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "80 zł rabatu na Ausom L1 - Skorzystaj z kodu rabatowego i zaoszczędź 80 zł na zakupach!",
-      "kod": "7sjTuqa5",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/hulajnogi-elektryczne/1139-ausom-l1-skuter-elektryczny-silnik-800-w-szary-6978338961529.html)",
-      "wazny_do": "1790719200000"
-    },
-    {
-      "id": "td_13215482",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "120 zł rabatu na Eleglide T2 - Uzyskaj zniżkę zł 120.00 w zigbuy.pl",
-      "kod": "g4Mkntt7",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/e-mobilnosc/1048-eleglide-t2-rower-elektryczny-silnik-bezszczotkowy-250-w-ciemnoszary-6975606877759.html)",
-      "wazny_do": "1790719200000"
-    },
-    {
-      "id": "td_13215481",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "120 zł rabatu na Eleglide T1 ST - Skorzystaj z kodu rabatowego i zaoszczędź 120 zł na zakupach!",
-      "kod": "FXTVk3n5",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/e-mobilnosc/1115-eleglide-t1-st-rower-elektryczny-akumulator-36v-13ah-wyjmowany-szary-6978338963561.html)",
-      "wazny_do": "1788127200000"
-    },
-    {
-      "id": "td_13215480",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "120 zł rabatu na Eleglide T1 - Skorzystaj z kodu rabatowego i zaoszczędź 120 zł na zakupach!",
-      "kod": "vuWADLhr",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/e-mobilnosc/1130-eleglide-t1-highstep-rower-elektryczny-zasieg-do-100-km-czarny-6978338963547.html)",
-      "wazny_do": "1788127200000"
-    },
-    {
-      "id": "td_13215479",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł rabatu na Narwal Freo X10 Pro - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "D2IqRWBk",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-robot/790-narwal-freo-x10-pro-robot-vacuum-mop-bialy-6972075735726.html)",
-      "wazny_do": "1788127200000"
-    },
-    {
-      "id": "td_13215477",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "15 zł rabatu na Hydrofast PO-100 - Skorzystaj z kodu rabatowego i zaoszczędź 15 zł na zakupach!",
-      "kod": "JmqcHsnt",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/-kuchnia-i-gotowanie/1125-hydrofast-po-100-przenosny-ekspres-do-kawy-cisnienie-15-barow-6978338962977.html)",
-      "wazny_do": "1788127200000"
-    },
-    {
-      "id": "td_13215476",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "15 zł rabatu na JIGOO J200 - Skorzystaj z kodu rabatowego i zaoszczędź 15 zł na zakupach!",
-      "kod": "gXWCI5DJ",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-do-lozek/1045-jigoo-j200-odkurzacz-do-roztoczy-bialy-6976818760136.html)",
-      "wazny_do": "1788127200000"
-    },
-    {
-      "id": "td_13215475",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "20 zł rabatu na JIGOO T600 - Skorzystaj z kodu rabatowego i zaoszczędź 20 zł na zakupach!",
-      "kod": "5tjQC8Kk",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-do-lozek/308-odkurzacz-do-lozek-i-materacy-jigoo-t600-design-dwoch-pojemnikow-szary-6976818760075.html)",
-      "wazny_do": "1788127200000"
-    },
-    {
-      "id": "td_13131752",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "15 zł rabatu na ProfiCook PC-FR 1286 H - Skorzystaj z kodu rabatowego i zaoszczędź 15 zł na zakupach!",
-      "kod": "VJJY8ykX",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/frytkownica-powietrzna/366-proficook-pc-fr-1286-h-frytkownica-beztluszczowa-moc-1700w-czarny-4006160128611.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131751",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "10 zł rabatu na Tefal BL811D 1200W 1.5L Mikser - Skorzystaj z kodu rabatowego i zaoszczędź 10 zł na zakupach!",
-      "kod": "eXhU74p9",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/blendery/520-tefal-bl811d-1200w-1-5l-mikser-stolowy-srebrny-3016661149832.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131750",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "10 zł rabatu na Black & Decker ADV1200 - Skorzystaj z kodu rabatowego i zaoszczędź 10 zł na zakupach!",
-      "kod": "b3G9e2XA",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz/459-black-decker-adv1200-odkurzacz-reczny-idealny-do-czyszczenia-samochodu-szary-5035048617441.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131749",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł rabatu na JIMMY AF3 - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "sJSiaC75",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/frytkownica-powietrzna/84-frytkownica-beztluszczowa-2-w-1-jimmy-af3-widoczny-garnek-do-smazenia-4l-6946499313129.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131748",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł rabatu na JIMMY HW9 - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "hkuixtJJ",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-do-czyszczenia-na-mokro-i-sucho/80-bezprzewodowy-odkurzacz-do-sprzatania-na-sucho-i-mokro-jimmy-hw9-6946499312832.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131747",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "25 zł rabatu na Jimmy JV35 - Skorzystaj z kodu rabatowego i zaoszczędź 25 zł na zakupach!",
-      "kod": "LjFsvsir",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-do-lozek/119-odkurzacz-do-materacy-zwalczajacy-roztocza-jimmy-jv35-z-moca-znamionowa-700w-6946499308446.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131746",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "40 zł rabatu na Philips Essential HD9280/70 - Skorzystaj z kodu rabatowego i zaoszczędź 40 zł na zakupach!",
-      "kod": "AXIVf2tP",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/frytkownica-powietrzna/339-philips-essential-hd928070-2000w-frytkownica-beztluszczowa-czarny-8710103975571.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131745",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "15 zł rabatu na Bosch MFQ36460 - Skorzystaj z kodu rabatowego i zaoszczędź 15 zł na zakupach!",
-      "kod": "FKZdWRej",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/mikser/495-bosch-mfq36460-mikser-stojacy-450w-bialy-4242002723075.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131744",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "300 zł rabatu na JIMMY PW11 Pro Max - Skorzystaj z kodu rabatowego i zaoszczędź 300 zł na zakupach!",
-      "kod": "Sx7hjzhc",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-do-czyszczenia-na-mokro-i-sucho/88-bezprzewodowy-odkurzacz-i-myjka-5-w-1-jimmy-pw11-pro-max-moc-ssaca-21kpa-podwojne-sprzatanie-z-dualnymi-szczotkami-obrotowymi-6946499313662.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131743",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "200 zł rabatu na DYSON V15s - Skorzystaj z kodu rabatowego i zaoszczędź 200 zł na zakupach!",
-      "kod": "vpzfpi7j",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz/695-odkurzacz-dyson-v15s-detect-submarine-5025155085073.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131742",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "80 zł rabatu na Projektor ETOE Whale Pro 1500 ANSI Lumens - Skorzystaj z kodu rabatowego i zaoszczędź 80 zł na zakupach!",
-      "kod": "9Ux5kqjJ",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/projektory-i-akcesoria-do-projektorow/174-projektor-etoe-whale-pro-1500-ansi-lumenow-6976347500241.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131741",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "40 zł rabatu na Camry CR 7063 - Skorzystaj z kodu rabatowego i zaoszczędź 40 zł na zakupach!",
-      "kod": "447CvWgi",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz/394-camry-cr-7063-odkurzacz-bezprzewodowy-na-wysiegniku-pro-led-czarny-5905575905192.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131740",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł rabatu na Jimmy BX7 Pro - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "Sj44XAVU",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-do-lozek/68-odkurzacz-do-roztoczy-jimmy-bx7-pro-silnik-700w-szary-6946499311330.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131739",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "20 zł rabatu na Jimmy BX7 - Skorzystaj z kodu rabatowego i zaoszczędź 20 zł na zakupach!",
-      "kod": "Z89xCVEX",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-do-lozek/77-odkurzacz-uv-do-materacy-z-dualna-szczotka-obrotowa-jimmy-bx7-moc-znamionowa-600w-6946499312214.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131738",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "20 zł rabatu na Jigoo J300 - Skorzystaj z kodu rabatowego i zaoszczędź 20 zł na zakupach!",
-      "kod": "bpCMZAP3",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-do-lozek/307-dwupojemnikowy-inteligentny-odkurzacz-do-materacy-jigoo-j300-o-mocy-ssacej-13kpa-bialy-6976164030013.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131737",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "60 zł rabatu na ETOE Whale Pro 1800 ANSI - Skorzystaj z kodu rabatowego i zaoszczędź 60 zł na zakupach!",
-      "kod": "fbvFkZT3",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/projektory-i-akcesoria-do-projektorow/791-etoe-whale-pro-android-tv-projektor-1800-ansi-nowa-wersja-6976347500241.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131736",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "92 zł rabatu na Hydrofast W100 - Skorzystaj z kodu rabatowego i zaoszczędź 60 zł na zakupach!",
-      "kod": "MQA2CYcP",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/dyspensery-do-wody/815-hydrofast-w100-nablatowy-oczyszczacz-wody-z-ciepla-i-zimna-woda-srebrny-6978338961499.html)",
-      "wazny_do": "1785448800000"
-    },
-    {
-      "id": "td_13131735",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "5% rabatu na zakupy - Skorzystaj z kodu rabatowego i zaoszczędź 5% na zakupach!",
-      "kod": "KjAPtKw2",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/144-oczyszczacz-wody)",
-      "wazny_do": "1798758000000"
-    },
-    {
-      "id": "td_13131734",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł rabatu na JIMMY R9 - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "Lpn53NXT",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/dyspensery-do-wody/703-oczyszczacz-wody-jimmy-r9-z-odwrocona-osmoza-6946499315628.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131733",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "100 zł rabatu na JIMMY R9 Pro - Skorzystaj z kodu rabatowego i zaoszczędź 100 zł na zakupach!",
-      "kod": "2Uwgyufz",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/dyspensery-do-wody/816-jimmy-r9-pro-inteligentny-oczyszczacz-wody-ro-na-blat-szary-6946499317202.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131732",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "40 zł rabatu na Narwal Freo S - Skorzystaj z kodu rabatowego i zaoszczędź 40 zł na zakupach!",
-      "kod": "8djn5ynb",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-robot/696-narwal-freo-s-robot-odkurzajacomopujacy-180dniowe-automatyczne-oproznianie-pojemnika-nacisk-mopowania-8n-bialy-6972075737232.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131731",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "40 zł rabatu na Projektor ETOE Starfish Plus - Skorzystaj z kodu rabatowego i zaoszczędź 40 zł na zakupach!",
-      "kod": "3kKiR9HL",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/projektory-i-akcesoria-do-projektorow/760-projektor-etoe-starfish-plus-google-tv-i-netflix-6976347500272.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131730",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "4% rabatu na zakupy - Skorzystaj z kodu rabatowego i zaoszczędź 4% na zakupach!",
-      "kod": "3BEK81F1",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1798758000000"
-    },
-    {
-      "id": "td_13131729",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "5 zł zniżki na zamówienia powyżej 150 zł - Skorzystaj z kodu rabatowego i zaoszczędź 5 zł na zakupach!",
-      "kod": "ZJ13APW1",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1798758000000"
-    },
-    {
-      "id": "td_13131728",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł zniżki na zamówienia powyżej 1000 zł - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "ZtG3eCGA",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1798758000000"
-    },
-    {
-      "id": "td_13131727",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "15 zł zniżki na zamówienia powyżej 300 zł - Skorzystaj z kodu rabatowego i zaoszczędź 15 zł na zakupach!",
-      "kod": "I6P6IW21",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1798758000000"
-    },
-    {
-      "id": "td_13131726",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "20 zł zniżki na zamówienia powyżej 500 zł - Skorzystaj z kodu rabatowego i zaoszczędź 20 zł na zakupach!",
-      "kod": "6MBCMS61",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1798758000000"
-    },
-    {
-      "id": "td_13131725",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "80 zł zniżki na zamówienia powyżej 2000 zł - Skorzystaj z kodu rabatowego i zaoszczędź 80 zł na zakupach!",
-      "kod": "ACKQh4uH",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1798758000000"
-    },
-    {
-      "id": "td_13131724",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "150 zł zniżki na zamówienia powyżej 3000 zł - Skorzystaj z kodu rabatowego i zaoszczędź 150 zł na zakupach!",
-      "kod": "YcTARFip",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1798758000000"
-    },
-    {
-      "id": "td_13131723",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł rabatu na ETOE Starfish - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "mmhCR34f",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/projektory-i-akcesoria-do-projektorow/173-projektor-etoe-starfish-rozdzielczosc-natywna-720p-300-ansi-lumenow-6976347500081.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131722",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "20 zł rabatu na Jigoo C200 - Skorzystaj z kodu rabatowego i zaoszczędź 20 zł na zakupach!",
-      "kod": "QzexFpW7",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz/305-odkurzacz-bezprzewodowy-jigoo-c200-moc-ssaca-23kpa-szary-6976818760358.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131721",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł rabatu na Jigoo V700 - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "inYVp9ta",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz/306-odkurzacz-bezprzewodowy-jigoo-v700-moc-ssaca-215aw-szary-6976818760440.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131720",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "60 zł rabatu na Xiaomi G20 Lite - Skorzystaj z kodu rabatowego i zaoszczędź 60 zł na zakupach!",
-      "kod": "D2uucndN",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz/768-odkurzacz-bezprzewodowy-xiaomi-g20-lite-moc-ssaca-18000pa-bialy-6941812771921.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131719",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "50 zł rabatu na ETOE Seal Pro - Skorzystaj z kodu rabatowego i zaoszczędź 50 zł na zakupach!",
-      "kod": "7UMEWzte",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/projektory-i-akcesoria-do-projektorow/792-etoe-seal-pro-google-tv-projektor-1300-ansi-nowa-wersja-6976347500043.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131718",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "100 zł rabatu na Narwal Freo Z10 Ultra - Skorzystaj z kodu rabatowego i zaoszczędź 100 zł na zakupach!",
-      "kod": "5qkjyCb2",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/odkurzacz-robot/523-robot-odkurzajacy-narwal-freo-z10-ultra-z-wszechstronna-szary-6972075735047.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131717",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "30 zł rabatu na Philips 3000 series - Skorzystaj z kodu rabatowego i zaoszczędź 30 zł na zakupach!",
-      "kod": "P3z4JXN3",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/frytkownica-powietrzna/379-frytkownica-na-gorace-beztluszczowa-philips-3000-series-na35200-9l-2750w-czarny-8720389032998.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131716",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "100 zł rabatu na FORIDE C1 54 cm M Step Through - Skorzystaj z kodu rabatowego i zaoszczędź 100 zł na zakupach!",
-      "kod": "aSxHTyLQ",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/rower-elektryczny/620-foride-c1-54-cm-m-step-through-klasyczny-miejski-rower-elektryczny-silnik-250w-czarny-polysk-6975606878985.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131715",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "100 zł rabatu na FORIDE V1 54 cm M Klasyczny - Skorzystaj z kodu rabatowego i zaoszczędź 100 zł na zakupach!",
-      "kod": "ir6f5k3j",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/rower-elektryczny/552-foride-v1-54-cm-m-klasyczny-miejski-rower-elektryczny-silnik-250-w-blyszczacej-czerni-6975606879029.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131714",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "250 zł zniżki na zamówienia powyżej 5000 zł - Skorzystaj z kodu rabatowego i zaoszczędź 250 zł na zakupach!",
-      "kod": "7CSfeLX8",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131713",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "200 zł zniżki na zamówienia powyżej 4000 zł - Skorzystaj z kodu rabatowego i zaoszczędź 200 zł na zakupach!",
-      "kod": "bp4qL5QR",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131712",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "5% zniżki dla Roboty Sprzątające - Skorzystaj z kodu rabatowego i zaoszczędź 5% na zakupach!",
-      "kod": "7P5myKvq",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/12-odkurzacz-robot)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131711",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "20 zł rabatu na Motorola Moto Watch 120 - Skorzystaj z kodu rabatowego i zaoszczędź 20 zł na zakupach!",
-      "kod": "t6uUFrf2",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/smartwatche/281-motorola-moto-watch-120-bateria-na-10-dni-ponad-100-trybow-sportowych-wodoodpornosc-ip68-rozowe-zloto-4895222700687.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131710",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "6% zniżki na Frytkownica beztłuszczowa - Skorzystaj z kodu rabatowego i zaoszczędź 6% na zakupach!",
-      "kod": "nz7bnGPM",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/60-frytkownica-powietrzna)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131709",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "80 zł rabatu na Projektor DLP ETOE Dolphin - Skorzystaj z kodu rabatowego i zaoszczędź 80 zł na zakupach!",
-      "kod": "nM39exHk",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/projektory-i-akcesoria-do-projektorow/170-projektor-dlp-etoe-dolphin-1080p-500-ansi-lumenow-google-tv-6976347500159.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131708",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "30 zł rabatu na Samsung Galaxy Watch 7 L310 - Skorzystaj z kodu rabatowego i zaoszczędź 30 zł na zakupach!",
-      "kod": "yDBDfbiz",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/smartwatche/531-samsung-galaxy-watch7-l310-44mm-smartwatch-srebrny-8806095660684.html)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131707",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "5% rabatu na zakupy - Skorzystaj z kodu rabatowego i zaoszczędź 5% na zakupach!",
-      "kod": "HXKGea8B",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/97-e-mobilnosc)",
-      "wazny_do": "1782856800000"
-    },
-    {
-      "id": "td_13131706",
-      "kategoria": "Sklepy",
-      "marka": "zigbuy.pl",
-      "logo": "https://hst.tradedoubler.com/file/383097/logozigbuy.jpg",
-      "opis": "10 zł rabatu na Adler AD 6610 3000W Grill elektryczny - Skorzystaj z kodu rabatowego i zaoszczędź 10 zł na zakupach!",
-      "kod": "wBq9BrEr",
-      "link": "https://link.zigbuy.pl/click?a(3480929)p(383097)ttid(13)url(https://www.zigbuy.pl/male-urzadzenia-kuchenne/440-adler-ad-6610-3000w-grill-elektryczny-czarny-5902934836982.html)",
-      "wazny_do": "1782856800000"
+      "opis": "Sprawdź najnowsze okazje i promocje w sklepie zigbuy.pl!",
+      "kod": "SPRAWDŹ",
+      "link": "https://www.zigbuy.pl/",
+      "wazny_do": ""
     },
     {
       "id": "5081",
@@ -7908,7 +6808,7 @@
       "logo": "//img.leadmax.pl/logo/05e8d08b31e656e8704efc3485cf199d.png",
       "opis": "Setki tytułów, jedna cena - książki w promocyjnej cenie 19,90 zł.",
       "kod": "CZERWIEC19",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2685&ha=3361443987&r=5404",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2685&ha=3361443987&r=498",
       "wazny_do": "2026-06-14 23:59:59"
     },
     {
@@ -7918,7 +6818,7 @@
       "logo": "//img.leadmax.pl/logo/05e8d08b31e656e8704efc3485cf199d.png",
       "opis": "2 książki w promocyjnej cenie 49 zł.",
       "kod": "DUET49",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2685&ha=3361443987&r=3463",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2685&ha=3361443987&r=4046",
       "wazny_do": "2026-06-14 23:59:59"
     },
     {
@@ -7928,7 +6828,7 @@
       "logo": "//img.leadmax.pl/logo/4759def2fb65770d6e5da16229f79148.png",
       "opis": "Rabat w wysokości 15% na drugi produkt z okazji wiosennej promocji.",
       "kod": "SPRING15",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6110&ha=1717141087&r=9766",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6110&ha=1717141087&r=6517",
       "wazny_do": "2026-06-22 23:59:59"
     },
     {

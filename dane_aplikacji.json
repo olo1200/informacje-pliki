@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-07-23 16:10",
+  "aktualizacja": "2026-07-24 09:58",
   "rynek": {
     "inflacja": "0.0",
     "obligacje": {
@@ -28,7 +28,7 @@
           "Promocja: Konto Oszczędnościowe z Kontem Przekorzystnym. Warunki:"
         ],
         "rekomendacja": "Porównaj limit kwoty i czas trwania promocji.",
-        "link": "https://prostodo.pl/c?zid=58340251492&tid=6159&ha=1249329205&r=5468"
+        "link": "https://prostodo.pl/c?zid=12710733751&tid=6159&ha=3139645648&r=1716"
       },
       {
         "bank": "Bank Millennium",
@@ -68,7 +68,7 @@
           "Promocja: Rachunek oszczędnościowy. Warunki:"
         ],
         "rekomendacja": "Porównaj limit kwoty i czas trwania promocji.",
-        "link": "https://prostodo.pl/c?zid=51639920371&tid=3823&ha=2895905029&r=2330"
+        "link": "https://prostodo.pl/c?zid=91934122344&tid=3823&ha=1350635094&r=5898"
       }
     ],
     "lokaty": [
@@ -155,6 +155,96 @@
     ],
     "konta_osobiste": [
       {
+        "bank": "PKO Bank Polski",
+        "produkt": "Konto za Zero",
+        "glowna_wartosc": "1500 zł",
+        "haczyki": [
+          "Kod LATO, otwarcie konta przez aplikację, aktywność."
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://www.bankier.pl/e/lead/538?source=api-konta-osobiste",
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 1500.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "1500 zł",
+            "conditions_summary": "Kod LATO, otwarcie konta przez aplikację, aktywność.",
+            "confidence": 0.95,
+            "reason": "Łączna wartość różnych promocji.",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": 600.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "600 zł",
+              "conditions_summary": "",
+              "confidence": 0.8300000000000001,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
+              "candidates": [
+                {
+                  "value": 600.0,
+                  "label": "600 zł",
+                  "score": 4
+                },
+                {
+                  "value": 300.0,
+                  "label": "300 zł",
+                  "score": 4
+                },
+                {
+                  "value": 1500.0,
+                  "label": "1500 zł",
+                  "score": 0
+                },
+                {
+                  "value": 600.0,
+                  "label": "600 zł",
+                  "score": 0
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": 600.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "600 zł",
+            "conditions_summary": "",
+            "confidence": 0.8300000000000001,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
+            "candidates": [
+              {
+                "value": 600.0,
+                "label": "600 zł",
+                "score": 4
+              },
+              {
+                "value": 300.0,
+                "label": "300 zł",
+                "score": 4
+              },
+              {
+                "value": 1500.0,
+                "label": "1500 zł",
+                "score": 0
+              },
+              {
+                "value": 600.0,
+                "label": "600 zł",
+                "score": 0
+              }
+            ]
+          },
+          "bonus": "1500 zł",
+          "bonus_opis": "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod LATO i spełnij pozostałe warunki promocji „Letni Bonus”<br>\r\n- do 300 zł – otwórz online PKO Konto Dziecka (0-12 lat) lub PKO Konto dla Młodych (13-17), wpisz kod LATO i spełnijcie pozostałe warunki promocji „Letni Bonus”<br>\r\n- do 600 zł kodu rabatowego do sklepu Samsung przy spełnieniu warunków promocji „Rabat w górę”",
+          "promo_terms": "",
+          "representative_example": ""
+        }
+      },
+      {
         "bank": "Alior Bank",
         "produkt": "Alior Bank &#8211; Alior Konto za Zero (zyskaj nawet 1500 zł)",
         "glowna_wartosc": "1500 zł",
@@ -219,7 +309,7 @@
         "produkt": "Nest Konto",
         "glowna_wartosc": "1250 zł",
         "haczyki": [
-          "Zwroty za płatności przez 2 lata, wymiana waluty w kantorze."
+          "Wpływ wynagrodzenia, zwroty za płatności, wymiana walut."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1562?source=api-konta-osobiste",
@@ -230,9 +320,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1250 zł",
-            "conditions_summary": "Zwroty za płatności przez 2 lata, wymiana waluty w kantorze.",
-            "confidence": 0.95,
-            "reason": "Nest Bank premiuje długoterminową aktywność kartową oraz korzystanie z kantoru.",
+            "conditions_summary": "Wpływ wynagrodzenia, zwroty za płatności, wymiana walut.",
+            "confidence": 0.96,
+            "reason": "Długoterminowa premia (2 lata).",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -279,7 +369,7 @@
         "produkt": "eKonto do usług",
         "glowna_wartosc": "1200 zł",
         "haczyki": [
-          "Wpływ wynagrodzenia, aktywne korzystanie z konta, otwarcie dla dziecka, bony."
+          "Aktywne korzystanie, wpływy wynagrodzenia, konto dla dziecka."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/923?source=api-konta-osobiste",
@@ -290,9 +380,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1200 zł",
-            "conditions_summary": "Wpływ wynagrodzenia, aktywne korzystanie z konta, otwarcie dla dziecka, bony.",
-            "confidence": 0.95,
-            "reason": "mBank oferuje pakiet bonusów za otwarcie eKonta i aktywne użytkowanie.",
+            "conditions_summary": "Aktywne korzystanie, wpływy wynagrodzenia, konto dla dziecka.",
+            "confidence": 0.96,
+            "reason": "Premia łączona z różnych aktywności.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -399,7 +489,7 @@
         "produkt": "Millennium 360°",
         "glowna_wartosc": "900 zł",
         "haczyki": [
-          "Wpływy min. 3000 zł (26+), płatności mobilne, BLIK, konto dla dziecka."
+          "Wpływy min. 1500/3000 zł, płatności mobilne, rejestracja numeru BLIK."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/403?source=api-konta-osobiste",
@@ -410,9 +500,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "900 zł",
-            "conditions_summary": "Wpływy min. 3000 zł (26+), płatności mobilne, BLIK, konto dla dziecka.",
-            "confidence": 0.95,
-            "reason": "Bank Millennium oferuje do 900 zł za spełnienie wymogów aktywności.",
+            "conditions_summary": "Wpływy min. 1500/3000 zł, płatności mobilne, rejestracja numeru BLIK.",
+            "confidence": 0.97,
+            "reason": "Wielostopniowa premia.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -529,7 +619,7 @@
         "produkt": "Konto dla Ciebie",
         "glowna_wartosc": "720 zł",
         "haczyki": [
-          "Otwórz konto i zyskaj nawet 720 zł zwrotu za zakupy. Premia miesięczna to 4% wartości transakcji za dany miesiąc kalenda..."
+          "4% zwrotu za zakupy (do 60 zł miesięcznie przez 12 miesięcy)."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1362?source=api-konta-osobiste",
@@ -540,9 +630,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "720 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 720 zł",
+            "conditions_summary": "4% zwrotu za zakupy (do 60 zł miesięcznie przez 12 miesięcy).",
+            "confidence": 0.99,
+            "reason": "Prosty mechanizm cashback.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -609,7 +699,7 @@
         "produkt": "Konto Otwarte na Ciebie",
         "glowna_wartosc": "700 zł",
         "haczyki": [
-          "Zyskaj do 600 zł: - aktywuj kartę do konta oraz wyraź zgody na komunikację marketingową (telefoniczną i elektroniczną)...."
+          "Wpływ 1000 zł, 7 transakcji, utrzymanie salda 100 zł."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1952?source=api-konta-osobiste",
@@ -620,9 +710,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "700 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 700 zł",
+            "conditions_summary": "Wpływ 1000 zł, 7 transakcji, utrzymanie salda 100 zł.",
+            "confidence": 0.97,
+            "reason": "Jasno określone warunki miesięczne.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -722,7 +812,7 @@
           "Za otwarcie konta, Klient może otrzymać: - 4 % na lokacie do 20 000 zł, - Konto SuperOszczędnościowe 3,25% do 20 000 zł,..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://prostodo.pl/c?zid=62342909091&tid=5951&ha=2048829999&r=4629",
+        "link": "https://prostodo.pl/c?zid=69923965932&tid=5951&ha=1031403854&r=1802",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 700.0,
@@ -849,7 +939,7 @@
         "produkt": "Konto Smart",
         "glowna_wartosc": "600 zł",
         "haczyki": [
-          "Promocja Konta za Zero w PKO BP"
+          "Promocja Konta za Zero"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/392?source=api-konta-osobiste",
@@ -860,9 +950,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "600 zł",
-            "conditions_summary": "Promocja Konta za Zero w PKO BP",
+            "conditions_summary": "Promocja Konta za Zero",
             "confidence": 0.98,
-            "reason": "Oferta zawiera informację o zysku do 600 zł",
+            "reason": "Oferta wskazuje na możliwość zyskania 600 zł w ramach promocji.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -965,14 +1055,14 @@
         }
       },
       {
-        "bank": "PKO Bank Polski",
-        "produkt": "Konto za Zero",
+        "bank": "VeloBank",
+        "produkt": "VeloKonto",
         "glowna_wartosc": "600 zł",
         "haczyki": [
-          "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod LATO i spełnij pozostałe warunki promocji „Letni B..."
+          "Cashback za aktywność (do 50 zł miesięcznie przez 12 miesięcy)."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/538?source=api-konta-osobiste",
+        "link": "https://www.bankier.pl/e/lead/830?source=api-konta-osobiste",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 600.0,
@@ -980,33 +1070,28 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "600 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 600 zł",
+            "conditions_summary": "Cashback za aktywność (do 50 zł miesięcznie przez 12 miesięcy).",
+            "confidence": 0.98,
+            "reason": "Stała premia za korzystanie z usług.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
-              "reward_amount": 600.0,
+              "reward_amount": 50.0,
               "reward_type": "cash",
               "is_cash_reward": true,
-              "display_value": "600 zł",
+              "display_value": "50 zł",
               "conditions_summary": "",
               "confidence": 0.8300000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
+              "reason": "Najwyższy dodatnio oceniony kandydat: 50 zł",
               "candidates": [
+                {
+                  "value": 50.0,
+                  "label": "50 zł",
+                  "score": 4
+                },
                 {
                   "value": 600.0,
                   "label": "600 zł",
-                  "score": 4
-                },
-                {
-                  "value": 300.0,
-                  "label": "300 zł",
-                  "score": 4
-                },
-                {
-                  "value": 1500.0,
-                  "label": "1500 zł",
                   "score": 0
                 },
                 {
@@ -1018,27 +1103,22 @@
             }
           },
           "pre_extraction": {
-            "reward_amount": 600.0,
+            "reward_amount": 50.0,
             "reward_type": "cash",
             "is_cash_reward": true,
-            "display_value": "600 zł",
+            "display_value": "50 zł",
             "conditions_summary": "",
             "confidence": 0.8300000000000001,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
+            "reason": "Najwyższy dodatnio oceniony kandydat: 50 zł",
             "candidates": [
+              {
+                "value": 50.0,
+                "label": "50 zł",
+                "score": 4
+              },
               {
                 "value": 600.0,
                 "label": "600 zł",
-                "score": 4
-              },
-              {
-                "value": 300.0,
-                "label": "300 zł",
-                "score": 4
-              },
-              {
-                "value": 1500.0,
-                "label": "1500 zł",
                 "score": 0
               },
               {
@@ -1048,8 +1128,8 @@
               }
             ]
           },
-          "bonus": "1500 zł",
-          "bonus_opis": "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod LATO i spełnij pozostałe warunki promocji „Letni Bonus”<br>\r\n- do 300 zł – otwórz online PKO Konto Dziecka (0-12 lat) lub PKO Konto dla Młodych (13-17), wpisz kod LATO i spełnijcie pozostałe warunki promocji „Letni Bonus”<br>\r\n- do 600 zł kodu rabatowego do sklepu Samsung przy spełnieniu warunków promocji „Rabat w górę”",
+          "bonus": "600 zł",
+          "bonus_opis": "- Do 600 zł za aktywność, przez 12 miesięcy (maksymalnie 50 zł w każdym miesiącu).<br>\r\n- Cashback naliczany jest od drugiego poziomu programu za aktywne korzystanie z Moich rachunków oraz za zakup biletów, parkingów, E-Winiet i autostrad. Możesz go wypłacić na swoje konto osobiste lub oszczędnościowe w VeloBanku. Kwoty niewykorzystanego cashbacku wygasają po upływie 12 miesięcy od zakończenia miesiąca, w którym dokonano jego naliczenia.\r\n",
           "promo_terms": "",
           "representative_example": ""
         }
@@ -1059,7 +1139,7 @@
         "produkt": "Konto Przekorzystne (do 26 lat)",
         "glowna_wartosc": "500 zł",
         "haczyki": [
-          "Wpływ min. 500 zł i 5 transakcji miesięcznie przez 4 miesiące."
+          "Wpływ min. 500 zł i 5 transakcji miesięcznie."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1857?source=api-konta-osobiste",
@@ -1070,9 +1150,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "500 zł",
-            "conditions_summary": "Wpływ min. 500 zł i 5 transakcji miesięcznie przez 4 miesiące.",
-            "confidence": 0.95,
-            "reason": "Konto Przekorzystne dla młodych oferuje 500 zł za regularną aktywność.",
+            "conditions_summary": "Wpływ min. 500 zł i 5 transakcji miesięcznie.",
+            "confidence": 0.97,
+            "reason": "Przejrzysta struktura nagrody.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1143,96 +1223,6 @@
           "promo_terms": "",
           "representative_example": ""
         }
-      },
-      {
-        "bank": "VeloBank S.A.",
-        "produkt": "VeloKonto",
-        "glowna_wartosc": "100 zł",
-        "haczyki": [
-          "Z VeloKontem Klient może zyskać: - 100 zł za polecenie VeloKonta swoim znajomym, - do 50 zł miesięcznego cashbacku w ram..."
-        ],
-        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://prostodo.pl/c?zid=30736659476&tid=5545&ha=1087382250&r=2199",
-        "debug_bonus": {
-          "ai_meta": {
-            "reward_amount": 100.0,
-            "reward_currency": "PLN",
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "100 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 100 zł",
-            "haczyki": [],
-            "rekomendacja": "",
-            "pre_extraction": {
-              "reward_amount": 100.0,
-              "reward_type": "cash",
-              "is_cash_reward": true,
-              "display_value": "100 zł",
-              "conditions_summary": "",
-              "confidence": 0.8300000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 100 zł",
-              "candidates": [
-                {
-                  "value": 100.0,
-                  "label": "100 zł",
-                  "score": 4
-                },
-                {
-                  "value": 50.0,
-                  "label": "50 zł",
-                  "score": 4
-                },
-                {
-                  "value": 50.0,
-                  "label": "50 zł",
-                  "score": 4
-                },
-                {
-                  "value": 100.0,
-                  "label": "100 zł",
-                  "score": 0
-                }
-              ]
-            }
-          },
-          "pre_extraction": {
-            "reward_amount": 100.0,
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "100 zł",
-            "conditions_summary": "",
-            "confidence": 0.8300000000000001,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 100 zł",
-            "candidates": [
-              {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 4
-              },
-              {
-                "value": 50.0,
-                "label": "50 zł",
-                "score": 4
-              },
-              {
-                "value": 50.0,
-                "label": "50 zł",
-                "score": 4
-              },
-              {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 0
-              }
-            ]
-          },
-          "bonus": "Z VeloKontem Klient może zyskać: - 100 zł za polecenie VeloKonta swoim znajomym, - do 50 zł miesięcznego cashbacku w ramach programu VeloKorzyści (Max VeloKorzyści na Start).",
-          "bonus_opis": "Z VeloKontem Klient może zyskać: - 100 zł za polecenie VeloKonta swoim znajomym, - do 50 zł miesięcznego cashbacku w ramach programu VeloKorzyści (Max VeloKorzyści na Start).",
-          "promo_terms": "",
-          "representative_example": "Z VeloKontem Klient może zyskać: - 100 zł za polecenie VeloKonta swoim znajomym, - do 50 zł miesięcznego cashbacku w ramach programu VeloKorzyści (Max VeloKorzyści na Start). | VeloKonto 0 zł za prowadzenie VeloKonta, bez warunków do 50 zł miesięcznie cashbacku VeloKorzyści – indywidualny Pakiet Medyczny za 36 zł dla Ciebie lub 138 zł miesięcznie dla całej rodziny"
-        }
       }
     ],
     "kredyty_gotowkowe": [
@@ -1245,6 +1235,16 @@
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
         "link": "https://www.bankier.pl/e/lead/545?source=api-gotowki"
+      },
+      {
+        "bank": "VeloBank",
+        "produkt": "Pożyczka gotówkowa",
+        "glowna_wartosc": "8.08%",
+        "haczyki": [
+          "RRSO: 8.08%. Prowizja: 0.0%. Info: \"Pożyczka gotówkowa dla aktywnych +\" – oferta specjalna tylko dla użytkowników Bankie..."
+        ],
+        "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
+        "link": "https://www.bankier.pl/e/lead/536?source=api-gotowki"
       },
       {
         "bank": "BNP Paribas Bank Polska",
@@ -1264,17 +1264,7 @@
           "RRSO: 8.18%. Prowizja: 0%. Info: Pożyczka Przekorzystna w kwocie do 250 000 zł spłata do 10 lat RRSO 8,18%"
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3604&ha=3586276304&r=9109"
-      },
-      {
-        "bank": "VeloBank",
-        "produkt": "Pożyczka gotówkowa",
-        "glowna_wartosc": "8.19%",
-        "haczyki": [
-          "RRSO: 8.19%. Prowizja: 0.0%. Info: \"Pożyczka gotówkowa dla aktywnych +\" – oferta specjalna tylko dla użytkowników Bankie..."
-        ],
-        "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://www.bankier.pl/e/lead/536?source=api-gotowki"
+        "link": "https://leadstar.pl/c?pid=112247&tid=3604&ha=3586276304&r=756"
       },
       {
         "bank": "Bank Millennium",
@@ -1324,7 +1314,7 @@
           "RRSO: 9.94%. Prowizja: 0%. Info: Pożyczka Gotówkowa 0% prowizji oprocentowanie stałe 9,50% od 15 000 zł do 50 000 zł w r..."
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=4263&ha=1328622039&r=3415"
+        "link": "https://leadstar.pl/c?pid=112247&tid=4263&ha=1328622039&r=9490"
       }
     ],
     "kredyty_konsolidacyjne": [
@@ -1376,7 +1366,7 @@
           "RRSO: 12.14%. Prowizja: 0%. Info: Pożyczka konsolidacyjna do 30% wartości przenoszonych kredytów na okres od 2 do 120 mi..."
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3437&ha=2204705415&r=1311"
+        "link": "https://leadstar.pl/c?pid=112247&tid=3437&ha=2204705415&r=4044"
       },
       {
         "bank": "Santander Consumer Bank",
@@ -1401,14 +1391,144 @@
     ],
     "konta_firmowe": [
       {
+        "bank": "Nest Bank S.A.",
+        "produkt": "BIZnest Konto",
+        "glowna_wartosc": "3000 zł",
+        "haczyki": [
+          "Założenie BIZnest Konta z kontem walutowym i aktywność (przewalutowania/saldo)."
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://leadstar.pl/c?pid=112247&tid=4835&ha=885789322&r=5559",
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 3000.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "3000 zł",
+            "conditions_summary": "Założenie BIZnest Konta z kontem walutowym i aktywność (przewalutowania/saldo).",
+            "confidence": 0.92,
+            "reason": "Maksymalna kwota premii za aktywność walutową i utrzymanie salda.",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": null,
+              "reward_type": "unknown",
+              "is_cash_reward": false,
+              "display_value": "Klient może otrzymać premię w wysokości do...",
+              "conditions_summary": "",
+              "confidence": 0.25,
+              "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
+              "candidates": [
+                {
+                  "value": 3000.0,
+                  "label": "3000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 3000.0,
+                  "label": "3000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 3000.0,
+                  "label": "3000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 3000.0,
+                  "label": "3000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 2000.0,
+                  "label": "2000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 2000.0,
+                  "label": "2000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 1000.0,
+                  "label": "1000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 1000.0,
+                  "label": "1000 zł",
+                  "score": 0
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": null,
+            "reward_type": "unknown",
+            "is_cash_reward": false,
+            "display_value": "Klient może otrzymać premię w wysokości do...",
+            "conditions_summary": "",
+            "confidence": 0.25,
+            "reason": "Brak pewnej premii gotówkowej w ekstrakcji tekstowej.",
+            "candidates": [
+              {
+                "value": 3000.0,
+                "label": "3000 zł",
+                "score": 0
+              },
+              {
+                "value": 3000.0,
+                "label": "3000 zł",
+                "score": 0
+              },
+              {
+                "value": 3000.0,
+                "label": "3000 zł",
+                "score": 0
+              },
+              {
+                "value": 3000.0,
+                "label": "3000 zł",
+                "score": 0
+              },
+              {
+                "value": 2000.0,
+                "label": "2000 zł",
+                "score": 0
+              },
+              {
+                "value": 2000.0,
+                "label": "2000 zł",
+                "score": 0
+              },
+              {
+                "value": 1000.0,
+                "label": "1000 zł",
+                "score": 0
+              },
+              {
+                "value": 1000.0,
+                "label": "1000 zł",
+                "score": 0
+              }
+            ]
+          },
+          "bonus": "Klient może otrzymać premię w wysokości do 3 000 zł. Jak zyskać 3 000 zł? 1. Należy założyć BIZNest Konto wraz z BIZNest Konto Waluto EUR, utrzymać zgodę marketingową i w ciągu 3 miesięcy kalendarzowych od otwarcia pierwszego BIZnest Konto Waluta EUR: a. wykonać określoną kwotę przewalutować, aby otrzymać od 50 do nawet 1 000 zł premii,| b. utrzymać określoną kwotę salda, aby otrzymać od 50 do 2 000 zł premii.",
+          "bonus_opis": "Klient może otrzymać premię w wysokości do 3 000 zł. Jak zyskać 3 000 zł? 1. Należy założyć BIZNest Konto wraz z BIZNest Konto Waluto EUR, utrzymać zgodę marketingową i w ciągu 3 miesięcy kalendarzowych od otwarcia pierwszego BIZnest Konto Waluta EUR: a. wykonać określoną kwotę przewalutować, aby otrzymać od 50 do nawet 1 000 zł premii,| b. utrzymać określoną kwotę salda, aby otrzymać od 50 do 2 000 zł premii.",
+          "promo_terms": "",
+          "representative_example": "Klient może otrzymać premię w wysokości do 3 000 zł. Jak zyskać 3 000 zł? 1. Należy założyć BIZNest Konto wraz z BIZNest Konto Waluto EUR, utrzymać zgodę marketingową i w ciągu 3 miesięcy kalendarzowych od otwarcia pierwszego BIZnest Konto Waluta EUR: a. wykonać określoną kwotę przewalutować, aby otrzymać od 50 do nawet 1 000 zł premii,| b. utrzymać określoną kwotę salda, aby otrzymać od 50 do 2 0"
+        }
+      },
+      {
         "bank": "Erste Bank",
         "produkt": "Konto Firmowe",
         "glowna_wartosc": "1500 zł",
         "haczyki": [
-          "przelew ZUS min. 100 zł, 5 płatności kartą/BLIK po 50 zł, wpływy 5000 zł"
+          "Przelew do ZUS (min. 100 zł), 5 płatności kartą/BLIK i wpływy min. 5000 zł."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=2241&ha=3193360955&r=4957",
+        "link": "https://leadstar.pl/c?pid=112247&tid=2241&ha=3193360955&r=4623",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 1500.0,
@@ -1416,9 +1536,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1500 zł",
-            "conditions_summary": "przelew ZUS min. 100 zł, 5 płatności kartą/BLIK po 50 zł, wpływy 5000 zł",
-            "confidence": 0.9,
-            "reason": "nagroda za aktywność",
+            "conditions_summary": "Przelew do ZUS (min. 100 zł), 5 płatności kartą/BLIK i wpływy min. 5000 zł.",
+            "confidence": 0.95,
+            "reason": "Premia za aktywność w pierwszych 4 miesiącach.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1535,10 +1655,10 @@
         "produkt": "Konto Mój Biznes",
         "glowna_wartosc": "1200 zł",
         "haczyki": [
-          "opłacanie ZUS, wpływy 1000 zł i płatności kartą 500 zł przez 6 miesięcy"
+          "Opłacanie składek ZUS, wpływy min. 1000 zł i płatności kartą min. 500 zł przez 6 miesięcy."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=6203&ha=3679309239&r=1657",
+        "link": "https://leadstar.pl/c?pid=112247&tid=6203&ha=3679309239&r=9178",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 1200.0,
@@ -1546,9 +1666,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1200 zł",
-            "conditions_summary": "opłacanie ZUS, wpływy 1000 zł i płatności kartą 500 zł przez 6 miesięcy",
-            "confidence": 0.9,
-            "reason": "nagroda za aktywność ZUS",
+            "conditions_summary": "Opłacanie składek ZUS, wpływy min. 1000 zł i płatności kartą min. 500 zł przez 6 miesięcy.",
+            "confidence": 0.95,
+            "reason": "Premia za aktywność zgodnie z opisem oferty.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1665,10 +1785,10 @@
         "produkt": "iKonto Biznes",
         "glowna_wartosc": "500 zł",
         "haczyki": [
-          "otwarcie konta i płatności kartą/BLIK min. 500 zł w 14 dni"
+          "Otwarcie konta i płatności kartą/BLIK na min. 500 zł w ciągu 14 dni."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=5009&ha=2297283548&r=6538",
+        "link": "https://leadstar.pl/c?pid=112247&tid=5009&ha=2297283548&r=6785",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 500.0,
@@ -1676,9 +1796,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "500 zł",
-            "conditions_summary": "otwarcie konta i płatności kartą/BLIK min. 500 zł w 14 dni",
-            "confidence": 0.95,
-            "reason": "nagroda za start",
+            "conditions_summary": "Otwarcie konta i płatności kartą/BLIK na min. 500 zł w ciągu 14 dni.",
+            "confidence": 0.98,
+            "reason": "Premia na start zgodnie z regulaminem promocji.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1795,10 +1915,10 @@
         "produkt": "Firmootwieracz + Konto mBiznes",
         "glowna_wartosc": "500 zł",
         "haczyki": [
-          "transakcje bezgotówkowe na min. 1000 zł w ciągu 30 dni"
+          "Otwarcie konta i płatności bezgotówkowe min. 1000 zł w ciągu 30 dni."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=6093&ha=1809681750&r=7620",
+        "link": "https://leadstar.pl/c?pid=112247&tid=6093&ha=1809681750&r=8343",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 500.0,
@@ -1806,9 +1926,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "500 zł",
-            "conditions_summary": "transakcje bezgotówkowe na min. 1000 zł w ciągu 30 dni",
-            "confidence": 0.95,
-            "reason": "nagroda za otwarcie",
+            "conditions_summary": "Otwarcie konta i płatności bezgotówkowe min. 1000 zł w ciągu 30 dni.",
+            "confidence": 0.98,
+            "reason": "Premia dla nowych klientów zakładających konto z firmą.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1905,10 +2025,10 @@
         "produkt": "Konto Biznes z Żubrem",
         "glowna_wartosc": "200 zł",
         "haczyki": [
-          "założenie firmy/konta i przelew do ZUS min. 300 zł"
+          "Założenie konta z kartą i przelew do ZUS min. 300 zł w ciągu 2 miesięcy."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3270&ha=3372779963&r=2774",
+        "link": "https://leadstar.pl/c?pid=112247&tid=3270&ha=3372779963&r=4101",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 200.0,
@@ -1916,9 +2036,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "200 zł",
-            "conditions_summary": "założenie firmy/konta i przelew do ZUS min. 300 zł",
+            "conditions_summary": "Założenie konta z kartą i przelew do ZUS min. 300 zł w ciągu 2 miesięcy.",
             "confidence": 0.95,
-            "reason": "nagroda za otwarcie",
+            "reason": "Premia powitalna za otwarcie konta.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2037,10 +2157,10 @@
         "produkt": "Karta Kredytowa Provi Sm@rt",
         "glowna_wartosc": "1000 zł",
         "haczyki": [
-          "Zwrot 100 zł/mies. przez 6 miesięcy za transakcje min. 500 zł oraz bonus 100-400 zł za pierwszy cykl"
+          "Transakcje min. 500 zł miesięcznie przez 6 miesięcy oraz limit karty min. 5000 zł."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=6070&ha=376936182&r=3809",
+        "link": "https://leadstar.pl/c?pid=112247&tid=6070&ha=376936182&r=924",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 1000.0,
@@ -2048,9 +2168,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1000 zł",
-            "conditions_summary": "Zwrot 100 zł/mies. przez 6 miesięcy za transakcje min. 500 zł oraz bonus 100-400 zł za pierwszy cykl",
+            "conditions_summary": "Transakcje min. 500 zł miesięcznie przez 6 miesięcy oraz limit karty min. 5000 zł.",
             "confidence": 0.95,
-            "reason": "Oferta Provident oferuje łącznie do 1000 zł w ramach promocji Karta w grze.",
+            "reason": "Zwroty za transakcje i bonus na start.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2167,10 +2287,10 @@
         "produkt": "Karta Kredytowa z Żubrem",
         "glowna_wartosc": "500 zł",
         "haczyki": [
-          "Transakcje bezgotówkowe min. 1000 zł, zgody marketingowe, kod promocyjny BONUS"
+          "Wpisanie kodu BONUS, zgoda marketingowa, transakcje min. 1000 zł."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=4977&ha=1944717384&r=7101",
+        "link": "https://leadstar.pl/c?pid=112247&tid=4977&ha=1944717384&r=7176",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": 500.0,
@@ -2178,9 +2298,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "500 zł",
-            "conditions_summary": "Transakcje bezgotówkowe min. 1000 zł, zgody marketingowe, kod promocyjny BONUS",
-            "confidence": 0.98,
-            "reason": "Oferta banku Pekao S.A. jasno określa premię 500 zł za transakcje kartą.",
+            "conditions_summary": "Wpisanie kodu BONUS, zgoda marketingowa, transakcje min. 1000 zł.",
+            "confidence": 0.95,
+            "reason": "Nagroda pieniężna za aktywność kartą i kod promocyjny.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2277,20 +2397,20 @@
         "produkt": "Karta AXI Card SMART",
         "glowna_wartosc": "Cashback / Punkty",
         "haczyki": [
-          "Sprawdź warunki premii na stronie."
+          "Brak danych"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3310&ha=3106300178&r=6404",
+        "link": "https://leadstar.pl/c?pid=112247&tid=3310&ha=3106300178&r=6005",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": null,
             "reward_currency": "PLN",
-            "reward_type": "unknown",
+            "reward_type": "none",
             "is_cash_reward": false,
-            "display_value": "Karta AXI Card SMART",
-            "conditions_summary": "",
-            "confidence": 0.0,
-            "reason": "",
+            "display_value": "Brak danych",
+            "conditions_summary": "Brak danych",
+            "confidence": 0.5,
+            "reason": "Brak informacji o nagrodzie dla AXI Card",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2325,20 +2445,20 @@
         "produkt": "Karta Kredytowa",
         "glowna_wartosc": "Cashback / Punkty",
         "haczyki": [
-          "Sprawdź warunki premii na stronie."
+          "Brak danych"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=5014&ha=3139556552&r=4331",
+        "link": "https://leadstar.pl/c?pid=112247&tid=5014&ha=3139556552&r=7665",
         "debug_bonus": {
           "ai_meta": {
             "reward_amount": null,
             "reward_currency": "PLN",
-            "reward_type": "unknown",
+            "reward_type": "none",
             "is_cash_reward": false,
-            "display_value": "Karta Kredytowa",
-            "conditions_summary": "",
-            "confidence": 0.0,
-            "reason": "",
+            "display_value": "Brak danych",
+            "conditions_summary": "Brak danych",
+            "confidence": 0.5,
+            "reason": "Brak informacji o nagrodzie dla Netcredit",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2608,7 +2728,7 @@
       "logo": "//img.leadmax.pl/logo/d88f7eeb7c2740e348559651c90c2f7d.png",
       "opis": "Rabat w wysokości 10%.",
       "kod": "AC10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6204&ha=1768755623&r=7704",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6204&ha=1768755623&r=3463",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -2908,7 +3028,7 @@
       "logo": "//img.leadmax.pl/logo/8cc912254737f5febffbc3406e426e9a.png",
       "opis": "Rabat w wysokości 25%.",
       "kod": "WAKACJE25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6176&ha=1061185762&r=2592",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6176&ha=1061185762&r=404",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -2928,7 +3048,7 @@
       "logo": "//img.leadmax.pl/logo/37ffc5bfd3f76e033d0eab300f849c10.png",
       "opis": "Dodatkowy rabat w wysokości 10% przy zakupie co najmniej 2 rzeczy.",
       "kod": "EXTRA10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6119&ha=1799953454&r=1487",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6119&ha=1799953454&r=1500",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -3248,7 +3368,7 @@
       "logo": "//img.leadmax.pl/logo/51e588faa7e0a968336c62afe2e548f9.png",
       "opis": "Rabat w wysokości 42 zł na produkty z nowej kolekcji, z wyjątkiem produktów z serii „Collaborations” przy minimalnej wartości zamówienia 495 zł.",
       "kod": "DESIGUAL-PL",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3047&ha=1780692524&r=7254",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3047&ha=1780692524&r=3398",
       "wazny_do": "2027-03-31 23:59:59"
     },
     {
@@ -3298,7 +3418,7 @@
       "logo": "//img.leadmax.pl/logo/60f621eafb0ee2e5b927f75179f19d7e.png",
       "opis": "Rabat w wysokości do 20% przy zakupach od 129 zł.",
       "kod": "LATO",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3221&ha=2762289592&r=6373",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3221&ha=2762289592&r=8466",
       "wazny_do": "2026-07-26 23:59:59"
     },
     {
@@ -3428,7 +3548,7 @@
       "logo": "//img.leadmax.pl/logo/ebe14cab3b0079e9233ccba10a546510.png",
       "opis": "Rabat w wysokości 50 zł przy zamówieniu za min. 500 zł.",
       "kod": "EDAXO50",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3201&ha=3916271795&r=4177",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3201&ha=3916271795&r=7735",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -3528,7 +3648,7 @@
       "logo": "//img.leadmax.pl/logo/a09c1e8dcf0f7a268007bb90b9b6e002.png",
       "opis": "Rabat w wysokości do 20% na wybrane produkty, przy zakupie min. 2 rzeczy.",
       "kod": "FINAL",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3241&ha=1929171621&r=6183",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3241&ha=1929171621&r=2009",
       "wazny_do": "2026-07-27 23:59:59"
     },
     {
@@ -3618,7 +3738,7 @@
       "logo": "//img.leadmax.pl/logo/5c1b1eca18ae31429c79b05564c6cca4.png",
       "opis": "Rabat w wysokości 20% na wszystko.",
       "kod": "LATO20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6130&ha=730980180&r=292",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6130&ha=730980180&r=2769",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -4188,7 +4308,7 @@
       "logo": "//img.leadmax.pl/logo/da8ef9305f2bbc634835ab118b2080cd.png",
       "opis": "Rabat w wysokości 20% na drugi produkt.",
       "kod": "SUMMER20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6044&ha=1701003928&r=4218",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6044&ha=1701003928&r=7318",
       "wazny_do": "2026-09-22 23:59:59"
     },
     {
@@ -4198,7 +4318,7 @@
       "logo": "//img.leadmax.pl/logo/eee6f361e2f352b120b1e372f15c0ed4.png",
       "opis": "Rabat w wysokości 10% na filtr: oleju, paliwa, kabinowy, powietrza przy zakupach za min. 99 zł. Nie łączy się z innymi promocjami. Dotyczy tylko zamówień online.",
       "kod": "FILTRY10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4216&ha=2597623327&r=210",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4216&ha=2597623327&r=9499",
       "wazny_do": "2026-07-24 23:59:59"
     },
     {
@@ -4728,7 +4848,7 @@
       "logo": "//img.leadmax.pl/logo/9af17051489684cb5cdd1061d68f07e2.png",
       "opis": "Rabat w wysokości 5% na cała ofertę. Użytkownik może wykorzystać kod tylko raz.",
       "kod": "W8XU1GM1",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6199&ha=2266668611&r=470",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6199&ha=2266668611&r=9187",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -4808,7 +4928,7 @@
       "logo": "//img.leadmax.pl/logo/ac5ae8fdf9f3d4b56f5ec90e353cac64.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "SUNNY10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5540&ha=1280625692&r=9273",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5540&ha=1280625692&r=1812",
       "wazny_do": "2026-08-31 23:59:59"
     },
     {
@@ -4908,7 +5028,7 @@
       "logo": "//img.leadmax.pl/logo/f7f1d4418af8e788b62c4e192c4d077d.png",
       "opis": "MIESIĄC DARMOWEJ DOSTAWY do punktów, automatów oraz kurierem Pocztex przy zamówieniu za min. 79 zł.",
       "kod": "DOSTAWA",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4876&ha=3908905548&r=1338",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4876&ha=3908905548&r=3325",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -5078,7 +5198,7 @@
       "logo": "//img.leadmax.pl/logo/1344feb24a2380b348c9bfdac415a1b2.png",
       "opis": "Rabat w wysokości do 20% na wybrane produkty, przy zakupie min. 2 rzeczy",
       "kod": "FINAL",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3416&ha=4089555516&r=274",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3416&ha=4089555516&r=9353",
       "wazny_do": "2026-07-27 23:59:59"
     },
     {
@@ -5158,7 +5278,7 @@
       "logo": "//img.leadmax.pl/logo/59f049cea878f66f138f7e8e685d0ebf.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "GOODMOOD10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6128&ha=3502065456&r=1689",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6128&ha=3502065456&r=1970",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -5168,7 +5288,7 @@
       "logo": "//img.leadmax.pl/logo/59f049cea878f66f138f7e8e685d0ebf.png",
       "opis": "Darmowa wysyłka.",
       "kod": "FREESHIPTD",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6128&ha=3502065456&r=8490",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6128&ha=3502065456&r=5454",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -5288,7 +5408,7 @@
       "logo": "//img.leadmax.pl/logo/a755c42503243cb3f338e454f03297d7.png",
       "opis": "Rabat w wysokości 5%.",
       "kod": "glow5",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6174&ha=1166031746&r=7106",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6174&ha=1166031746&r=8054",
       "wazny_do": "2026-08-31 23:59:59"
     },
     {
@@ -5318,7 +5438,7 @@
       "logo": "//img.leadmax.pl/logo/8cc7174871b5a1c408460ec67d82358a.png",
       "opis": "Przy zakupach za min. 50 zł, wygładzający krem do stóp za 1 zł.",
       "kod": "KREMZA1",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4222&ha=3921691249&r=9075",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4222&ha=3921691249&r=3447",
       "wazny_do": "2026-09-30 23:59:59"
     },
     {
@@ -5368,7 +5488,7 @@
       "logo": "//img.leadmax.pl/logo/b6c91dccc130e5b51935d4acfd2ebedd.png",
       "opis": "Rabat w wysokości 15% przy każdym zamówieniu powyżej 45 zł.",
       "kod": "HOTDEAL",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3057&ha=2709513609&r=6367",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3057&ha=2709513609&r=7042",
       "wazny_do": "2026-07-26 23:59:59"
     },
     {
@@ -5378,7 +5498,7 @@
       "logo": "//img.leadmax.pl/logo/9a75b83cd45943e8f09164b9dae2e68d.png",
       "opis": "Rabat w wysokości 20% na wszystkie plany subskrypcji z płatnościami ratalnymi dla uczniów rezerwujących 2 lub więcej zajęć w tygodniu.",
       "kod": "NOVASUMMER",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=3584",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=8625",
       "wazny_do": "2026-08-31 23:59:59"
     },
     {
@@ -5428,7 +5548,7 @@
       "logo": "//img.leadmax.pl/logo/67af74ef133dcd2038bab1c81aa95fb8.png",
       "opis": "Rabat w wysokości 200 zł na pierścionki zaręczynowe. Bez minimalnego progu zamówienia.",
       "kod": "YES200",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6184&ha=3033958743&r=4790",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6184&ha=3033958743&r=3263",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -5438,7 +5558,7 @@
       "logo": "//img.leadmax.pl/logo/67af74ef133dcd2038bab1c81aa95fb8.png",
       "opis": "Rabat w wysokości 125 zł przy zakupie dwóch obrączek.",
       "kod": "YES125",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6184&ha=3033958743&r=5686",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6184&ha=3033958743&r=9545",
       "wazny_do": "2026-08-31 23:59:59"
     },
     {
@@ -5628,7 +5748,7 @@
       "logo": "//img.leadmax.pl/logo/78ed29ac35ad40c6a3dc94352d3c3a2d.png",
       "opis": "Rabat w wysokości 35%. Rabat łączy się z produktami w promocji i programem lojalnościowym.",
       "kod": "HELLO35",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4224&ha=1719711697&r=4745",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4224&ha=1719711697&r=2114",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5978,7 +6098,7 @@
       "logo": "//img.leadmax.pl/logo/19653e82a9cf6d40e47a063ff5e0185a.png",
       "opis": "Rabat w wysokości 25 zł dla nowych użytkowników, uwzględnia on zniżkę na dwa pierwsze zamówienia.",
       "kod": "2psiakarma25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5302&ha=3470125136&r=1718",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5302&ha=3470125136&r=4115",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5998,7 +6118,7 @@
       "logo": "//img.leadmax.pl/logo/e031f52cfd14dfeb6a6ea19718f35b12.png",
       "opis": "Dodatkowy rabat w wysokości 25% na wybrane produkty Outlet.",
       "kod": "OUTLET25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=7100",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=5079",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6238,7 +6358,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na całą ofertę sklepu.",
       "kod": "SEKRECIK-20-LEAD",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8188",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4124",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6248,7 +6368,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na masażery do ciała i twarzy.",
       "kod": "MASAŻERY-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=1247",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2742",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6258,7 +6378,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na Body Painting.",
       "kod": "BodyPainting-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2959",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3786",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6268,7 +6388,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na cellulit tj.: suplementy, kosmetyki, rajstopy i pończochy.",
       "kod": "CELLULIT-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=737",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=1259",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6278,7 +6398,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroczki i koszulki nocne.",
       "kod": "SZLAFROCZKI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=5006",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9853",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6288,7 +6408,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na rajstopy, pończochy, leginsy, podkolanówki, paski do pończoch, rajstopy.",
       "kod": "PIEKNENOGI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2715",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=6272",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6298,7 +6418,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na komplety bielizny.",
       "kod": "KOMPLETY-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=770",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2120",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6308,7 +6428,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 25% na gry dla dorosłych.",
       "kod": "GRY-25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=833",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4274",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6318,7 +6438,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na peruki.",
       "kod": "PERUKI-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7578",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4763",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6328,7 +6448,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na buty na platformie.",
       "kod": "BUTYPLATFORMA-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=6347",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=5109",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6338,7 +6458,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na piżamy damskie.",
       "kod": "PIZAMYDAMSKIE-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=783",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3658",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6348,7 +6468,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na piżamy męskie.",
       "kod": "PIZAMYMESKIE-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7497",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7550",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6358,7 +6478,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroki męskie.",
       "kod": "SZLAFROKI-20M",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4178",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9304",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6368,7 +6488,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroki damskie.",
       "kod": "SZLAFROKI-20D",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=1375",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8110",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6378,7 +6498,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na świece do masażu.",
       "kod": "MASAZESWIECA-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=1972",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8761",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6388,7 +6508,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na śmieszne gadżety.",
       "kod": "SMIESZNE-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9216",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=5012",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6398,7 +6518,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na śmieszne kubki, kubki imprezowe, kubki na prezenty .",
       "kod": "KUBKI-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4246",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4258",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6408,7 +6528,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na majteczki dla kobiet tj. stringi, figi, szorty.",
       "kod": "MAJTECZKI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3529",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8223",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6648,7 +6768,7 @@
       "logo": "//img.leadmax.pl/logo/42616220c3701d0827e4b2b1a7c6a9c8.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "ls10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6115&ha=2931421487&r=1620",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6115&ha=2931421487&r=3959",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6668,7 +6788,7 @@
       "logo": "//img.leadmax.pl/logo/7842a1d7c296ca69923752d1f1e0183e.png",
       "opis": "Rabat w wysokości 10% na nową kolekcję SS 2026.",
       "kod": "SOTHO10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5806&ha=961682026&r=49",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5806&ha=961682026&r=3979",
       "wazny_do": "2026-07-30 09:59:59"
     },
     {
@@ -6748,7 +6868,7 @@
       "logo": "//img.leadmax.pl/logo/11eed128a0991b08bbd3a40f9023b504.png",
       "opis": "Rabat w wysokości 10% na wszystkie produkty nieprzecenione.",
       "kod": "RABAT10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5947&ha=970226296&r=6632",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5947&ha=970226296&r=5361",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6858,7 +6978,7 @@
       "logo": "//img.leadmax.pl/logo/06aa3662673b7530c75203e6878e8550.png",
       "opis": "Rabat w wysokości 40% na wybrane bestsellery.",
       "kod": "HELLO40",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6126&ha=1871575377&r=3634",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6126&ha=1871575377&r=8048",
       "wazny_do": "2026-08-03 23:59:59"
     },
     {
@@ -6882,14 +7002,14 @@
       "wazny_do": ""
     },
     {
-      "id": "5130",
-      "kategoria": "uroda",
+      "id": "prog_ls_3261",
+      "kategoria": "Sklepy",
       "marka": "Tołpa",
-      "logo": "//img.leadmax.pl/logo/4bc61e5cd76120211a4964fcc781871e.png",
-      "opis": "Przy zakupach za min. 140 zł, filler krem pod oczy wypełniający o wartości 44,99 zł w prezencie za 1 zł.",
-      "kod": "FILLER",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3261&ha=1060402094&r=491",
-      "wazny_do": "2026-07-23 23:59:59"
+      "logo": "https://img.leadmax.pl/logo/4bc61e5cd76120211a4964fcc781871e.png",
+      "opis": "🎁 BONUS: Przy zapisie do newslettera 10% zniżki na pierwsze zakupy.",
+      "kod": "SPRAWDŹ",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3261&ha=1060402094&r=4143",
+      "wazny_do": ""
     },
     {
       "id": "prog_ls_5823",
@@ -6968,7 +7088,7 @@
       "logo": "//img.leadmax.pl/logo/6c5f8dbfe78dd72e5c1de3d72f66e413.png",
       "opis": "Rabat w wysokości 10% na pierwsze zamówieniu przy zakupach za min. 199 zł. Nie dotyczy towarów przecenionych.",
       "kod": "PLUS10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5467&ha=365673139&r=4674",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5467&ha=365673139&r=9918",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -7128,7 +7248,7 @@
       "logo": "//img.leadmax.pl/logo/0b7d7e2f077920a2a744cc3e1bb5918c.png",
       "opis": "Rabat w wysokości 25%. Rabat dotyczy oznaczonych produktów przy wartości koszyka 299 zł. Nie łączy się z innymi kodami i promocjami.",
       "kod": "OUTLET26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6224&ha=614838444&r=5573",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6224&ha=614838444&r=1585",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -7138,7 +7258,7 @@
       "logo": "//img.leadmax.pl/logo/0b7d7e2f077920a2a744cc3e1bb5918c.png",
       "opis": "Rabat w wysokości 30% na wybrane oznaczone produkty przy zakupach za min. 299 zł.",
       "kod": "SALE26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6224&ha=614838444&r=2073",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6224&ha=614838444&r=5010",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -7148,7 +7268,7 @@
       "logo": "//img.leadmax.pl/logo/0b7d7e2f077920a2a744cc3e1bb5918c.png",
       "opis": "Rabat w wysokości 15% na wybrane oznaczone produkty przy zakupach za min. 289 zł.",
       "kod": "SUN26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6224&ha=614838444&r=5878",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6224&ha=614838444&r=7310",
       "wazny_do": "2026-07-26 23:59:59"
     },
     {
@@ -7238,7 +7358,7 @@
       "logo": "//img.leadmax.pl/logo/139a349ca1947429cb9846cc83ed6803.png",
       "opis": "Rabat w wysokości 5% na cały koszyk przy zakupach za min. 249,90 zł.",
       "kod": "LEAWITTCHEN5_26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2368&ha=1492720373&r=1622",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2368&ha=1492720373&r=9011",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -7318,7 +7438,7 @@
       "logo": "//img.leadmax.pl/logo/6d0ec4fd81ddf742f0b157e969cd0a41.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "ALERABAT10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=1352",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=3898",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -7328,7 +7448,7 @@
       "logo": "//img.leadmax.pl/logo/6d0ec4fd81ddf742f0b157e969cd0a41.png",
       "opis": "Rabat w wysokości 5% na wszystko.",
       "kod": "RABAT5",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=3263",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=1284",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -7808,7 +7928,7 @@
       "logo": "//img.leadmax.pl/logo/05e8d08b31e656e8704efc3485cf199d.png",
       "opis": "Książki w promocyjnej cenie 16,90 zł.",
       "kod": "LIPIEC16",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2685&ha=3361443987&r=3598",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2685&ha=3361443987&r=8194",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -7818,7 +7938,7 @@
       "logo": "//img.leadmax.pl/logo/05e8d08b31e656e8704efc3485cf199d.png",
       "opis": "Rabat w wysokości 50% na wybrane książki.",
       "kod": "TANIEJ50",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2685&ha=3361443987&r=2230",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2685&ha=3361443987&r=5195",
       "wazny_do": "2026-07-31 23:59:59"
     },
     {
@@ -7828,7 +7948,7 @@
       "logo": "//img.leadmax.pl/logo/4759def2fb65770d6e5da16229f79148.png",
       "opis": "Rabat w wysokości 20% na drugi produkt.",
       "kod": "LATO20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6110&ha=1717141087&r=4664",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6110&ha=1717141087&r=3426",
       "wazny_do": "2026-09-22 23:59:59"
     },
     {

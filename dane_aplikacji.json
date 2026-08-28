@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-08-28 18:47",
+  "aktualizacja": "2026-08-28 19:36",
   "rynek": {
     "inflacja": "3.0",
     "obligacje": {
@@ -285,96 +285,11 @@
     ],
     "konta_osobiste": [
       {
-        "bank": "PKO Bank Polski",
-        "produkt": "Konto za Zero",
-        "glowna_wartosc": "1500 zł",
-        "haczyki": [
-          "Do 600 zł bonusu, do 300 zł za konto dziecka, do 600 zł kodów rabatowych Samsung."
-        ],
-        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/538?source=api-konta-osobiste",
-        "badges": [
-          "👑 HIT RYNKU",
-          "💰 REKORDOWA PREMIA",
-          "💵 CZYSTA GOTÓWKA"
-        ],
-        "debug_bonus": {
-          "ai_meta": {
-            "reward_amount": 1500.0,
-            "reward_currency": "PLN",
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "1500 zł",
-            "conditions_summary": "Do 600 zł bonusu, do 300 zł za konto dziecka, do 600 zł kodów rabatowych Samsung.",
-            "confidence": 0.97,
-            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 1500 zł",
-            "haczyki": [],
-            "rekomendacja": "",
-            "pre_extraction": {
-              "reward_amount": 1500.0,
-              "reward_type": "cash",
-              "is_cash_reward": true,
-              "display_value": "1500 zł",
-              "conditions_summary": "",
-              "confidence": 0.9000000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 1500 zł",
-              "candidates": [
-                {
-                  "value": 600.0,
-                  "label": "600 zł",
-                  "score": 10
-                },
-                {
-                  "value": 300.0,
-                  "label": "300 zł",
-                  "score": 10
-                },
-                {
-                  "value": 1500.0,
-                  "label": "1500 zł",
-                  "score": 5
-                }
-              ]
-            }
-          },
-          "pre_extraction": {
-            "reward_amount": 1500.0,
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "1500 zł",
-            "conditions_summary": "",
-            "confidence": 0.9000000000000001,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 1500 zł",
-            "candidates": [
-              {
-                "value": 600.0,
-                "label": "600 zł",
-                "score": 10
-              },
-              {
-                "value": 300.0,
-                "label": "300 zł",
-                "score": 10
-              },
-              {
-                "value": 1500.0,
-                "label": "1500 zł",
-                "score": 5
-              }
-            ]
-          },
-          "bonus": "1500 zł",
-          "bonus_opis": "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod LATO i spełnij pozostałe warunki promocji „Letni Bonus”<br>\r\n- do 300 zł – otwórz online PKO Konto Dziecka (0-12 lat) lub PKO Konto dla Młodych (13-17), wpisz kod LATO i spełnijcie pozostałe warunki promocji „Letni Bonus”<br>\r\n- do 600 zł kodu rabatowego do sklepu Samsung przy spełnieniu warunków promocji „Rabat w górę”",
-          "promo_terms": "",
-          "representative_example": ""
-        }
-      },
-      {
         "bank": "Alior Bank",
         "produkt": "Alior Bank &#8211; Alior Konto za Zero (zyskaj nawet 1500 zł)",
         "glowna_wartosc": "1500 zł",
         "haczyki": [
-          "Brak szczegółów w opisie oferty."
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.comperialead.pl/a/pp_adserwer.php?cl_zrodlo=api&w=1&id_partner=367089&lokacja=MzY3MDg5XzMzOTA4OQ==&etykieta=apicl&id_bank=62&kwota_kredytu_=2000&produkt_=13&id_produkt_=1956&link_id_=23578",
@@ -390,9 +305,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1500 zł",
-            "conditions_summary": "Brak szczegółów w opisie oferty.",
-            "confidence": 0.3,
-            "reason": "Reward amount derived solely from 'pre' field as no details in 'txt'.",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -439,7 +354,7 @@
         "produkt": "mKonto Intensive",
         "glowna_wartosc": "1010 zł",
         "haczyki": [
-          "510 zł za otwarcie/aktywność, 100 zł za selfie/e-dowód, 300 zł za wpływy, 100 zł za konto dziecka"
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1993?source=api-konta-osobiste",
@@ -455,9 +370,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1010 zł",
-            "conditions_summary": "510 zł za otwarcie/aktywność, 100 zł za selfie/e-dowód, 300 zł za wpływy, 100 zł za konto dziecka",
-            "confidence": 0.98,
-            "reason": "Sum of all stated cash rewards.",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -534,7 +449,7 @@
         "produkt": "Konto dla Ciebie MAX",
         "glowna_wartosc": "1000 zł",
         "haczyki": [
-          "Do 1000 zł (100 zł/mies. przez 10 mies.) cashbacku za płatności w gastronomii (alternatywnie 300 zł za codzienne zakupy)"
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1362?source=api-konta-osobiste",
@@ -550,9 +465,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1000 zł",
-            "conditions_summary": "Do 1000 zł (100 zł/mies. przez 10 mies.) cashbacku za płatności w gastronomii (alternatywnie 300 zł za codzienne zakupy)",
-            "confidence": 0.98,
-            "reason": "Annual calculation of maximum monthly cashback option (100 zł * 10 months).",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -649,7 +564,7 @@
         "produkt": "Konto Otwarte na Ciebie",
         "glowna_wartosc": "1000 zł",
         "haczyki": [
-          "Do 900 zł (75 zł/mies. przez 12 mies.) za aktywność, 100 zł za konto lokacyjne"
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/2202?source=api-konta-osobiste",
@@ -665,9 +580,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1000 zł",
-            "conditions_summary": "Do 900 zł (75 zł/mies. przez 12 mies.) za aktywność, 100 zł za konto lokacyjne",
-            "confidence": 0.98,
-            "reason": "Annual calculation of monthly cashback (75 zł * 12 months = 900 zł) + additional cash bonus (100 zł).",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -744,7 +659,7 @@
         "produkt": "Millennium 360°",
         "glowna_wartosc": "1000 zł",
         "haczyki": [
-          "200 zł za otwarcie/aktywność, 500 zł za wpływy/płatności, 300 zł za konto dziecka"
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/403?source=api-konta-osobiste",
@@ -760,9 +675,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1000 zł",
-            "conditions_summary": "200 zł za otwarcie/aktywność, 500 zł za wpływy/płatności, 300 zł za konto dziecka",
-            "confidence": 0.98,
-            "reason": "Sum of all stated cash rewards.",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -865,11 +780,96 @@
         }
       },
       {
+        "bank": "PKO Bank Polski",
+        "produkt": "Konto za Zero",
+        "glowna_wartosc": "900 zł",
+        "haczyki": [
+          "krótko"
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://www.bankier.pl/e/lead/538?source=api-konta-osobiste",
+        "badges": [
+          "👑 HIT RYNKU",
+          "💰 REKORDOWA PREMIA",
+          "💵 CZYSTA GOTÓWKA"
+        ],
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 900.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "900 zł",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": 1500.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "1500 zł",
+              "conditions_summary": "",
+              "confidence": 0.9000000000000001,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 1500 zł",
+              "candidates": [
+                {
+                  "value": 600.0,
+                  "label": "600 zł",
+                  "score": 10
+                },
+                {
+                  "value": 300.0,
+                  "label": "300 zł",
+                  "score": 10
+                },
+                {
+                  "value": 1500.0,
+                  "label": "1500 zł",
+                  "score": 5
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": 1500.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "1500 zł",
+            "conditions_summary": "",
+            "confidence": 0.9000000000000001,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 1500 zł",
+            "candidates": [
+              {
+                "value": 600.0,
+                "label": "600 zł",
+                "score": 10
+              },
+              {
+                "value": 300.0,
+                "label": "300 zł",
+                "score": 10
+              },
+              {
+                "value": 1500.0,
+                "label": "1500 zł",
+                "score": 5
+              }
+            ]
+          },
+          "bonus": "1500 zł",
+          "bonus_opis": "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod LATO i spełnij pozostałe warunki promocji „Letni Bonus”<br>\r\n- do 300 zł – otwórz online PKO Konto Dziecka (0-12 lat) lub PKO Konto dla Młodych (13-17), wpisz kod LATO i spełnijcie pozostałe warunki promocji „Letni Bonus”<br>\r\n- do 600 zł kodu rabatowego do sklepu Samsung przy spełnieniu warunków promocji „Rabat w górę”",
+          "promo_terms": "",
+          "representative_example": ""
+        }
+      },
+      {
         "bank": "Erste Bank Polska",
         "produkt": "Konto Smart",
         "glowna_wartosc": "800 zł",
         "haczyki": [
-          "4x100 zł premii za aktywność, do 400 zł z ubezpieczeniem auta"
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/392?source=api-konta-osobiste",
@@ -890,9 +890,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "800 zł",
-            "conditions_summary": "4x100 zł premii za aktywność, do 400 zł z ubezpieczeniem auta",
+            "conditions_summary": "krótko",
             "confidence": 0.95,
-            "reason": "Sum of activity bonus (400 zł) and insurance bonus (up to 400 zł).",
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1009,7 +1009,7 @@
         "produkt": "Nest Konto",
         "glowna_wartosc": "650 zł",
         "haczyki": [
-          "Do 1200 zł zwrotu za płatności bezgotówkowe (600 zł/rok przez 2 lata) + 50 zł za wymianę waluty."
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1562?source=api-konta-osobiste",
@@ -1025,9 +1025,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "650 zł",
-            "conditions_summary": "Do 1200 zł zwrotu za płatności bezgotówkowe (600 zł/rok przez 2 lata) + 50 zł za wymianę waluty.",
-            "confidence": 0.8,
-            "reason": "Annual portion of 2-year cashback (1200 zł / 2 = 600 zł) + one-time bonus (50 zł).",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1074,7 +1074,7 @@
         "produkt": "VeloKonto",
         "glowna_wartosc": "600 zł",
         "haczyki": [
-          "Do 600 zł (50 zł/mies. przez 12 mies.) cashbacku za aktywność"
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/830?source=api-konta-osobiste",
@@ -1089,9 +1089,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "600 zł",
-            "conditions_summary": "Do 600 zł (50 zł/mies. przez 12 mies.) cashbacku za aktywność",
-            "confidence": 0.99,
-            "reason": "Annual calculation of monthly cashback (50 zł * 12 months).",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1148,7 +1148,7 @@
         "produkt": "Konto Przekorzystne (do 26 lat)",
         "glowna_wartosc": "500 zł",
         "haczyki": [
-          "100 zł za otwarcie, 400 zł za aktywność"
+          "krótko"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1857?source=api-konta-osobiste",
@@ -1163,9 +1163,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "500 zł",
-            "conditions_summary": "100 zł za otwarcie, 400 zł za aktywność",
-            "confidence": 0.98,
-            "reason": "Sum of explicit cash rewards.",
+            "conditions_summary": "krótko",
+            "confidence": 0.95,
+            "reason": "krótko",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {

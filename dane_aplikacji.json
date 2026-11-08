@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-07 19:01",
+  "aktualizacja": "2026-11-08 14:29",
   "rynek": {
     "inflacja": "4.1",
     "obligacje": {
@@ -219,7 +219,7 @@
           "Promocja: Rachunek oszczędnościowy. Warunki:"
         ],
         "rekomendacja": "Porównaj limit kwoty i czas trwania promocji.",
-        "link": "https://prostodo.pl/c?zid=42406598569&tid=3823&ha=3752038503&r=1547",
+        "link": "https://prostodo.pl/c?zid=93467283190&tid=3823&ha=979404215&r=8917",
         "badges": [
           "✨ DLA WSZYSTKICH ŚRODKÓW"
         ],
@@ -449,7 +449,7 @@
         "glowna_wartosc": "2700 zł",
         "podtytul_premii": "300 zł gotówka na start + do 2400 zł podróże",
         "haczyki": [
-          "Otwarcie konta z kartą i PeoPay, transakcje bezgotówkowe oraz udział w promocji podróżnej."
+          "- 100 zł - za otwarcie i aktywność na koncie: otwarcie konta z kartą do tego konta, aplikacją PeoPay i Pekao24, zalogowa..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/2848?source=api-konta-osobiste",
@@ -465,9 +465,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "2700 zł",
-            "conditions_summary": "Otwarcie konta z kartą i PeoPay, transakcje bezgotówkowe oraz udział w promocji podróżnej.",
-            "confidence": 0.95,
-            "reason": "300 zł standardowej premii oraz do 2400 zł zwrotu w promocji podróżnej.",
+            "conditions_summary": "",
+            "confidence": 0.9000000000000001,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 2700 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -545,7 +545,7 @@
         "glowna_wartosc": "1300 zł",
         "podtytul_premii": "800 zł premia na start + korzyści",
         "haczyki": [
-          "Kod PREMIA800, transakcje portfelem cyfrowym, obrączka płatnicza oraz wpływy i transakcje w kolejnym miesiącu."
+          "Aby otrzymać 1300 zł premii w promocji Alior Banku, należy wpisać kod PREMIA800 podczas wypełniania wniosku i spełnić wa..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1720?source=api-konta-osobiste",
@@ -561,9 +561,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1300 zł",
-            "conditions_summary": "Kod PREMIA800, transakcje portfelem cyfrowym, obrączka płatnicza oraz wpływy i transakcje w kolejnym miesiącu.",
-            "confidence": 0.95,
-            "reason": "Do 1300 zł nagród finansowych i rzeczowych.",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 1300 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -656,108 +656,12 @@
         }
       },
       {
-        "bank": "mBank",
-        "produkt": "eKonto do usług",
-        "glowna_wartosc": "1300 zł",
-        "podtytul_premii": "Gotówka na start + e-bony",
-        "haczyki": [
-          "Bony do Biedronki, premia za otwarcie i aktywność, selfie/e-dowód, wpływy wynagrodzenia i konto dla dziecka."
-        ],
-        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/3332?source=api-konta-osobiste",
-        "badges": [
-          "👑 HIT RYNKU",
-          "💰 REKORDOWA PREMIA",
-          "💵 CZYSTA GOTÓWKA"
-        ],
-        "debug_bonus": {
-          "ai_meta": {
-            "reward_amount": 1300.0,
-            "reward_currency": "PLN",
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "1300 zł",
-            "conditions_summary": "Bony do Biedronki, premia za otwarcie i aktywność, selfie/e-dowód, wpływy wynagrodzenia i konto dla dziecka.",
-            "confidence": 0.95,
-            "reason": "Suma wszystkich bonusów w promocji wynosi do 1300 zł.",
-            "haczyki": [],
-            "rekomendacja": "",
-            "pre_extraction": {
-              "reward_amount": 500.0,
-              "reward_type": "cash",
-              "is_cash_reward": true,
-              "display_value": "500 zł",
-              "conditions_summary": "",
-              "confidence": 0.93,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 500 zł",
-              "candidates": [
-                {
-                  "value": 500.0,
-                  "label": "500 zł",
-                  "score": 10
-                },
-                {
-                  "value": 300.0,
-                  "label": "300 zł",
-                  "score": 10
-                },
-                {
-                  "value": 100.0,
-                  "label": "100 zł",
-                  "score": 5
-                },
-                {
-                  "value": 1300.0,
-                  "label": "1300 zł",
-                  "score": -1
-                }
-              ]
-            }
-          },
-          "pre_extraction": {
-            "reward_amount": 500.0,
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "500 zł",
-            "conditions_summary": "",
-            "confidence": 0.93,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 500 zł",
-            "candidates": [
-              {
-                "value": 500.0,
-                "label": "500 zł",
-                "score": 10
-              },
-              {
-                "value": 300.0,
-                "label": "300 zł",
-                "score": 10
-              },
-              {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 5
-              },
-              {
-                "value": 1300.0,
-                "label": "1300 zł",
-                "score": -1
-              }
-            ]
-          },
-          "bonus": "1300 zł",
-          "bonus_opis": "Zyskaj nawet 1300 zł i 5,3% na oszczędnościach:<br>\r\n- do 300 zł w bonach do Biedronki, jeśli zapiszesz się do promocji i spełnisz warunki<br>\r\n- do 500 zł – za otwarcie eKonta do usług wraz z kartą oraz aktywne korzystanie z konta (szczegółowe warunki wpływów i transakcji kartą w kolejnych miesiącach)<br>\r\n- 100 zł – jeśli otworzysz konto przez selfie, e-dowód lub z aplikacją mObywatel (pod warunkiem spełnienia pozostałych wymogów aktywności)<br>\r\n- 300 zł – jeśli zapewnisz wpływy wynagrodzenia na konto otwarte w okresie trwania promocji<br>\r\n- 100 zł – za otwarcie konta dla dziecka (eKonto Junior lub eKonto możliwości) w okresie trwania promocji<br>",
-          "promo_terms": "",
-          "representative_example": ""
-        }
-      },
-      {
         "bank": "BNP Paribas Bank Polska",
         "produkt": "Konto Otwarte na Ciebie",
         "glowna_wartosc": "1100 zł",
         "podtytul_premii": "Czysta gotówka na start",
         "haczyki": [
-          "Wpływ min. 1500 zł, 10 transakcji i logowanie przez 12 miesięcy (75 zł/mc) plus 200 zł za Konto Lokacyjne."
+          "Zyskaj do 900 zł: - 75 zł za każdy miesiąc, w którym zapewnisz wpływ na konto min. 1500 zł, wykonasz min. 10 transakcji..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1437?source=api-konta-osobiste",
@@ -773,9 +677,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1100 zł",
-            "conditions_summary": "Wpływ min. 1500 zł, 10 transakcji i logowanie przez 12 miesięcy (75 zł/mc) plus 200 zł za Konto Lokacyjne.",
-            "confidence": 0.95,
-            "reason": "75 zł x 12 miesięcy (900 zł) + 200 zł = 1100 zł.",
+            "conditions_summary": "",
+            "confidence": 0.9000000000000001,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 1100 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -873,7 +777,7 @@
         "glowna_wartosc": "1060 zł",
         "podtytul_premii": "2% do 50 zł/mies. cashback (do 1200 zł) + 50 zł kantor",
         "haczyki": [
-          "Wpływy wynagrodzenia (do 700 zł) oraz zwrot za zakupy kartą/BLIK (do 360 zł rocznie)."
+          "1200 zł - premii za wynagrodzenie: 200 zł za pierwszy wpływ wynagrodzenia. 50 zł za każdy kolejny wpływ wynagrodzenia (m..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/1562?source=api-konta-osobiste",
@@ -889,9 +793,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "1060 zł",
-            "conditions_summary": "Wpływy wynagrodzenia (do 700 zł) oraz zwrot za zakupy kartą/BLIK (do 360 zł rocznie).",
-            "confidence": 0.95,
-            "reason": "200 zł na start + 500 zł za kolejne wpływy + 360 zł zwrotu za zakupy (30 zł x 12 miesięcy).",
+            "conditions_summary": "",
+            "confidence": 0.99,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Czysta liczba w polu bonus.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -934,121 +838,15 @@
         }
       },
       {
-        "bank": "Crédit Agricole",
-        "produkt": "Konto dla Ciebie MAX",
-        "glowna_wartosc": "1000 zł",
-        "podtytul_premii": "do 100 zł/mies. zwrotu za zakupy / gastronomię",
+        "bank": "mBank",
+        "produkt": "mKonto Intensive",
+        "glowna_wartosc": "1010 zł",
+        "podtytul_premii": "Gotówka na start + e-bony",
         "haczyki": [
-          "Płatności w gastronomii (10 zł za każde wydane 50 zł, maks. 100 zł miesięcznie przez 10 miesięcy)."
+          "Maksymalnie do 1010 zł premii: 510 zł łącznej premii za otwarcie konta z kartą, zapisanie się do promocji i aktywność 10..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/1362?source=api-konta-osobiste",
-        "badges": [
-          "👑 HIT RYNKU",
-          "💰 REKORDOWA PREMIA",
-          "🔁 DO 100 ZŁ/MIES. CASHBACK"
-        ],
-        "debug_bonus": {
-          "ai_meta": {
-            "reward_amount": 1000.0,
-            "reward_currency": "PLN",
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "1000 zł",
-            "conditions_summary": "Płatności w gastronomii (10 zł za każde wydane 50 zł, maks. 100 zł miesięcznie przez 10 miesięcy).",
-            "confidence": 0.95,
-            "reason": "Miesięczny cashback przez 10 miesięcy (100 zł x 10 = 1000 zł).",
-            "haczyki": [],
-            "rekomendacja": "",
-            "pre_extraction": {
-              "reward_amount": 600.0,
-              "reward_type": "cash",
-              "is_cash_reward": true,
-              "display_value": "600 zł",
-              "conditions_summary": "",
-              "confidence": 0.93,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
-              "candidates": [
-                {
-                  "value": 600.0,
-                  "label": "600 zł",
-                  "score": 12
-                },
-                {
-                  "value": 100.0,
-                  "label": "100 zł",
-                  "score": 10
-                },
-                {
-                  "value": 1000.0,
-                  "label": "1000 zł",
-                  "score": 0
-                },
-                {
-                  "value": 500.0,
-                  "label": "500 zł",
-                  "score": 0
-                },
-                {
-                  "value": 50.0,
-                  "label": "50 zł",
-                  "score": 0
-                }
-              ]
-            }
-          },
-          "pre_extraction": {
-            "reward_amount": 600.0,
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "600 zł",
-            "conditions_summary": "",
-            "confidence": 0.93,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
-            "candidates": [
-              {
-                "value": 600.0,
-                "label": "600 zł",
-                "score": 12
-              },
-              {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 10
-              },
-              {
-                "value": 1000.0,
-                "label": "1000 zł",
-                "score": 0
-              },
-              {
-                "value": 500.0,
-                "label": "500 zł",
-                "score": 0
-              },
-              {
-                "value": 50.0,
-                "label": "50 zł",
-                "score": 0
-              }
-            ]
-          },
-          "bonus": "1000 zł",
-          "bonus_opis": "- 1000 zł - za płatności w gastronomii - bank zwróci Ci 10 zł za każde wydane 50 zł kartą lub BLIKIEM w restauracjach, kawiarniach i punktach gastronomicznych. Maksymalnie możesz zyskać 100 zł miesięcznie przez 10 miesięcy. Wymagane jest utrzymanie zgód marketingowych.<br>\r\n- 500 zł - za codzienne zakupy (promocja alternatywna) - zamiast zwrotów za gastronomię możesz wybrać zwrot 3% wartości za codzienne zakupy kartą lub BLIKIEM. Zyskasz do 50 zł miesięcznie przez 10 miesięcy, pod warunkiem wykonania min. 10 transakcji w miesiącu.",
-          "promo_terms": "",
-          "representative_example": ""
-        }
-      },
-      {
-        "bank": "Bank Millennium",
-        "produkt": "Millennium 360°",
-        "glowna_wartosc": "1000 zł",
-        "podtytul_premii": "Gotówka na start (do 1000 zł w etapach)",
-        "haczyki": [
-          "Otwarcie konta z kartą, wpływy, płatności portfelem mobilnym i BLIK przez kolejne miesiące."
-        ],
-        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/403?source=api-konta-osobiste",
+        "link": "https://www.bankier.pl/e/lead/1993?source=api-konta-osobiste",
         "badges": [
           "👑 HIT RYNKU",
           "💰 REKORDOWA PREMIA",
@@ -1056,33 +854,33 @@
         ],
         "debug_bonus": {
           "ai_meta": {
-            "reward_amount": 1000.0,
+            "reward_amount": 1010.0,
             "reward_currency": "PLN",
             "reward_type": "cash",
             "is_cash_reward": true,
-            "display_value": "1000 zł",
-            "conditions_summary": "Otwarcie konta z kartą, wpływy, płatności portfelem mobilnym i BLIK przez kolejne miesiące.",
-            "confidence": 0.95,
-            "reason": "Łączna pula nagród w promocji wynosi do 1000 zł.",
+            "display_value": "1010 zł",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 1010 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
-              "reward_amount": 1000.0,
+              "reward_amount": 1010.0,
               "reward_type": "cash",
               "is_cash_reward": true,
-              "display_value": "1000 zł",
+              "display_value": "1010 zł",
               "conditions_summary": "",
-              "confidence": 0.9000000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 1000 zł",
+              "confidence": 0.93,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 1010 zł",
               "candidates": [
                 {
-                  "value": 200.0,
-                  "label": "200 zł",
+                  "value": 1010.0,
+                  "label": "1010 zł",
                   "score": 10
                 },
                 {
-                  "value": 1000.0,
-                  "label": "1000 zł",
+                  "value": 510.0,
+                  "label": "510 zł",
                   "score": 5
                 },
                 {
@@ -1093,7 +891,108 @@
                 {
                   "value": 100.0,
                   "label": "100 zł",
-                  "score": 0
+                  "score": 5
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": 1010.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "1010 zł",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 1010 zł",
+            "candidates": [
+              {
+                "value": 1010.0,
+                "label": "1010 zł",
+                "score": 10
+              },
+              {
+                "value": 510.0,
+                "label": "510 zł",
+                "score": 5
+              },
+              {
+                "value": 300.0,
+                "label": "300 zł",
+                "score": 5
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": 5
+              }
+            ]
+          },
+          "bonus": "1010 zł",
+          "bonus_opis": "Maksymalnie do 1010 zł premii:\r\n<ul>\r\n<li>510 zł łącznej premii za otwarcie konta z kartą, zapisanie się do promocji i aktywność</li>\r\n<li>100 zł za otwarcie konta przez selfie lub przez e-dowód i aktywność</li>\r\n<li>300 zł za wpływ wynagrodzenia</li>\r\n<li>100 zł za założenie konta dla dziecka</li>\r\n",
+          "promo_terms": "",
+          "representative_example": ""
+        }
+      },
+      {
+        "bank": "Bank Millennium S.A.",
+        "produkt": "Konto 360° w promocji „Do 800 zł z kontem Millennium 360°”",
+        "glowna_wartosc": "1000 zł",
+        "podtytul_premii": "Gotówka na start (do 1000 zł w etapach)",
+        "haczyki": [
+          "Za otwarcie konta Klient może zyskać do 1000 zł w promocjach z kontem Millennium 360° i Kontem 360° Junior, w tym do 800..."
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://prostodo.pl/c?zid=98978775371&tid=6048&ha=613409793&r=9740",
+        "badges": [
+          "👑 HIT RYNKU",
+          "💰 REKORDOWA PREMIA",
+          "💵 CZYSTA GOTÓWKA"
+        ],
+        "waznosc": {
+          "data_konca": "2027-01-31",
+          "dni_do_konca": 84,
+          "etykieta": "Ważne do: 31.01.2027"
+        },
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 1000.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "1000 zł",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 1000 zł",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": 1000.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "1000 zł",
+              "conditions_summary": "",
+              "confidence": 0.93,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 1000 zł",
+              "candidates": [
+                {
+                  "value": 1000.0,
+                  "label": "1000 zł",
+                  "score": 10
+                },
+                {
+                  "value": 800.0,
+                  "label": "800 zł",
+                  "score": 10
+                },
+                {
+                  "value": 300.0,
+                  "label": "300 zł",
+                  "score": 10
+                },
+                {
+                  "value": 200.0,
+                  "label": "200 zł",
+                  "score": 10
                 },
                 {
                   "value": 3000.0,
@@ -1114,28 +1013,28 @@
             "is_cash_reward": true,
             "display_value": "1000 zł",
             "conditions_summary": "",
-            "confidence": 0.9000000000000001,
+            "confidence": 0.93,
             "reason": "Najwyższy dodatnio oceniony kandydat: 1000 zł",
             "candidates": [
               {
-                "value": 200.0,
-                "label": "200 zł",
+                "value": 1000.0,
+                "label": "1000 zł",
                 "score": 10
               },
               {
-                "value": 1000.0,
-                "label": "1000 zł",
-                "score": 5
+                "value": 800.0,
+                "label": "800 zł",
+                "score": 10
               },
               {
                 "value": 300.0,
                 "label": "300 zł",
-                "score": 5
+                "score": 10
               },
               {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 0
+                "value": 200.0,
+                "label": "200 zł",
+                "score": 10
               },
               {
                 "value": 3000.0,
@@ -1149,10 +1048,10 @@
               }
             ]
           },
-          "bonus": "1000 zł",
-          "bonus_opis": "- 200 zł za otwarcie konta Millennium 360° z kartą debetową, wyrażenie zgód marketingowych oraz w ciągu 14 dni od otwarcia: rejestrację numeru do przelewów BLIK w aplikacji, zapewnienie wpływów min. 1500 zł (dla osób w wieku 18–25 lat) lub 3000 zł (26+) i wykonanie min. 5 płatności portfelem mobilnym (np. Apple Pay, Google Pay) w sklepach stacjonarnych<br>\r\n- 300 zł za wpływy min. 1500 zł (18–25 lat) lub 3000 zł (26+) oraz transakcje na łączną kwotę min. 1000 zł (kartą debetową stacjonarnie/online lub portfelem mobilnym wyłącznie stacjonarnie) w każdym z 6 kolejnych miesięcy po miesiącu otwarcia konta. Uwaga: przez cały ten okres 6 miesięcy musisz utrzymać zarejestrowany numer do przelewów BLIK w aplikacji mobilnej<br>\r\n- 300 zł za spełnienie warunków drugiej premii przez co najmniej 5 spośród 6 kolejnych miesięcy po otwarciu konta, pod warunkiem że wymagany wpływ (min. 1500 zł dla osób 18–25 lat lub min. 3000 zł dla osób 26+) będzie pochodził z tytułu wynagrodzenia lub świadczeń<br>\r\n- do 200 zł na eKarcie goodie za otwarcie Konta 360° Junior dla dziecka wraz ze zgodami marketingowymi: 100 zł dla dziecka w wieku 0–6 lat (utrzymanie salda min. 200 zł na Koncie Oszczędnościowym Profit przez 3 miesiące) lub 200 zł dla dziecka w wieku 7–17 lat (zasilenie konta kwotą min. 200 zł w ciągu pierwszych 10 dni, saldo min. 200 zł na KO Profit przez 3 miesiące oraz min. 3 płatności kartą lub telefonem wykonane przez dziecko w każdym z 3 kolejnych miesięcy)",
+          "bonus": "Za otwarcie konta Klient może zyskać do 1000 zł w promocjach z kontem Millennium 360° i Kontem 360° Junior, w tym do 800 zł premii pieniężnej oraz eKartę goodie o wartości 200 zł. Jak zyskać 200 zł premii na start? 1. Należy otworzyć konto Millennium 360° z kartą debetową oraz wyrazić wymagane zgody marketingowe i handlowe. 2. W ciągu 14 dni od dnia otwarcia konta należy: a) zapewnić wpływy na konto otwarte w promocji o łącznej wysokości: – min. 1500 zł (osoby w wieku 18–25 lat) lub – min. 3000 zł (osoby w wieku 26 lat lub więcej), b) wykonać min. 5 płatności w sklepach stacjonarnych z wykorzystaniem portfela mobilnego (np. Apple Pay, Google Pay lub Samsung Pay), z wyłączeniem płatności BLIK, c) zarejestrować numer telefonu do otrzymywania przelewów BLIK w aplikacji mobilnej. Za spełnienie tych warunków przysługuje 200 zł premii pieniężnej. Jak otrzymać kolejne 300 zł? 1. W każdym z 6 miesięcy kalendarzowych następujących po miesiącu otwarcia konta należy spełnić łącznie następujące warunki: a) zapewnić wpływy na konto otwarte w promocji o łącznej wysokości: – min. 1500 zł (osoby w wieku 18–25 lat) lub – min. 3000 zł (osoby w wieku 26 lat lub więcej), b) wykonać płatności na łączną kwotę min. 1000 zł kartą debetową w sklepach stacjonarnych lub internecie albo portfelem mobilnym w sklepach stacjonarnych, c) utrzymywać zarejestrowany numer telefonu do otrzymywania przelewów BLIK w aplikacji mobilnej przez cały wymagany okres. Za spełnienie tych warunków przysługuje 300 zł premii pieniężnej. Jak zyskać dodatkowe 300 zł za wpływy z wynagrodzenia lub świadczeń? 1. W co najmniej 5 z 6 miesięcy kalendarzowych następujących po miesiącu otwarcia konta należy: a) spełnić warunki wymagane do otrzymania poprzedniej premii 300 zł, b) zapewnić wpływy na konto w wysokości min. 1500 zł (osoby w wieku 18–25 lat) lub min. 3000 zł (osoby w wieku 26 lat lub więcej), pochodzące z wynagrodzenia lub świadczeń. 2. Do kwalifikowanych wpływów zaliczane są m.in. wynagrodzenie z umowy o pracę, umowy zlecenia, emerytura, renta oraz świadczenie wychowawcze 800+, zgodnie z regulaminem. Za spełnienie tych warunków przysługuje dodatkowe 300 zł premii pieniężnej. Jak zyskać eKartę goodie o wartości 200 zł z Kontem 360° Junior? 1. W okresie od 19.10.2026 r. do 31.01.2027 r. należy otworzyć dziecku Konto 360° Junior wraz z Kontem Oszczędnościowym Profit w Millenecie lub aplikacji mobilnej, zaakceptować regulamin promocji i wyrazić wymagane zgody marketingowe. Dla dziecka w wieku 7–17 lat należy również otworzyć kartę debetową. 2. W ciągu 10 dni od otwarcia Konta 360° Junior należy wpłacić na nie min. 200 zł. 3. W przypadku dziecka w wieku 0–6 lat należy utrzymywać na Koncie Oszczędnościowym Profit dziecka saldo w wysokości min. 200 zł przez 3 kolejne miesiące kalendarzowe następujące po miesiącu otwarcia Konta 360° Junior. 4. W przypadku dziecka w wieku 7–17 lat należy: a) wykonać kartą do Konta 360° Junior lub portfelem mobilnym min. 3 płatności w każdym z 3 kolejnych miesięcy kalendarzowych następujących po miesiącu otwarcia konta, b) utrzymywać na Koncie Oszczędnościowym Profit dziecka saldo w wysokości min. 200 zł przez te 3 miesiące. Za spełnienie warunków przysługuje kod na eKartę goodie o wartości 200 zł. Promocja „Do 800 zł z kontem Millennium 360°” obowiązuje na zasadach nowej edycji od 28.10.2026 r. Promocja „Konto 360° Junior z eKartą goodie 200 zł” trwa od 19.10.2026 r. do 31.01.2027 r. lub do wcześniejszego wyczerpania limitu 20 000 kont. Aby otrzymać nagrody, należy utrzymywać wymagane zgody marketingowe oraz nie rozwiązywać, nie wypowiadać ani nie odstępować od umów objętych promocjami do momentu przekazania nagród.",
+          "bonus_opis": "Za otwarcie konta Klient może zyskać do 1000 zł w promocjach z kontem Millennium 360° i Kontem 360° Junior, w tym do 800 zł premii pieniężnej oraz eKartę goodie o wartości 200 zł. Jak zyskać 200 zł premii na start? 1. Należy otworzyć konto Millennium 360° z kartą debetową oraz wyrazić wymagane zgody marketingowe i handlowe. 2. W ciągu 14 dni od dnia otwarcia konta należy: a) zapewnić wpływy na konto otwarte w promocji o łącznej wysokości: – min. 1500 zł (osoby w wieku 18–25 lat) lub – min. 3000 zł (osoby w wieku 26 lat lub więcej), b) wykonać min. 5 płatności w sklepach stacjonarnych z wykorzystaniem portfela mobilnego (np. Apple Pay, Google Pay lub Samsung Pay), z wyłączeniem płatności BLIK, c) zarejestrować numer telefonu do otrzymywania przelewów BLIK w aplikacji mobilnej. Za spełnienie tych warunków przysługuje 200 zł premii pieniężnej. Jak otrzymać kolejne 300 zł? 1. W każdym z 6 miesięcy kalendarzowych następujących po miesiącu otwarcia konta należy spełnić łącznie następujące warunki: a) zapewnić wpływy na konto otwarte w promocji o łącznej wysokości: – min. 1500 zł (osoby w wieku 18–25 lat) lub – min. 3000 zł (osoby w wieku 26 lat lub więcej), b) wykonać płatności na łączną kwotę min. 1000 zł kartą debetową w sklepach stacjonarnych lub internecie albo portfelem mobilnym w sklepach stacjonarnych, c) utrzymywać zarejestrowany numer telefonu do otrzymywania przelewów BLIK w aplikacji mobilnej przez cały wymagany okres. Za spełnienie tych warunków przysługuje 300 zł premii pieniężnej. Jak zyskać dodatkowe 300 zł za wpływy z wynagrodzenia lub świadczeń? 1. W co najmniej 5 z 6 miesięcy kalendarzowych następujących po miesiącu otwarcia konta należy: a) spełnić warunki wymagane do otrzymania poprzedniej premii 300 zł, b) zapewnić wpływy na konto w wysokości min. 1500 zł (osoby w wieku 18–25 lat) lub min. 3000 zł (osoby w wieku 26 lat lub więcej), pochodzące z wynagrodzenia lub świadczeń. 2. Do kwalifikowanych wpływów zaliczane są m.in. wynagrodzenie z umowy o pracę, umowy zlecenia, emerytura, renta oraz świadczenie wychowawcze 800+, zgodnie z regulaminem. Za spełnienie tych warunków przysługuje dodatkowe 300 zł premii pieniężnej. Jak zyskać eKartę goodie o wartości 200 zł z Kontem 360° Junior? 1. W okresie od 19.10.2026 r. do 31.01.2027 r. należy otworzyć dziecku Konto 360° Junior wraz z Kontem Oszczędnościowym Profit w Millenecie lub aplikacji mobilnej, zaakceptować regulamin promocji i wyrazić wymagane zgody marketingowe. Dla dziecka w wieku 7–17 lat należy również otworzyć kartę debetową. 2. W ciągu 10 dni od otwarcia Konta 360° Junior należy wpłacić na nie min. 200 zł. 3. W przypadku dziecka w wieku 0–6 lat należy utrzymywać na Koncie Oszczędnościowym Profit dziecka saldo w wysokości min. 200 zł przez 3 kolejne miesiące kalendarzowe następujące po miesiącu otwarcia Konta 360° Junior. 4. W przypadku dziecka w wieku 7–17 lat należy: a) wykonać kartą do Konta 360° Junior lub portfelem mobilnym min. 3 płatności w każdym z 3 kolejnych miesięcy kalendarzowych następujących po miesiącu otwarcia konta, b) utrzymywać na Koncie Oszczędnościowym Profit dziecka saldo w wysokości min. 200 zł przez te 3 miesiące. Za spełnienie warunków przysługuje kod na eKartę goodie o wartości 200 zł. Promocja „Do 800 zł z kontem Millennium 360°” obowiązuje na zasadach nowej edycji od 28.10.2026 r. Promocja „Konto 360° Junior z eKartą goodie 200 zł” trwa od 19.10.2026 r. do 31.01.2027 r. lub do wcześniejszego wyczerpania limitu 20 000 kont. Aby otrzymać nagrody, należy utrzymywać wymagane zgody marketingowe oraz nie rozwiązywać, nie wypowiadać ani nie odstępować od umów objętych promocjami do momentu przekazania nagród.",
           "promo_terms": "",
-          "representative_example": ""
+          "representative_example": "Za otwarcie konta Klient może zyskać do 1000 zł w promocjach z kontem Millennium 360° i Kontem 360° Junior, w tym do 800 zł premii pieniężnej oraz eKartę goodie o wartości 200 zł. Jak zyskać 200 zł premii na start? 1. Należy otworzyć konto Millennium 360° z kartą debetową oraz wyrazić wymagane zgody marketingowe i handlowe. 2. W ciągu 14 dni od dnia otwarcia konta należy: a) zapewnić wpływy na kon"
         }
       },
       {
@@ -1161,7 +1060,7 @@
         "glowna_wartosc": "900 zł",
         "podtytul_premii": "Premia gotówkowa + kody korzyści",
         "haczyki": [
-          "Kod PROSTO, otwarcie konta online z kartą Visa i spełnienie warunków promocji dla dorosłych oraz dzieci."
+          "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod PROSTO i spełnij pozostałe warunki promocji „Prost..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
         "link": "https://www.bankier.pl/e/lead/2361?source=api-konta-osobiste",
@@ -1177,9 +1076,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "900 zł",
-            "conditions_summary": "Kod PROSTO, otwarcie konta online z kartą Visa i spełnienie warunków promocji dla dorosłych oraz dzieci.",
-            "confidence": 0.95,
-            "reason": "Do 600 zł dla konta głównego + do 300 zł dla konta dziecka/młodych.",
+            "conditions_summary": "",
+            "confidence": 0.9000000000000001,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 900 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1242,116 +1141,15 @@
         }
       },
       {
-        "bank": "Erste Bank Polska",
-        "produkt": "Konto Smart",
-        "glowna_wartosc": "700 zł",
-        "podtytul_premii": "Czysta gotówka na start",
-        "haczyki": [
-          "Wpływy min. 1000 zł, transakcje kartą/BLIK, cel oszczędnościowy i aplikacja przez 3 miesiące."
-        ],
-        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://www.bankier.pl/e/lead/392?source=api-konta-osobiste",
-        "badges": [
-          "👑 HIT RYNKU",
-          "💰 REKORDOWA PREMIA",
-          "💵 CZYSTA GOTÓWKA"
-        ],
-        "waznosc": {
-          "data_konca": "2026-11-30",
-          "dni_do_konca": 23,
-          "etykieta": "Ważne do: 30.11.2026"
-        },
-        "debug_bonus": {
-          "ai_meta": {
-            "reward_amount": 700.0,
-            "reward_currency": "PLN",
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "700 zł",
-            "conditions_summary": "Wpływy min. 1000 zł, transakcje kartą/BLIK, cel oszczędnościowy i aplikacja przez 3 miesiące.",
-            "confidence": 0.95,
-            "reason": "Łącznie do 700 zł premii za aktywność w 3 miesiące.",
-            "haczyki": [],
-            "rekomendacja": "",
-            "pre_extraction": {
-              "reward_amount": 100.0,
-              "reward_type": "cash",
-              "is_cash_reward": true,
-              "display_value": "100 zł",
-              "conditions_summary": "",
-              "confidence": 0.9000000000000001,
-              "reason": "Najwyższy dodatnio oceniony kandydat: 100 zł",
-              "candidates": [
-                {
-                  "value": 100.0,
-                  "label": "100 zł",
-                  "score": 5
-                },
-                {
-                  "value": 200.0,
-                  "label": "200 zł",
-                  "score": 0
-                },
-                {
-                  "value": 700.0,
-                  "label": "700 zł",
-                  "score": -1
-                },
-                {
-                  "value": 1000.0,
-                  "label": "1000 zł",
-                  "score": -10
-                }
-              ]
-            }
-          },
-          "pre_extraction": {
-            "reward_amount": 100.0,
-            "reward_type": "cash",
-            "is_cash_reward": true,
-            "display_value": "100 zł",
-            "conditions_summary": "",
-            "confidence": 0.9000000000000001,
-            "reason": "Najwyższy dodatnio oceniony kandydat: 100 zł",
-            "candidates": [
-              {
-                "value": 100.0,
-                "label": "100 zł",
-                "score": 5
-              },
-              {
-                "value": 200.0,
-                "label": "200 zł",
-                "score": 0
-              },
-              {
-                "value": 700.0,
-                "label": "700 zł",
-                "score": -1
-              },
-              {
-                "value": 1000.0,
-                "label": "1000 zł",
-                "score": -10
-              }
-            ]
-          },
-          "bonus": "700 zł",
-          "bonus_opis": "Do 30 listopada 2026 r. złóż wniosek i zawrzyj umowę o konto z kartą debetową oraz usługami Erste online i podczas składania wniosku wyraź zgodę na przystąpienie do promocji, zaakceptuj regulamin oraz pozostałe wymagane zgody. <br><br>\r\n3 x 200 zł premii za aktywność<br>\r\nW promocji możesz otrzymać trzy nagrody po 200 zł za każdy miesiąc, jeśli w pierwszym i dwóch kolejnych miesiącach kalendarzowych następujących po miesiącu złożenia wniosku o konto, spełnisz łącznie poniższe warunki: <br>\r\n- zapewnisz min. 1000 zł wpływu na konto otwarte w promocji;<br>\r\n- zapłacisz min. 7 razy kartą debetową lub BLIKIEM;<br>\r\n- dodasz min. jeden cel oszczędnościowy w ramach usługi Moje Cele;<br>\r\n- zalogujesz się min. raz do aplikacji mobilnej.<br><br>\r\nDodatkowo otrzymasz 100 zł, jeśli spełnisz wszystkie warunki w każdym z trzech miesięcy kalendarzowych, następujących po miesiącu złożenia wniosku.\r\n",
-          "promo_terms": "",
-          "representative_example": ""
-        }
-      },
-      {
         "bank": "Citi Bank Handlowy",
         "produkt": "CitiKonto (promocja „Zyskaj do 700 PLN w ofercie CitiKonta”)",
         "glowna_wartosc": "700 zł",
         "podtytul_premii": "Cashback i zwroty za płatności",
         "haczyki": [
-          "Transakcje kartą, wpływy na konto oraz wpływ wynagrodzenia przez kolejne miesiące."
+          "Za otwarcie konta, Klient może otrzymać: - 4 % na lokacie do 20 000 zł, - Konto SuperOszczędnościowe 3,25% do 20 000 zł,..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://prostodo.pl/c?zid=47129015548&tid=5951&ha=2827286544&r=7384",
+        "link": "https://prostodo.pl/c?zid=60428079487&tid=5951&ha=1613398729&r=755",
         "badges": [
           "👑 HIT RYNKU",
           "💰 REKORDOWA PREMIA",
@@ -1364,9 +1162,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "700 zł",
-            "conditions_summary": "Transakcje kartą, wpływy na konto oraz wpływ wynagrodzenia przez kolejne miesiące.",
-            "confidence": 0.95,
-            "reason": "500 zł cashbacku po spełnieniu warunków + dodatkowe korzyści (oraz lokaty).",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 700 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1469,15 +1267,136 @@
         }
       },
       {
+        "bank": "Erste Bank",
+        "produkt": "Konto Smart",
+        "glowna_wartosc": "700 zł",
+        "podtytul_premii": "Cashback i zwroty za płatności",
+        "haczyki": [
+          "Klient może zyskać: - do 700 zł za założenie konta i aktywność, - do 200 zł na e-karcie podarunkowej za polecenie konta,..."
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://prostodo.pl/c?zid=33701632643&tid=5980&ha=3114067202&r=8655",
+        "badges": [
+          "👑 HIT RYNKU",
+          "💰 REKORDOWA PREMIA",
+          "🔁 CASHBACK ZA PŁATNOŚCI"
+        ],
+        "waznosc": {
+          "data_konca": "2026-11-30",
+          "dni_do_konca": 22,
+          "etykieta": "Ważne do: 30.11.2026"
+        },
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 700.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "700 zł",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 700 zł",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": 700.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "700 zł",
+              "conditions_summary": "",
+              "confidence": 0.93,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 700 zł",
+              "candidates": [
+                {
+                  "value": 700.0,
+                  "label": "700 zł",
+                  "score": 10
+                },
+                {
+                  "value": 600.0,
+                  "label": "600 zł",
+                  "score": 10
+                },
+                {
+                  "value": 300.0,
+                  "label": "300 zł",
+                  "score": 10
+                },
+                {
+                  "value": 200.0,
+                  "label": "200 zł",
+                  "score": 10
+                },
+                {
+                  "value": 100.0,
+                  "label": "100 zł",
+                  "score": 5
+                },
+                {
+                  "value": 2000.0,
+                  "label": "2000 zł",
+                  "score": -10
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": 700.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "700 zł",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 700 zł",
+            "candidates": [
+              {
+                "value": 700.0,
+                "label": "700 zł",
+                "score": 10
+              },
+              {
+                "value": 600.0,
+                "label": "600 zł",
+                "score": 10
+              },
+              {
+                "value": 300.0,
+                "label": "300 zł",
+                "score": 10
+              },
+              {
+                "value": 200.0,
+                "label": "200 zł",
+                "score": 10
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": 5
+              },
+              {
+                "value": 2000.0,
+                "label": "2000 zł",
+                "score": -10
+              }
+            ]
+          },
+          "bonus": "Klient może zyskać: - do 700 zł za założenie konta i aktywność, - do 200 zł na e-karcie podarunkowej za polecenie konta, - do 300 zł w formie zwrotu za opłacane domowe rachunki, - 4,5% promocyjnego oprocentowania w skali roku na środki do 100 000 zł na Koncie Multi oszczędnościowym, - 4,5% w skali roku na 3-miesięcznej Lokacie na Powitanie na środki do 50 000 zł. Jak zyskać do 700 zł za aktywność? 1. Spełnić warunki przystąpienia do promocji oraz złożyć wniosek o Konto Smart wraz z kartą debetową i usługami Erste online od 1.10.2026 r. do 30.11.2026 r. 2. W każdym z 3 kolejnych miesięcy kalendarzowych następujących po miesiącu złożenia wniosku: a. zapewnić wpływ na konto w wysokości minimum 2 000 zł, b. wykonać minimum 10 płatności kartą debetową lub BLIKIEM, c. wykonać co najmniej 1 przelew z konta, d. dodać co najmniej 1 cel oszczędnościowy w usłudze Moje Cele. 3. Za spełnienie wszystkich warunków w każdym miesiącu można otrzymać po 200 zł, łącznie do 600 zł. 4. Spełnienie wszystkich wymaganych warunków we wszystkich 3 miesiącach pozwala uzyskać dodatkowe 100 zł premii. 5. Utrzymać konto, kartę debetową, usługi Erste online, wymagane zgody marketingowe oraz cel oszczędnościowy w usłudze Moje Cele do dnia wypłaty nagrody. Łącznie w promocji „Do 700 zł na dowolny cel” można otrzymać do 700 zł.",
+          "bonus_opis": "Klient może zyskać: - do 700 zł za założenie konta i aktywność, - do 200 zł na e-karcie podarunkowej za polecenie konta, - do 300 zł w formie zwrotu za opłacane domowe rachunki, - 4,5% promocyjnego oprocentowania w skali roku na środki do 100 000 zł na Koncie Multi oszczędnościowym, - 4,5% w skali roku na 3-miesięcznej Lokacie na Powitanie na środki do 50 000 zł. Jak zyskać do 700 zł za aktywność? 1. Spełnić warunki przystąpienia do promocji oraz złożyć wniosek o Konto Smart wraz z kartą debetową i usługami Erste online od 1.10.2026 r. do 30.11.2026 r. 2. W każdym z 3 kolejnych miesięcy kalendarzowych następujących po miesiącu złożenia wniosku: a. zapewnić wpływ na konto w wysokości minimum 2 000 zł, b. wykonać minimum 10 płatności kartą debetową lub BLIKIEM, c. wykonać co najmniej 1 przelew z konta, d. dodać co najmniej 1 cel oszczędnościowy w usłudze Moje Cele. 3. Za spełnienie wszystkich warunków w każdym miesiącu można otrzymać po 200 zł, łącznie do 600 zł. 4. Spełnienie wszystkich wymaganych warunków we wszystkich 3 miesiącach pozwala uzyskać dodatkowe 100 zł premii. 5. Utrzymać konto, kartę debetową, usługi Erste online, wymagane zgody marketingowe oraz cel oszczędnościowy w usłudze Moje Cele do dnia wypłaty nagrody. Łącznie w promocji „Do 700 zł na dowolny cel” można otrzymać do 700 zł.",
+          "promo_terms": "",
+          "representative_example": "Klient może zyskać: - do 700 zł za założenie konta i aktywność, - do 200 zł na e-karcie podarunkowej za polecenie konta, - do 300 zł w formie zwrotu za opłacane domowe rachunki, - 4,5% promocyjnego oprocentowania w skali roku na środki do 100 000 zł na Koncie Multi oszczędnościowym, - 4,5% w skali roku na 3-miesięcznej Lokacie na Powitanie na środki do 50 000 zł. Jak zyskać do 700 zł za aktywność?"
+        }
+      },
+      {
         "bank": "VeloBank S.A.",
         "produkt": "VeloKonto",
         "glowna_wartosc": "700 zł",
         "podtytul_premii": "do 50 zł/mies. cashback (rachunki, bilety) + 100 zł polecenie",
         "haczyki": [
-          "Polecenie konta znajomym (100 zł) oraz miesięczny cashback do 50 zł w ramach VeloKorzyści."
+          "Z VeloKontem Klient może zyskać: - 100 zł za polecenie VeloKonta swoim znajomym, - do 50 zł miesięcznego cashbacku w ram..."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://prostodo.pl/c?zid=59469897986&tid=5545&ha=3125085430&r=6085",
+        "link": "https://prostodo.pl/c?zid=14652163983&tid=5545&ha=3378538081&r=6981",
         "badges": [
           "👑 HIT RYNKU",
           "💰 REKORDOWA PREMIA",
@@ -1490,9 +1409,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "700 zł",
-            "conditions_summary": "Polecenie konta znajomym (100 zł) oraz miesięczny cashback do 50 zł w ramach VeloKorzyści.",
-            "confidence": 0.95,
-            "reason": "100 zł za polecenie + 600 zł rocznie z cashbacku (50 zł x 12 miesięcy).",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 700 zł",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -1552,6 +1471,111 @@
           "bonus_opis": "Z VeloKontem Klient może zyskać: - 100 zł za polecenie VeloKonta swoim znajomym, - do 50 zł miesięcznego cashbacku w ramach programu VeloKorzyści (Max VeloKorzyści na Start).",
           "promo_terms": "",
           "representative_example": "Z VeloKontem Klient może zyskać: - 100 zł za polecenie VeloKonta swoim znajomym, - do 50 zł miesięcznego cashbacku w ramach programu VeloKorzyści (Max VeloKorzyści na Start). | VeloKonto 0 zł za prowadzenie VeloKonta, bez warunków do 50 zł miesięcznie cashbacku VeloKorzyści – indywidualny Pakiet Medyczny za 36 zł dla Ciebie lub 138 zł miesięcznie dla całej rodziny"
+        }
+      },
+      {
+        "bank": "Crédit Agricole",
+        "produkt": "Konto dla Ciebie MAX",
+        "glowna_wartosc": "600 zł",
+        "podtytul_premii": "do 100 zł/mies. zwrotu za zakupy / gastronomię",
+        "haczyki": [
+          "- 1000 zł - za płatności w gastronomii - bank zwróci Ci 10 zł za każde wydane 50 zł kartą lub BLIKIEM w restauracjach, k..."
+        ],
+        "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
+        "link": "https://www.bankier.pl/e/lead/1362?source=api-konta-osobiste",
+        "badges": [
+          "👑 HIT RYNKU",
+          "🔁 DO 100 ZŁ/MIES. CASHBACK"
+        ],
+        "debug_bonus": {
+          "ai_meta": {
+            "reward_amount": 600.0,
+            "reward_currency": "PLN",
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "600 zł",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 600 zł",
+            "haczyki": [],
+            "rekomendacja": "",
+            "pre_extraction": {
+              "reward_amount": 600.0,
+              "reward_type": "cash",
+              "is_cash_reward": true,
+              "display_value": "600 zł",
+              "conditions_summary": "",
+              "confidence": 0.93,
+              "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
+              "candidates": [
+                {
+                  "value": 600.0,
+                  "label": "600 zł",
+                  "score": 12
+                },
+                {
+                  "value": 100.0,
+                  "label": "100 zł",
+                  "score": 10
+                },
+                {
+                  "value": 1000.0,
+                  "label": "1000 zł",
+                  "score": 0
+                },
+                {
+                  "value": 500.0,
+                  "label": "500 zł",
+                  "score": 0
+                },
+                {
+                  "value": 50.0,
+                  "label": "50 zł",
+                  "score": 0
+                }
+              ]
+            }
+          },
+          "pre_extraction": {
+            "reward_amount": 600.0,
+            "reward_type": "cash",
+            "is_cash_reward": true,
+            "display_value": "600 zł",
+            "conditions_summary": "",
+            "confidence": 0.93,
+            "reason": "Najwyższy dodatnio oceniony kandydat: 600 zł",
+            "candidates": [
+              {
+                "value": 600.0,
+                "label": "600 zł",
+                "score": 12
+              },
+              {
+                "value": 100.0,
+                "label": "100 zł",
+                "score": 10
+              },
+              {
+                "value": 1000.0,
+                "label": "1000 zł",
+                "score": 0
+              },
+              {
+                "value": 500.0,
+                "label": "500 zł",
+                "score": 0
+              },
+              {
+                "value": 50.0,
+                "label": "50 zł",
+                "score": 0
+              }
+            ]
+          },
+          "bonus": "1000 zł",
+          "bonus_opis": "- 1000 zł - za płatności w gastronomii - bank zwróci Ci 10 zł za każde wydane 50 zł kartą lub BLIKIEM w restauracjach, kawiarniach i punktach gastronomicznych. Maksymalnie możesz zyskać 100 zł miesięcznie przez 10 miesięcy. Wymagane jest utrzymanie zgód marketingowych.<br>\r\n- 500 zł - za codzienne zakupy (promocja alternatywna) - zamiast zwrotów za gastronomię możesz wybrać zwrot 3% wartości za codzienne zakupy kartą lub BLIKIEM. Zyskasz do 50 zł miesięcznie przez 10 miesięcy, pod warunkiem wykonania min. 10 transakcji w miesiącu.",
+          "promo_terms": "",
+          "representative_example": ""
         }
       }
     ],
@@ -1662,7 +1686,7 @@
           "RRSO: 9.94%. Prowizja: 0%. Info: Pożyczka Gotówkowa 0% prowizji oprocentowanie stałe 9,50% od 15 000 zł do 50 000 zł w r..."
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=4263&ha=1328622039&r=4466",
+        "link": "https://leadstar.pl/c?pid=112247&tid=4263&ha=1328622039&r=4983",
         "badges": [
           "🎁 PROWIZJA 0%"
         ]
@@ -1747,7 +1771,7 @@
           "RRSO: 12.14%. Prowizja: 0%. Info: Pożyczka konsolidacyjna do 30% wartości przenoszonych kredytów na okres od 2 do 120 mi..."
         ],
         "rekomendacja": "Porównaj całkowity koszt i prowizję przed decyzją.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3437&ha=2204705415&r=9880",
+        "link": "https://leadstar.pl/c?pid=112247&tid=3437&ha=2204705415&r=3285",
         "badges": [
           "🎁 PROWIZJA 0%"
         ]
@@ -1760,10 +1784,10 @@
         "glowna_wartosc": "6000 zł",
         "podtytul_premii": "Gotówka na start (do 1000 zł w etapach)",
         "haczyki": [
-          "Płatności kartą, przelewy do ZUS, zgody marketingowe, logowanie do aplikacji oraz terminal POS."
+          "Płatności kartą, przelewy do ZUS, zgody marketingowe, terminal POS."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=6203&ha=3679309239&r=1346",
+        "link": "https://leadstar.pl/c?pid=112247&tid=6203&ha=3679309239&r=6699",
         "badges": [
           "👑 HIT RYNKU",
           "💰 REKORDOWA PREMIA",
@@ -1776,7 +1800,7 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "6000 zł",
-            "conditions_summary": "Płatności kartą, przelewy do ZUS, zgody marketingowe, logowanie do aplikacji oraz terminal POS.",
+            "conditions_summary": "Płatności kartą, przelewy do ZUS, zgody marketingowe, terminal POS.",
             "confidence": 0.95,
             "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 6000 zł",
             "haczyki": [],
@@ -1876,10 +1900,10 @@
         "glowna_wartosc": "5000 zł",
         "podtytul_premii": "300 zł gotówka na start + do 2400 zł podróże",
         "haczyki": [
-          "Przelewy do ZUS oraz transakcje bezgotówkowe kartą na określoną kwotę."
+          "Przelewy do ZUS oraz transakcje bezgotówkowe kartą."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3270&ha=3372779963&r=9712",
+        "link": "https://leadstar.pl/c?pid=112247&tid=3270&ha=3372779963&r=647",
         "badges": [
           "👑 HIT RYNKU",
           "💰 REKORDOWA PREMIA",
@@ -1892,9 +1916,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "5000 zł",
-            "conditions_summary": "Przelewy do ZUS oraz transakcje bezgotówkowe kartą na określoną kwotę.",
+            "conditions_summary": "Przelewy do ZUS oraz transakcje bezgotówkowe kartą.",
             "confidence": 0.95,
-            "reason": "Maksymalna łączna pula premii w promocji to 5000 zł.",
+            "reason": "Maksymalna kwota premii wynosi do 5000 zł.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2012,10 +2036,10 @@
         "glowna_wartosc": "3500 zł",
         "podtytul_premii": "800 zł premia na start + korzyści",
         "haczyki": [
-          "Wpływy min. 2000 zł, przelew do ZUS, zgody marketingowe oraz moneyback za płatności kartą/BLIK i ZUS."
+          "Wpływy min. 2000 zł, przelew do ZUS, zgody marketingowe oraz premia moneyback do 250 zł miesięcznie."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=5009&ha=2297283548&r=4748",
+        "link": "https://leadstar.pl/c?pid=112247&tid=5009&ha=2297283548&r=6479",
         "badges": [
           "👑 HIT RYNKU",
           "💰 REKORDOWA PREMIA",
@@ -2023,7 +2047,7 @@
         ],
         "waznosc": {
           "data_konca": "2027-01-31",
-          "dni_do_konca": 85,
+          "dni_do_konca": 84,
           "etykieta": "Ważne do: 31.01.2027"
         },
         "debug_bonus": {
@@ -2033,7 +2057,7 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "3500 zł",
-            "conditions_summary": "Wpływy min. 2000 zł, przelew do ZUS, zgody marketingowe oraz moneyback za płatności kartą/BLIK i ZUS.",
+            "conditions_summary": "Wpływy min. 2000 zł, przelew do ZUS, zgody marketingowe oraz premia moneyback do 250 zł miesięcznie.",
             "confidence": 0.95,
             "reason": "Łączna kwota premii na start i w promocji moneyback wynosi do 3500 zł.",
             "haczyki": [],
@@ -2133,10 +2157,10 @@
         "glowna_wartosc": "3000 zł",
         "podtytul_premii": "2% do 50 zł/mies. cashback (do 1200 zł) + 50 zł kantor",
         "haczyki": [
-          "Założenie konta z kontem walutowym EUR, zgoda marketingowa, przewalutowania i utrzymanie salda."
+          "Założenie konta z kontem walutowym EUR, przewalutowania i utrzymanie salda."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=4835&ha=885789322&r=4656",
+        "link": "https://leadstar.pl/c?pid=112247&tid=4835&ha=885789322&r=7863",
         "badges": [
           "👑 HIT RYNKU",
           "💰 REKORDOWA PREMIA",
@@ -2149,9 +2173,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "3000 zł",
-            "conditions_summary": "Założenie konta z kontem walutowym EUR, zgoda marketingowa, przewalutowania i utrzymanie salda.",
+            "conditions_summary": "Założenie konta z kontem walutowym EUR, przewalutowania i utrzymanie salda.",
             "confidence": 0.95,
-            "reason": "Maksymalna kwota premii to 3000 zł.",
+            "reason": "Maksymalna premia wynosi do 3000 zł.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2219,17 +2243,17 @@
         "glowna_wartosc": "500 zł",
         "podtytul_premii": "Gotówka na start + e-bony",
         "haczyki": [
-          "Założenie firmy i konta przez mBank, podpisanie umowy w 30 dni i transakcje kartą na min. 1000 zł."
+          "Założenie firmy i konta przez mBank, transakcje kartą na min. 1000 zł."
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=6093&ha=1809681750&r=113",
+        "link": "https://leadstar.pl/c?pid=112247&tid=6093&ha=1809681750&r=2066",
         "badges": [
           "👑 HIT RYNKU",
           "💵 CZYSTA GOTÓWKA"
         ],
         "waznosc": {
           "data_konca": "2026-11-30",
-          "dni_do_konca": 23,
+          "dni_do_konca": 22,
           "etykieta": "Ważne do: 30.11.2026"
         },
         "debug_bonus": {
@@ -2239,9 +2263,9 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "500 zł",
-            "conditions_summary": "Założenie firmy i konta przez mBank, podpisanie umowy w 30 dni i transakcje kartą na min. 1000 zł.",
+            "conditions_summary": "Założenie firmy i konta przez mBank, transakcje kartą na min. 1000 zł.",
             "confidence": 0.95,
-            "reason": "Regulamin wskazuje stałą premię 500 zł za spełnienie warunków.",
+            "reason": "Premia za założenie firmy i konta wynosi 500 zł.",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2301,10 +2325,10 @@
         "glowna_wartosc": "500 zł",
         "podtytul_premii": "Czysta gotówka na start",
         "haczyki": [
-          "Zawarcie umowy o Kartę Kredytową z Żubrem z kodem OBRĄCZKA i spełnienie warunków regulaminowych."
+          "Złóż wniosek z kodem OBRĄCZKA i zawrzyj umowę"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=4977&ha=1944717384&r=6198",
+        "link": "https://leadstar.pl/c?pid=112247&tid=4977&ha=1944717384&r=9988",
         "badges": [],
         "debug_bonus": {
           "ai_meta": {
@@ -2313,7 +2337,7 @@
             "reward_type": "cash",
             "is_cash_reward": true,
             "display_value": "500 zł",
-            "conditions_summary": "Zawarcie umowy o Kartę Kredytową z Żubrem z kodem OBRĄCZKA i spełnienie warunków regulaminowych.",
+            "conditions_summary": "Złóż wniosek z kodem OBRĄCZKA i zawrzyj umowę",
             "confidence": 0.95,
             "reason": "Nadpisano AI ekstrakcją deterministyczną. Najwyższy dodatnio oceniony kandydat: 500 zł",
             "haczyki": [],
@@ -2373,10 +2397,10 @@
         "glowna_wartosc": "Cashback / Punkty",
         "podtytul_premii": "",
         "haczyki": [
-          "Brak informacji o promocji."
+          "Brak danych o nagrodzie"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=3310&ha=3106300178&r=9962",
+        "link": "https://leadstar.pl/c?pid=112247&tid=3310&ha=3106300178&r=1118",
         "badges": [],
         "debug_bonus": {
           "ai_meta": {
@@ -2385,9 +2409,9 @@
             "reward_type": "none",
             "is_cash_reward": false,
             "display_value": "Karta AXI Card SMART",
-            "conditions_summary": "Brak informacji o promocji.",
-            "confidence": 1.0,
-            "reason": "Brak danych o nagrodzie.",
+            "conditions_summary": "Brak danych o nagrodzie",
+            "confidence": 0.9,
+            "reason": "Brak tekstu promocji",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2423,10 +2447,10 @@
         "glowna_wartosc": "Cashback / Punkty",
         "podtytul_premii": "do 100 zł/mies. zwrotu za zakupy / gastronomię",
         "haczyki": [
-          "Brak informacji o promocji."
+          "Brak danych o nagrodzie"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=5014&ha=3139556552&r=4297",
+        "link": "https://leadstar.pl/c?pid=112247&tid=5014&ha=3139556552&r=6649",
         "badges": [],
         "debug_bonus": {
           "ai_meta": {
@@ -2435,9 +2459,9 @@
             "reward_type": "none",
             "is_cash_reward": false,
             "display_value": "Karta Kredytowa",
-            "conditions_summary": "Brak informacji o promocji.",
-            "confidence": 1.0,
-            "reason": "Brak danych o nagrodzie.",
+            "conditions_summary": "Brak danych o nagrodzie",
+            "confidence": 0.9,
+            "reason": "Brak tekstu promocji",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2473,10 +2497,10 @@
         "glowna_wartosc": "Cashback / Punkty",
         "podtytul_premii": "",
         "haczyki": [
-          "Brak informacji o promocji."
+          "Brak danych o nagrodzie"
         ],
         "rekomendacja": "Warto sprawdzić warunki uzyskania nagrody.",
-        "link": "https://leadstar.pl/c?pid=112247&tid=6070&ha=376936182&r=486",
+        "link": "https://leadstar.pl/c?pid=112247&tid=6070&ha=376936182&r=1800",
         "badges": [],
         "debug_bonus": {
           "ai_meta": {
@@ -2485,9 +2509,9 @@
             "reward_type": "none",
             "is_cash_reward": false,
             "display_value": "Karta Kredytowa Provi Sm@rt",
-            "conditions_summary": "Brak informacji o promocji.",
-            "confidence": 1.0,
-            "reason": "Brak danych o nagrodzie.",
+            "conditions_summary": "Brak danych o nagrodzie",
+            "confidence": 0.9,
+            "reason": "Brak tekstu promocji",
             "haczyki": [],
             "rekomendacja": "",
             "pre_extraction": {
@@ -2697,7 +2721,7 @@
       "logo": "//img.leadmax.pl/logo/d88f7eeb7c2740e348559651c90c2f7d.png",
       "opis": "Rabat w wysokości 10%.",
       "kod": "AC10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6204&ha=1768755623&r=5596",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6204&ha=1768755623&r=2746",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -3307,7 +3331,7 @@
       "logo": "//img.leadmax.pl/logo/aa98f51cd20b8c5beb6e9bb8bbb79ada.png",
       "opis": "Rabat w wysokości 5% przy zakupach powyżej 199 zł, nie łączy się z innymi promocjami i rabatami.",
       "kod": "JESIEN5",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4577&ha=3024773692&r=1964",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4577&ha=3024773692&r=1082",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -3317,7 +3341,7 @@
       "logo": "//img.leadmax.pl/logo/51e588faa7e0a968336c62afe2e548f9.png",
       "opis": "Rabat w wysokości 42 zł na produkty z nowej kolekcji, z wyjątkiem produktów z serii „Collaborations” przy minimalnej wartości zamówienia 495 zł.",
       "kod": "DESIGUAL-PL",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3047&ha=1780692524&r=9150",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3047&ha=1780692524&r=5892",
       "wazny_do": "2027-03-31 23:59:59"
     },
     {
@@ -3357,7 +3381,7 @@
       "logo": "//img.leadmax.pl/logo/60f621eafb0ee2e5b927f75179f19d7e.png",
       "opis": "Rabat w wysokości 20% przy zakupach od 149 zł + prezent niespodzianka w aplikacji!",
       "kod": "BLACK",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3221&ha=2762289592&r=8830",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3221&ha=2762289592&r=7687",
       "wazny_do": "2026-11-11 23:59:59"
     },
     {
@@ -3497,7 +3521,7 @@
       "logo": "//img.leadmax.pl/logo/ebe14cab3b0079e9233ccba10a546510.png",
       "opis": "Rabat w wysokości 50 zł przy zamówieniu za min. 500 zł.",
       "kod": "EDAXO50",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3201&ha=3916271795&r=4226",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3201&ha=3916271795&r=3784",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -3617,7 +3641,7 @@
       "logo": "//img.leadmax.pl/logo/76c999f4bc26ef56ccc33804c925ed3e.png",
       "opis": "Rabat w wysokości do 50% na wybrane produkty przy zakupie min. 2 dowolnych rzeczy.",
       "kod": "SINGLE",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3241&ha=1929171621&r=6209",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3241&ha=1929171621&r=5482",
       "wazny_do": "2026-11-11 23:59:59"
     },
     {
@@ -4121,16 +4145,6 @@
       "wazny_do": ""
     },
     {
-      "id": "td_13475493",
-      "kategoria": "Sklepy",
-      "marka": "HP Store PL",
-      "logo": "https://hst.tradedoubler.com/file/325689/logo_hp_zmniejszone.png",
-      "opis": "Weekend Sale - Oszczędź 65 zł za każde wydane 500 zł - skorzystaj z oferty na weekend!",
-      "kod": "",
-      "link": "https://clk.tradedoubler.com/click?a(3480929)p(325689)ttid(13)url(https://www.hp.com/pl-pl/shop/)",
-      "wazny_do": "1794135599000"
-    },
-    {
       "id": "td_13422261",
       "kategoria": "Sklepy",
       "marka": "HP Store PL",
@@ -4227,7 +4241,7 @@
       "logo": "//img.leadmax.pl/logo/da8ef9305f2bbc634835ab118b2080cd.png",
       "opis": "Rabat w wysokości 15% na drugi produkt.",
       "kod": "AUTUMN15",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6044&ha=1701003928&r=5075",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6044&ha=1701003928&r=1081",
       "wazny_do": "2026-12-21 23:59:59"
     },
     {
@@ -4677,7 +4691,7 @@
       "logo": "//img.leadmax.pl/logo/532e5342e18e5f8e5b1952aec5381c98.png",
       "opis": "Rabat w wysokości 20% od najlepszej dostępnej ceny w Leonardo Hotel Lago di Garda – Wellness and Spa",
       "kod": "LEOGARDA20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5561&ha=1023165607&r=3078",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5561&ha=1023165607&r=9911",
       "wazny_do": "2027-01-31 23:59:59"
     },
     {
@@ -4797,7 +4811,7 @@
       "logo": "//img.leadmax.pl/logo/4fdff517c921acbd6a280009be8f2f29.png",
       "opis": "Rabat w wysokości 15%.",
       "kod": "JUBILEUSZ26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5220&ha=1604981135&r=2985",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5220&ha=1604981135&r=427",
       "wazny_do": "2026-11-16 23:59:59"
     },
     {
@@ -5117,7 +5131,7 @@
       "logo": "//img.leadmax.pl/logo/1344feb24a2380b348c9bfdac415a1b2.png",
       "opis": "Rabat w wysokości do 50% na wybrane produkty, przy zakupie min. 2 rzeczy.",
       "kod": "SINGLE",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3416&ha=4089555516&r=3707",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3416&ha=4089555516&r=1926",
       "wazny_do": "2026-11-11 23:59:59"
     },
     {
@@ -5377,7 +5391,7 @@
       "logo": "//img.leadmax.pl/logo/b6c91dccc130e5b51935d4acfd2ebedd.png",
       "opis": "Rabat w wysokości do 30% na wybrane produkty.",
       "kod": "NOTINO",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3057&ha=2709513609&r=3606",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3057&ha=2709513609&r=8335",
       "wazny_do": "2026-11-08 23:59:59"
     },
     {
@@ -5387,7 +5401,7 @@
       "logo": "//img.leadmax.pl/logo/9a75b83cd45943e8f09164b9dae2e68d.png",
       "opis": "Rabat w wysokości 30% przy 3 zajęciach tygodniowo.",
       "kod": "BLACK30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=5881",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2867&ha=3635337694&r=7353",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -5437,7 +5451,7 @@
       "logo": "//img.leadmax.pl/logo/67af74ef133dcd2038bab1c81aa95fb8.png",
       "opis": "Rabat w wysokości 200 zł na pierścionek zaręczynowy.",
       "kod": "WYBIERZ200",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6184&ha=3033958743&r=7403",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6184&ha=3033958743&r=6727",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -5627,7 +5641,7 @@
       "logo": "//img.leadmax.pl/logo/78ed29ac35ad40c6a3dc94352d3c3a2d.png",
       "opis": "Rabat w wysokości 35%. Rabat łączy się z produktami w promocji i programem lojalnościowym.",
       "kod": "HELLO35",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4224&ha=1719711697&r=9556",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4224&ha=1719711697&r=3797",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5957,7 +5971,7 @@
       "logo": "//img.leadmax.pl/logo/19653e82a9cf6d40e47a063ff5e0185a.png",
       "opis": "Rabat w wysokości 25 zł dla nowych użytkowników, uwzględnia on zniżkę na dwa pierwsze zamówienia.",
       "kod": "2psiakarma25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5302&ha=3470125136&r=7308",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5302&ha=3470125136&r=4226",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5977,7 +5991,7 @@
       "logo": "//img.leadmax.pl/logo/e031f52cfd14dfeb6a6ea19718f35b12.png",
       "opis": "Dodatkowy rabat w wysokości 25% na wybrane produkty Outlet.",
       "kod": "OUTLET25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=3606",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=648",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -5987,7 +6001,7 @@
       "logo": "//img.leadmax.pl/logo/e031f52cfd14dfeb6a6ea19718f35b12.png",
       "opis": "Rabat w wysokości 60% na wybrane torebki.",
       "kod": "BW26BAG",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=4975",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=1285",
       "wazny_do": "2026-11-17 23:59:59"
     },
     {
@@ -5997,7 +6011,7 @@
       "logo": "//img.leadmax.pl/logo/e031f52cfd14dfeb6a6ea19718f35b12.png",
       "opis": "Promocja 2 + 1 na ponad 800 produktów.",
       "kod": "BW263",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=7977",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3092&ha=509454978&r=8248",
       "wazny_do": "2026-11-10 23:59:59"
     },
     {
@@ -6217,7 +6231,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na całą ofertę sklepu.",
       "kod": "SEKRECIK-20-LEAD",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2001",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3280",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6227,7 +6241,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na masażery do ciała i twarzy.",
       "kod": "MASAŻERY-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7001",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4189",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6237,7 +6251,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na Body Painting.",
       "kod": "BodyPainting-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=5951",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8168",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6247,7 +6261,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na cellulit tj.: suplementy, kosmetyki, rajstopy i pończochy.",
       "kod": "CELLULIT-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=1551",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9030",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6257,7 +6271,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroczki i koszulki nocne.",
       "kod": "SZLAFROCZKI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4897",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8168",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6267,7 +6281,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na rajstopy, pończochy, leginsy, podkolanówki, paski do pończoch, rajstopy.",
       "kod": "PIEKNENOGI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8964",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2654",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6277,7 +6291,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na komplety bielizny.",
       "kod": "KOMPLETY-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2234",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4941",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6287,7 +6301,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 25% na gry dla dorosłych.",
       "kod": "GRY-25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3342",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8260",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6297,7 +6311,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na peruki.",
       "kod": "PERUKI-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=1596",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7061",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6307,7 +6321,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na buty na platformie.",
       "kod": "BUTYPLATFORMA-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=6669",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=6164",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6317,7 +6331,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na piżamy damskie.",
       "kod": "PIZAMYDAMSKIE-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4975",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2658",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6327,7 +6341,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na piżamy męskie.",
       "kod": "PIZAMYMESKIE-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3388",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9731",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6337,7 +6351,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroki męskie.",
       "kod": "SZLAFROKI-20M",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=2789",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7866",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6347,7 +6361,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na szlafroki damskie.",
       "kod": "SZLAFROKI-20D",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=332",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=3657",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6357,7 +6371,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na świece do masażu.",
       "kod": "MASAZESWIECA-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9595",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=9082",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6367,7 +6381,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na śmieszne gadżety.",
       "kod": "SMIESZNE-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=4861",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=1841",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6377,7 +6391,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 30% na śmieszne kubki, kubki imprezowe, kubki na prezenty .",
       "kod": "KUBKI-30",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8124",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=5711",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6387,7 +6401,7 @@
       "logo": "//img.leadmax.pl/logo/4eb7a15d7757f793f778d1e268ba7564.png",
       "opis": "Rabat w wysokości 20% na majteczki dla kobiet tj. stringi, figi, szorty.",
       "kod": "MAJTECZKI-20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=8974",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4710&ha=1202474008&r=7161",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6627,7 +6641,7 @@
       "logo": "//img.leadmax.pl/logo/42616220c3701d0827e4b2b1a7c6a9c8.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "ls10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6115&ha=2931421487&r=7089",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6115&ha=2931421487&r=1334",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -6647,7 +6661,7 @@
       "logo": "//img.leadmax.pl/logo/7842a1d7c296ca69923752d1f1e0183e.png",
       "opis": "Rabat w wysokości 10%.",
       "kod": "SOTHO2026",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5806&ha=961682026&r=5994",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5806&ha=961682026&r=5917",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -6657,7 +6671,7 @@
       "logo": "//img.leadmax.pl/logo/dd41cfb1de23d07783e8062b2c03053b.png",
       "opis": "Rabat w wysokości 5%.",
       "kod": "JESIEN26PL5",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=5871",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=9708",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -6667,7 +6681,7 @@
       "logo": "//img.leadmax.pl/logo/dd41cfb1de23d07783e8062b2c03053b.png",
       "opis": "Rabat w wysokości 10% przy zakupach za min. 250 zł.",
       "kod": "JESIEN26PL10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=3157",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=3700",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -6677,7 +6691,7 @@
       "logo": "//img.leadmax.pl/logo/dd41cfb1de23d07783e8062b2c03053b.png",
       "opis": "Rabat w wysokości 15% przy zakupach za min. 340 zł.",
       "kod": "JESIEN26PL15",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=7511",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=5546",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -6687,7 +6701,7 @@
       "logo": "//img.leadmax.pl/logo/dd41cfb1de23d07783e8062b2c03053b.png",
       "opis": "Rabat w wysokości 20% przy zakupach za min. 420 zł.",
       "kod": "JESIEN26PL20",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=168",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2876&ha=781329355&r=1774",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -6897,7 +6911,7 @@
       "logo": "//img.leadmax.pl/logo/4bc61e5cd76120211a4964fcc781871e.png",
       "opis": "Prezent - Hair routine odżywka do włosów efekt laminacji za 1 zł do zakupów za min. 130 zł.",
       "kod": "LAMI",
-      "link": "https://leadstar.pl/c?pid=112247&tid=3261&ha=1060402094&r=1086",
+      "link": "https://leadstar.pl/c?pid=112247&tid=3261&ha=1060402094&r=1037",
       "wazny_do": "2026-11-09 23:59:59"
     },
     {
@@ -6977,7 +6991,7 @@
       "logo": "//img.leadmax.pl/logo/6c5f8dbfe78dd72e5c1de3d72f66e413.png",
       "opis": "Rabat w wysokości 10% na pierwsze zamówieniu przy zakupach za min. 199 zł. Nie dotyczy towarów przecenionych.",
       "kod": "PLUS10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=5467&ha=365673139&r=3044",
+      "link": "https://leadstar.pl/c?pid=112247&tid=5467&ha=365673139&r=9265",
       "wazny_do": "0000-00-00 00:00:00"
     },
     {
@@ -7237,7 +7251,7 @@
       "logo": "//img.leadmax.pl/logo/139a349ca1947429cb9846cc83ed6803.png",
       "opis": "Rabat w wysokości 5% na cały koszyk przy zakupach za min. 249,90 zł.",
       "kod": "LEAWITTCHEN5_26",
-      "link": "https://leadstar.pl/c?pid=112247&tid=2368&ha=1492720373&r=8067",
+      "link": "https://leadstar.pl/c?pid=112247&tid=2368&ha=1492720373&r=8466",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -7317,7 +7331,7 @@
       "logo": "//img.leadmax.pl/logo/6d0ec4fd81ddf742f0b157e969cd0a41.png",
       "opis": "Rabat w wysokości 10% na wszystko.",
       "kod": "ALERABAT10",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=5769",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=3156",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -7327,7 +7341,7 @@
       "logo": "//img.leadmax.pl/logo/6d0ec4fd81ddf742f0b157e969cd0a41.png",
       "opis": "Rabat w wysokości 5% na wszystko.",
       "kod": "RABAT5",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=7190",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4064&ha=1787749614&r=9317",
       "wazny_do": "2026-12-31 23:59:59"
     },
     {
@@ -7737,7 +7751,7 @@
       "logo": "//img.leadmax.pl/logo/4759def2fb65770d6e5da16229f79148.png",
       "opis": "Rabat w wysokości 15% na drugi produkt.",
       "kod": "SALE15",
-      "link": "https://leadstar.pl/c?pid=112247&tid=6110&ha=1717141087&r=3396",
+      "link": "https://leadstar.pl/c?pid=112247&tid=6110&ha=1717141087&r=3176",
       "wazny_do": "2026-12-21 23:59:59"
     },
     {
@@ -7747,7 +7761,7 @@
       "logo": "//img.leadmax.pl/logo/f29bd67c361436e33090782d5a2be59d.png",
       "opis": "Rabat w wysokości 20% na produkty Mars Dreamies dla wszystkich klientów.",
       "kod": "WELCOMEMARS",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4610&ha=3789244332&r=5723",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4610&ha=3789244332&r=2593",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -7757,7 +7771,7 @@
       "logo": "//img.leadmax.pl/logo/f29bd67c361436e33090782d5a2be59d.png",
       "opis": "Rabat w wysokości 20% na produkty Felix dla nowych klientów.",
       "kod": "WELCOMEFELIX",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4610&ha=3789244332&r=7067",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4610&ha=3789244332&r=7952",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -7767,7 +7781,7 @@
       "logo": "//img.leadmax.pl/logo/f29bd67c361436e33090782d5a2be59d.png",
       "opis": "Rabat w wysokości 25% na produkty PurinaOne dla nowych klientów.",
       "kod": "PURINA25",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4610&ha=3789244332&r=8128",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4610&ha=3789244332&r=7607",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
@@ -7777,7 +7791,7 @@
       "logo": "//img.leadmax.pl/logo/f29bd67c361436e33090782d5a2be59d.png",
       "opis": "Rabat w wysokości 20% na produkty Gourmet dla nowych klientów.",
       "kod": "WELCOMEGOURMET",
-      "link": "https://leadstar.pl/c?pid=112247&tid=4610&ha=3789244332&r=3562",
+      "link": "https://leadstar.pl/c?pid=112247&tid=4610&ha=3789244332&r=5614",
       "wazny_do": "2026-11-30 23:59:59"
     },
     {
